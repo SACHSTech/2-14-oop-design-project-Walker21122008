@@ -1,0 +1,414 @@
+Airport Name,Passenger Name,Terminal Number,Terminal Type,Gate Number,Flight Number,Flight Name,Flight Time Arrival,Flight Time Departure,Starting From,Destination
+Los Angeles International Airport,Alice Smith,1,Domestic,12,AA315,American Airlines,08:00 AM,09:30 AM,Los Angeles,Chicago
+O'Hare International Airport,Bob Johnson,2,International,24,UA402,United Airlines,10:30 AM,12:00 PM,Chicago,New York
+John F. Kennedy International Airport,Charlie Brown,3,Domestic,5,DL147,Delta Airlines,13:00 PM,14:30 PM,New York,Los Angeles
+Hartsfield-Jackson Atlanta International Airport,David Williams,1,Domestic,32,WN221,Southwest Airlines,15:30 PM,17:00 PM,Atlanta,Dallas
+Dallas/Fort Worth International Airport,Emily Davis,4,International,18,AA289,American Airlines,18:00 PM,19:30 PM,Dallas,London
+Denver International Airport,Frank Miller,2,Domestic,9,UA516,United Airlines,20:30 PM,22:00 PM,Denver,San Francisco
+San Francisco International Airport,Grace Wilson,3,Domestic,27,DL330,Delta Airlines,23:00 PM,00:30 AM,San Francisco,Seattle
+Seattle-Tacoma International Airport,Henry Garcia,1,Domestic,14,WN452,Southwest Airlines,01:00 AM,02:30 AM,Seattle,Portland
+Orlando International Airport,Isabella Rodriguez,2,International,29,AA101,American Airlines,03:00 AM,04:30 AM,Orlando,Miami
+Miami International Airport,Jack Martinez,4,Domestic,7,UA623,United Airlines,05:00 AM,06:30 AM,Miami,Atlanta
+Los Angeles International Airport,Kathy Anderson,1,Domestic,11,AA316,American Airlines,08:15 AM,09:45 AM,Los Angeles,Chicago
+O'Hare International Airport,Larry Thomas,2,International,23,UA403,United Airlines,10:45 AM,12:15 PM,Chicago,New York
+John F. Kennedy International Airport,Mary Jackson,3,Domestic,6,DL148,Delta Airlines,13:15 PM,14:45 PM,New York,Los Angeles
+Hartsfield-Jackson Atlanta International Airport,Nancy White,1,Domestic,31,WN222,Southwest Airlines,15:45 PM,17:15 PM,Atlanta,Dallas
+Dallas/Fort Worth International Airport,Oliver Harris,4,International,17,AA290,American Airlines,18:15 PM,19:45 PM,Dallas,London
+Denver International Airport,Patricia Martin,2,Domestic,10,UA517,United Airlines,20:45 PM,22:15 PM,Denver,San Francisco
+San Francisco International Airport,Robert Garcia,3,Domestic,26,DL331,Delta Airlines,23:15 PM,00:45 AM,San Francisco,Seattle
+Seattle-Tacoma International Airport,Susan Perez,1,Domestic,13,WN453,Southwest Airlines,01:15 AM,02:45 AM,Seattle,Portland
+Orlando International Airport,Thomas Wilson,2,International,28,AA102,American Airlines,03:15 AM,04:45 AM,Orlando,Miami
+Miami International Airport,Linda Brown,4,Domestic,8,UA624,United Airlines,05:15 AM,06:45 AM,Miami,Atlanta
+Los Angeles International Airport,Christopher Davis,1,Domestic,10,AA317,American Airlines,08:30 AM,10:00 AM,Los Angeles,Houston
+O'Hare International Airport,Angela Garcia,2,International,22,UA404,United Airlines,11:00 AM,12:30 PM,Chicago,Toronto
+John F. Kennedy International Airport,Brian Rodriguez,3,Domestic,4,DL149,Delta Airlines,13:30 PM,15:00 PM,New York,Miami
+Hartsfield-Jackson Atlanta International Airport,Jessica Williams,1,Domestic,30,WN223,Southwest Airlines,16:00 PM,17:30 PM,Atlanta,Phoenix
+Dallas/Fort Worth International Airport,Matthew Smith,4,International,16,AA291,American Airlines,18:30 PM,20:00 PM,Dallas,Paris
+Denver International Airport,Jennifer Johnson,2,Domestic,9,UA518,United Airlines,21:00 PM,22:30 PM,Denver,Las Vegas
+San Francisco International Airport,David Brown,3,Domestic,25,DL332,Delta Airlines,23:30 PM,01:00 AM,San Francisco,San Diego
+Seattle-Tacoma International Airport,Michelle Davis,1,Domestic,12,WN454,Southwest Airlines,01:30 AM,03:00 AM,Seattle,Sacramento
+Orlando International Airport,Kevin Garcia,2,International,27,AA103,American Airlines,03:30 AM,05:00 AM,Orlando,San Juan
+Miami International Airport,Stephanie Rodriguez,4,Domestic,6,UA625,United Airlines,05:30 AM,07:00 AM,Miami,New Orleans
+Los Angeles International Airport,Eric Smith,1,Domestic,11,AA318,American Airlines,09:00 AM,10:30 AM,Los Angeles,Las Vegas
+O'Hare International Airport,Nicole Johnson,2,International,23,UA405,United Airlines,11:30 AM,13:00 PM,Chicago,Vancouver
+John F. Kennedy International Airport,Jason Brown,3,Domestic,5,DL150,Delta Airlines,14:00 PM,15:30 PM,New York,Boston
+Hartsfield-Jackson Atlanta International Airport,Tiffany Williams,1,Domestic,32,WN224,Southwest Airlines,16:30 PM,18:00 PM,Atlanta,Tampa
+Dallas/Fort Worth International Airport,Ryan Davis,4,International,18,AA292,American Airlines,19:00 PM,20:30 PM,Dallas,Rome
+Denver International Airport,Amanda Miller,2,Domestic,8,UA519,United Airlines,21:30 PM,23:00 PM,Denver,Phoenix
+San Francisco International Airport,Brandon Wilson,3,Domestic,24,DL333,Delta Airlines,00:00 AM,01:30 AM,San Francisco,Portland
+Seattle-Tacoma International Airport,Melissa Garcia,1,Domestic,11,WN455,Southwest Airlines,02:00 AM,03:30 AM,Seattle,Boise
+Orlando International Airport,Adam Rodriguez,2,International,26,AA104,American Airlines,04:00 AM,05:30 AM,Orlando,Santo Domingo
+Miami International Airport,Jessica Martinez,4,Domestic,5,UA626,United Airlines,06:00 AM,07:30 AM,Miami,Houston
+Los Angeles International Airport,Kevin Smith,1,Domestic,12,AA319,American Airlines,09:30 AM,11:00 AM,Los Angeles,Albuquerque
+O'Hare International Airport,Sarah Johnson,2,International,24,UA406,United Airlines,12:00 PM,13:30 PM,Chicago,Montreal
+John F. Kennedy International Airport,Michael Brown,3,Domestic,6,DL151,Delta Airlines,14:30 PM,16:00 PM,New York,Washington D.C.
+Hartsfield-Jackson Atlanta International Airport,Ashley Williams,1,Domestic,31,WN225,Southwest Airlines,17:00 PM,18:30 PM,Atlanta,Nashville
+Dallas/Fort Worth International Airport,David Davis,4,International,17,AA293,American Airlines,19:30 PM,21:00 PM,Dallas,Madrid
+Denver International Airport,Nicole Miller,2,Domestic,7,UA520,United Airlines,22:00 PM,23:30 PM,Denver,Salt Lake City
+San Francisco International Airport,Christopher Garcia,3,Domestic,23,DL334,Delta Airlines,00:30 AM,02:00 AM,San Francisco,Las Vegas
+Seattle-Tacoma International Airport,Angela Perez,1,Domestic,10,WN456,Southwest Airlines,02:30 AM,04:00 AM,Seattle,Spokane
+Orlando International Airport,Ryan Wilson,2,International,25,AA105,American Airlines,04:30 AM,06:00 AM,Orlando,Nassau
+Miami International Airport,Michelle Brown,4,Domestic,4,UA627,United Airlines,06:30 AM,08:00 AM,Miami,Charlotte
+Los Angeles International Airport,Jason Smith,1,Domestic,9,AA320,American Airlines,10:00 AM,11:30 AM,Los Angeles,Phoenix
+O'Hare International Airport,Jessica Johnson,2,International,21,UA407,United Airlines,12:30 PM,14:00 PM,Chicago,Calgary
+John F. Kennedy International Airport,Eric Brown,3,Domestic,3,DL152,Delta Airlines,15:00 PM,16:30 PM,New York,Philadelphia
+Hartsfield-Jackson Atlanta International Airport,Stephanie Williams,1,Domestic,29,WN226,Southwest Airlines,17:30 PM,19:00 PM,Atlanta,Raleigh
+Dallas/Fort Worth International Airport,Matthew Davis,4,International,15,AA294,American Airlines,20:00 PM,21:30 PM,Dallas,Amsterdam
+Denver International Airport,Jennifer Miller,2,Domestic,6,UA521,United Airlines,22:30 PM,00:00 AM,Denver,Albuquerque
+San Francisco International Airport,David Garcia,3,Domestic,22,DL335,Delta Airlines,01:00 AM,02:30 AM,San Francisco,Reno
+Seattle-Tacoma International Airport,Linda Perez,1,Domestic,9,WN457,Southwest Airlines,03:00 AM,04:30 AM,Seattle,Anchorage
+Orlando International Airport,Kevin Wilson,2,International,24,AA106,American Airlines,05:00 AM,06:30 AM,Orlando,Montego Bay
+Miami International Airport,Brian Brown,4,Domestic,3,UA628,United Airlines,07:00 AM,08:30 AM,Miami,Jacksonville
+Los Angeles International Airport,Sarah Smith,1,Domestic,8,AA321,American Airlines,10:30 AM,12:00 PM,Los Angeles,Sacramento
+O'Hare International Airport,Michael Johnson,2,International,20,UA408,United Airlines,13:00 PM,14:30 PM,Chicago,Edmonton
+John F. Kennedy International Airport,Ashley Brown,3,Domestic,2,DL153,Delta Airlines,15:30 PM,17:00 PM,New York,Baltimore
+Hartsfield-Jackson Atlanta International Airport,David Williams,1,Domestic,28,WN227,Southwest Airlines,18:00 PM,19:30 PM,Atlanta,Savannah
+Dallas/Fort Worth International Airport,Nicole Davis,4,International,14,AA295,American Airlines,20:30 PM,22:00 PM,Dallas,Dublin
+Denver International Airport,Christopher Miller,2,Domestic,5,UA522,United Airlines,23:00 PM,00:30 AM,Denver,Colorado Springs
+San Francisco International Airport,Angela Garcia,3,Domestic,21,DL336,Delta Airlines,01:30 AM,03:00 AM,San Francisco,Burbank
+Seattle-Tacoma International Airport,Ryan Perez,1,Domestic,8,WN458,Southwest Airlines,03:30 AM,05:00 AM,Seattle,Fairbanks
+Orlando International Airport,Michelle Wilson,2,International,23,AA107,American Airlines,05:30 AM,07:00 AM,Orlando,Aruba
+Miami International Airport,Jason Brown,4,Domestic,2,UA629,United Airlines,07:30 AM,09:00 AM,Miami,Tampa
+Los Angeles International Airport,Jessica Smith,1,Domestic,7,AA322,American Airlines,11:00 AM,12:30 PM,Los Angeles,Oakland
+O'Hare International Airport,Eric Johnson,2,International,19,UA409,United Airlines,13:30 PM,15:00 PM,Chicago,Winnipeg
+John F. Kennedy International Airport,Stephanie Brown,3,Domestic,1,DL154,Delta Airlines,16:00 PM,17:30 PM,New York,Rochester
+Hartsfield-Jackson Atlanta International Airport,Matthew Williams,1,Domestic,27,WN228,Southwest Airlines,18:30 PM,20:00 PM,Atlanta,Charleston
+Dallas/Fort Worth International Airport,Jennifer Davis,4,International,13,AA296,American Airlines,21:00 PM,22:30 PM,Dallas,Manchester
+Denver International Airport,David Miller,2,Domestic,4,UA523,United Airlines,00:00 AM,01:30 AM,Denver,Grand Junction
+San Francisco International Airport,Linda Garcia,3,Domestic,20,DL337,Delta Airlines,02:00 AM,03:30 AM,San Francisco,Santa Barbara
+Seattle-Tacoma International Airport,Kevin Perez,1,Domestic,7,WN459,Southwest Airlines,04:00 AM,05:30 AM,Seattle,Juneau
+Orlando International Airport,Brian Wilson,2,International,22,AA108,American Airlines,06:00 AM,07:30 AM,Orlando,Curacao
+Miami International Airport,Sarah Brown,4,Domestic,1,UA630,United Airlines,08:00 AM,09:30 AM,Miami,West Palm Beach
+Los Angeles International Airport,Michael Smith,1,Domestic,6,AA323,American Airlines,11:30 AM,13:00 PM,Los Angeles,Long Beach
+O'Hare International Airport,Ashley Johnson,2,International,18,UA410,United Airlines,14:00 PM,15:30 PM,Chicago,Halifax
+John F. Kennedy International Airport,David Brown,3,Domestic,3,DL155,Delta Airlines,16:30 PM,18:00 PM,New York,Buffalo
+Hartsfield-Jackson Atlanta International Airport,Nicole Williams,1,Domestic,26,WN229,Southwest Airlines,19:00 PM,20:30 PM,Atlanta,Columbus
+Dallas/Fort Worth International Airport,Christopher Davis,4,International,12,AA297,American Airlines,21:30 PM,23:00 PM,Dallas,Glasgow
+Denver International Airport,Angela Miller,2,Domestic,3,UA524,United Airlines,00:30 AM,02:00 AM,Denver,Durango
+San Francisco International Airport,Ryan Garcia,3,Domestic,19,DL338,Delta Airlines,02:30 AM,04:00 AM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Michelle Perez,1,Domestic,6,WN460,Southwest Airlines,04:30 AM,06:00 AM,Seattle,Ketchikan
+Orlando International Airport,Jason Wilson,2,International,21,AA109,American Airlines,06:30 AM,08:00 AM,Orlando,St. Thomas
+Miami International Airport,Jessica Brown,4,Domestic,4,UA631,United Airlines,08:30 AM,10:00 AM,Miami,Key West
+Los Angeles International Airport,Eric Smith,1,Domestic,5,AA324,American Airlines,12:00 PM,13:30 PM,Los Angeles,Santa Ana
+O'Hare International Airport,Stephanie Johnson,2,International,17,UA411,United Airlines,14:30 PM,16:00 PM,Chicago,Quebec City
+John F. Kennedy International Airport,Matthew Brown,3,Domestic,2,DL156,Delta Airlines,17:00 PM,18:30 PM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Jennifer Williams,1,Domestic,25,WN230,Southwest Airlines,19:30 PM,21:00 PM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,David Davis,4,International,11,AA298,American Airlines,22:00 PM,23:30 PM,Dallas,Belfast
+Denver International Airport,Linda Miller,2,Domestic,2,UA525,United Airlines,01:00 AM,02:30 AM,Denver,Aspen
+San Francisco International Airport,Kevin Garcia,3,Domestic,18,DL339,Delta Airlines,03:00 AM,04:30 AM,San Francisco,Fresno
+Seattle-Tacoma International Airport,Brian Perez,1,Domestic,5,WN461,Southwest Airlines,05:00 AM,06:30 AM,Seattle,Yakima
+Orlando International Airport,Sarah Wilson,2,International,20,AA110,American Airlines,07:00 AM,08:30 AM,Orlando,St. Croix
+Miami International Airport,Michael Brown,4,Domestic,3,UA632,United Airlines,09:00 AM,10:30 AM,Miami,Gainesville
+Los Angeles International Airport,Ashley Smith,1,Domestic,4,AA325,American Airlines,12:30 PM,14:00 PM,Los Angeles,Palm Springs
+O'Hare International Airport,David Johnson,2,International,16,UA412,United Airlines,15:00 PM,16:30 PM,Chicago,Ottawa
+John F. Kennedy International Airport,Nicole Brown,3,Domestic,1,DL157,Delta Airlines,17:30 PM,19:00 PM,New York,Albany
+Hartsfield-Jackson Atlanta International Airport,Christopher Williams,1,Domestic,24,WN231,Southwest Airlines,20:00 PM,21:30 PM,Atlanta,Tallahassee
+Dallas/Fort Worth International Airport,Angela Davis,4,International,10,AA299,American Airlines,22:30 PM,00:00 AM,Dallas,Edinburgh
+Denver International Airport,Ryan Miller,2,Domestic,1,UA526,United Airlines,01:30 AM,03:00 AM,Denver,Gunnison
+San Francisco International Airport,Michelle Garcia,3,Domestic,17,DL340,Delta Airlines,03:30 AM,05:00 AM,San Francisco,Sacramento
+Seattle-Tacoma International Airport,Jason Perez,1,Domestic,4,WN462,Southwest Airlines,05:30 AM,07:00 AM,Seattle,Portland
+Orlando International Airport,Jessica Wilson,2,International,19,AA111,American Airlines,07:30 AM,09:00 AM,Orlando,Antigua
+Miami International Airport,Eric Brown,4,Domestic,2,UA633,United Airlines,09:30 AM,11:00 AM,Miami,Pensacola
+Los Angeles International Airport,Stephanie Smith,1,Domestic,3,AA326,American Airlines,13:00 PM,14:30 PM,Los Angeles,San Jose
+O'Hare International Airport,Matthew Johnson,2,International,15,UA413,United Airlines,15:30 PM,17:00 PM,Chicago,Toronto
+John F. Kennedy International Airport,Jennifer Brown,3,Domestic,1,DL158,Delta Airlines,18:00 PM,19:30 PM,New York,Providence
+Hartsfield-Jackson Atlanta International Airport,David Williams,1,Domestic,23,WN232,Southwest Airlines,20:30 PM,22:00 PM,Atlanta,Jacksonville
+Dallas/Fort Worth International Airport,Linda Davis,4,International,9,AA300,American Airlines,23:00 PM,00:30 AM,Dallas,London
+Denver International Airport,Kevin Miller,2,Domestic,1,UA527,United Airlines,02:00 AM,03:30 AM,Denver,Montrose
+San Francisco International Airport,Brian Garcia,3,Domestic,16,DL341,Delta Airlines,04:00 AM,05:30 AM,San Francisco,Oakland
+Seattle-Tacoma International Airport,Sarah Perez,1,Domestic,3,WN463,Southwest Airlines,06:00 AM,07:30 AM,Seattle,Boise
+Orlando International Airport,Michael Wilson,2,International,18,AA112,American Airlines,08:00 AM,09:30 AM,Orlando,Freeport
+Miami International Airport,Ashley Brown,4,Domestic,1,UA634,United Airlines,10:00 AM,11:30 AM,Miami,Fort Lauderdale
+Los Angeles International Airport,David Smith,1,Domestic,2,AA327,American Airlines,13:30 PM,15:00 PM,Los Angeles,Reno
+O'Hare International Airport,Nicole Johnson,2,International,14,UA414,United Airlines,16:00 PM,17:30 PM,Chicago,Montreal
+John F. Kennedy International Airport,Christopher Brown,3,Domestic,1,DL159,Delta Airlines,18:30 PM,20:00 PM,New York,Hartford
+Hartsfield-Jackson Atlanta International Airport,Angela Williams,1,Domestic,22,WN233,Southwest Airlines,21:00 PM,22:30 PM,Atlanta,Memphis
+Dallas/Fort Worth International Airport,Ryan Davis,4,International,8,AA301,American Airlines,23:30 PM,01:00 AM,Dallas,Paris
+Denver International Airport,Michelle Miller,2,Domestic,1,UA528,United Airlines,02:30 AM,04:00 AM,Denver,Cheyenne
+San Francisco International Airport,Jason Garcia,3,Domestic,15,DL342,Delta Airlines,04:30 AM,06:00 AM,San Francisco,San Jose
+Seattle-Tacoma International Airport,Jessica Perez,1,Domestic,2,WN464,Southwest Airlines,06:30 AM,08:00 AM,Seattle,Spokane
+Orlando International Airport,Eric Wilson,2,International,17,AA113,American Airlines,08:30 AM,10:00 AM,Orlando,Punta Cana
+Miami International Airport,Stephanie Brown,4,Domestic,1,UA635,United Airlines,10:30 AM,12:00 PM,Miami,Palm Beach
+Los Angeles International Airport,Matthew Smith,1,Domestic,1,AA328,American Airlines,14:00 PM,15:30 PM,Los Angeles,Bakersfield
+O'Hare International Airport,Jennifer Johnson,2,International,13,UA415,United Airlines,16:30 PM,18:00 PM,Chicago,Calgary
+John F. Kennedy International Airport,David Brown,3,Domestic,1,DL160,Delta Airlines,19:00 PM,20:30 PM,New York,Newark
+Hartsfield-Jackson Atlanta International Airport,Linda Williams,1,Domestic,21,WN234,Southwest Airlines,21:30 PM,23:00 PM,Atlanta,Charlotte
+Dallas/Fort Worth International Airport,Kevin Davis,4,International,7,AA302,American Airlines,00:00 AM,01:30 AM,Dallas,Rome
+Denver International Airport,Brian Miller,2,Domestic,1,UA529,United Airlines,03:00 AM,04:30 AM,Denver,Pueblo
+San Francisco International Airport,Sarah Garcia,3,Domestic,14,DL343,Delta Airlines,05:00 AM,06:30 AM,San Francisco,Reno
+Seattle-Tacoma International Airport,Michael Perez,1,Domestic,1,WN465,Southwest Airlines,07:00 AM,08:30 AM,Seattle,Anchorage
+Orlando International Airport,Ashley Wilson,2,International,16,AA114,American Airlines,09:00 AM,10:30 AM,Orlando,San Juan
+Miami International Airport,David Brown,4,Domestic,1,UA636,United Airlines,11:00 AM,12:30 PM,Miami,Key West
+Los Angeles International Airport,Nicole Smith,1,Domestic,1,AA329,American Airlines,14:30 PM,16:00 PM,Los Angeles,Monterey
+O'Hare International Airport,Christopher Johnson,2,International,12,UA416,United Airlines,17:00 PM,18:30 PM,Chicago,Edmonton
+John F. Kennedy International Airport,Angela Brown,3,Domestic,1,DL161,Delta Airlines,19:30 PM,21:00 PM,New York,Rochester
+Hartsfield-Jackson Atlanta International Airport,Ryan Williams,1,Domestic,20,WN235,Southwest Airlines,22:00 PM,23:30 PM,Atlanta,Savannah
+Dallas/Fort Worth International Airport,Michelle Davis,4,International,6,AA303,American Airlines,00:30 AM,02:00 AM,Dallas,Dublin
+Denver International Airport,Jason Miller,2,Domestic,1,UA530,United Airlines,03:30 AM,05:00 AM,Denver,Grand Junction
+San Francisco International Airport,Jessica Garcia,3,Domestic,13,DL344,Delta Airlines,05:30 AM,07:00 AM,San Francisco,Santa Barbara
+Seattle-Tacoma International Airport,Eric Perez,1,Domestic,1,WN466,Southwest Airlines,07:30 AM,09:00 AM,Seattle,Juneau
+Orlando International Airport,Stephanie Wilson,2,International,15,AA115,American Airlines,09:30 AM,11:00 AM,Orlando,Montego Bay
+Miami International Airport,Matthew Brown,4,Domestic,1,UA637,United Airlines,11:30 AM,13:00 PM,Miami,West Palm Beach
+Los Angeles International Airport,Jennifer Smith,1,Domestic,1,AA330,American Airlines,15:00 PM,16:30 PM,Los Angeles,Long Beach
+O'Hare International Airport,David Johnson,2,International,11,UA417,United Airlines,17:30 PM,19:00 PM,Chicago,Halifax
+John F. Kennedy International Airport,Linda Brown,3,Domestic,1,DL162,Delta Airlines,20:00 PM,21:30 PM,New York,Buffalo
+Hartsfield-Jackson Atlanta International Airport,Kevin Williams,1,Domestic,19,WN236,Southwest Airlines,22:30 PM,00:00 AM,Atlanta,Columbus
+Dallas/Fort Worth International Airport,Brian Davis,4,International,5,AA304,American Airlines,01:00 AM,02:30 AM,Dallas,Glasgow
+Denver International Airport,Sarah Miller,2,Domestic,1,UA531,United Airlines,04:00 AM,05:30 AM,Denver,Durango
+San Francisco International Airport,Michael Garcia,3,Domestic,12,DL345,Delta Airlines,06:00 AM,07:30 AM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Ashley Perez,1,Domestic,1,WN467,Southwest Airlines,08:00 AM,09:30 AM,Seattle,Ketchikan
+Orlando International Airport,David Wilson,2,International,14,AA116,American Airlines,10:00 AM,11:30 AM,Orlando,St. Thomas
+Miami International Airport,Nicole Brown,4,Domestic,1,UA638,United Airlines,12:00 PM,13:30 PM,Miami,Key West
+Los Angeles International Airport,Christopher Smith,1,Domestic,1,AA331,American Airlines,15:30 PM,17:00 PM,Los Angeles,Santa Ana
+O'Hare International Airport,Angela Johnson,2,International,10,UA418,United Airlines,18:00 PM,19:30 PM,Chicago,Quebec City
+John F. Kennedy International Airport,Ryan Brown,3,Domestic,1,DL163,Delta Airlines,20:30 PM,22:00 PM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Michelle Williams,1,Domestic,18,WN237,Southwest Airlines,23:00 PM,00:30 AM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,Jason Davis,4,International,4,AA305,American Airlines,01:30 AM,03:00 AM,Dallas,Belfast
+Denver International Airport,Jessica Miller,2,Domestic,1,UA532,United Airlines,05:00 AM,06:30 AM,Denver,Aspen
+San Francisco International Airport,Eric Garcia,3,Domestic,11,DL346,Delta Airlines,07:00 AM,08:30 AM,San Francisco,Fresno
+Seattle-Tacoma International Airport,Stephanie Perez,1,Domestic,1,WN468,Southwest Airlines,09:00 AM,10:30 AM,Seattle,Yakima
+Orlando International Airport,Matthew Wilson,2,International,13,AA117,American Airlines,11:00 AM,12:30 PM,Orlando,St. Croix
+Miami International Airport,Jennifer Brown,4,Domestic,1,UA639,United Airlines,13:00 PM,14:30 PM,Miami,Gainesville
+Los Angeles International Airport,David Smith,1,Domestic,1,AA332,American Airlines,16:30 PM,18:00 PM,Los Angeles,Palm Springs
+O'Hare International Airport,Linda Johnson,2,International,9,UA419,United Airlines,19:00 PM,20:30 PM,Chicago,Ottawa
+John F. Kennedy International Airport,Kevin Brown,3,Domestic,1,DL164,Delta Airlines,21:30 PM,23:00 PM,New York,Albany
+Hartsfield-Jackson Atlanta International Airport,Brian Williams,1,Domestic,17,WN238,Southwest Airlines,00:00 AM,01:30 AM,Atlanta,Tallahassee
+Dallas/Fort Worth International Airport,Sarah Davis,4,International,3,AA306,American Airlines,02:00 AM,03:30 AM,Dallas,Edinburgh
+Denver International Airport,Michael Miller,2,Domestic,1,UA533,United Airlines,05:30 AM,07:00 AM,Denver,Gunnison
+San Francisco International Airport,Ashley Garcia,3,Domestic,10,DL347,Delta Airlines,07:30 AM,09:00 AM,San Francisco,Sacramento
+Seattle-Tacoma International Airport,David Perez,1,Domestic,1,WN469,Southwest Airlines,09:30 AM,11:00 AM,Seattle,Portland
+Orlando International Airport,Nicole Wilson,2,International,12,AA118,American Airlines,11:30 AM,13:00 PM,Orlando,Antigua
+Miami International Airport,Christopher Brown,4,Domestic,1,UA640,United Airlines,13:30 PM,15:00 PM,Miami,Pensacola
+Los Angeles International Airport,Angela Smith,1,Domestic,1,AA333,American Airlines,17:00 PM,18:30 PM,Los Angeles,San Jose
+O'Hare International Airport,Ryan Johnson,2,International,8,UA420,United Airlines,19:30 PM,21:00 PM,Chicago,Toronto
+John F. Kennedy International Airport,Michelle Brown,3,Domestic,1,DL165,Delta Airlines,22:00 PM,23:30 PM,New York,Providence
+Hartsfield-Jackson Atlanta International Airport,Jason Williams,1,Domestic,16,WN239,Southwest Airlines,00:30 AM,02:00 AM,Atlanta,Jacksonville
+Dallas/Fort Worth International Airport,Jessica Davis,4,International,2,AA307,American Airlines,02:30 AM,04:00 AM,Dallas,London
+Denver International Airport,Eric Miller,2,Domestic,1,UA534,United Airlines,06:00 AM,07:30 AM,Denver,Montrose
+San Francisco International Airport,Stephanie Garcia,3,Domestic,9,DL348,Delta Airlines,08:00 AM,09:30 AM,San Francisco,Oakland
+Seattle-Tacoma International Airport,Matthew Perez,1,Domestic,1,WN470,Southwest Airlines,10:00 AM,11:30 AM,Seattle,Boise
+Orlando International Airport,Jennifer Wilson,2,International,11,AA119,American Airlines,12:00 PM,13:30 PM,Orlando,Freeport
+Miami International Airport,David Brown,4,Domestic,1,UA641,United Airlines,14:00 PM,15:30 PM,Miami,Fort Lauderdale
+Los Angeles International Airport,Linda Smith,1,Domestic,1,AA334,American Airlines,17:30 PM,19:00 PM,Los Angeles,Reno
+O'Hare International Airport,Kevin Johnson,2,International,7,UA421,United Airlines,20:00 PM,21:30 PM,Chicago,Montreal
+John F. Kennedy International Airport,Brian Brown,3,Domestic,1,DL166,Delta Airlines,22:30 PM,00:00 AM,New York,Hartford
+Hartsfield-Jackson Atlanta International Airport,Sarah Williams,1,Domestic,15,WN240,Southwest Airlines,01:00 AM,02:30 AM,Atlanta,Memphis
+Dallas/Fort Worth International Airport,Michael Davis,4,International,1,AA308,American Airlines,03:00 AM,04:30 AM,Dallas,Glasgow
+Denver International Airport,Ashley Miller,2,Domestic,1,UA535,United Airlines,06:30 AM,08:00 AM,Denver,Durango
+San Francisco International Airport,David Garcia,3,Domestic,8,DL349,Delta Airlines,08:30 AM,10:00 AM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Nicole Perez,1,Domestic,1,WN471,Southwest Airlines,10:30 AM,12:00 PM,Seattle,Ketchikan
+Orlando International Airport,Christopher Wilson,2,International,10,AA120,American Airlines,12:30 PM,14:00 PM,Orlando,St. Thomas
+Miami International Airport,Angela Brown,4,Domestic,1,UA642,United Airlines,14:30 PM,16:00 PM,Miami,Key West
+Los Angeles International Airport,Ryan Smith,1,Domestic,1,AA335,American Airlines,18:00 PM,19:30 PM,Los Angeles,Santa Ana
+O'Hare International Airport,Michelle Johnson,2,International,6,UA422,United Airlines,20:30 PM,22:00 PM,Chicago,Quebec City
+John F. Kennedy International Airport,Jason Brown,3,Domestic,1,DL167,Delta Airlines,22:30 PM,00:00 AM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Jessica Williams,1,Domestic,14,WN241,Southwest Airlines,01:00 AM,02:30 AM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,Eric Davis,4,International,1,AA309,American Airlines,03:00 AM,04:30 AM,Dallas,Belfast
+Denver International Airport,Stephanie Miller,2,Domestic,1,UA536,United Airlines,07:00 AM,08:30 AM,Denver,Aspen
+San Francisco International Airport,Matthew Garcia,3,Domestic,7,DL350,Delta Airlines,09:00 AM,10:30 AM,San Francisco,Fresno
+Seattle-Tacoma International Airport,Jennifer Perez,1,Domestic,1,WN472,Southwest Airlines,11:00 AM,12:30 PM,Seattle,Yakima
+Orlando International Airport,David Wilson,2,International,9,AA121,American Airlines,13:00 PM,14:30 PM,Orlando,St. Croix
+Miami International Airport,Linda Brown,4,Domestic,1,UA643,United Airlines,15:00 PM,16:30 PM,Miami,Gainesville
+Los Angeles International Airport,Kevin Smith,1,Domestic,1,AA336,American Airlines,18:30 PM,20:00 PM,Los Angeles,Palm Springs
+O'Hare International Airport,Brian Johnson,2,International,5,UA423,United Airlines,21:00 PM,22:30 PM,Chicago,Ottawa
+John F. Kennedy International Airport,Sarah Brown,3,Domestic,1,DL168,Delta Airlines,23:00 PM,00:30 AM,New York,Albany
+Hartsfield-Jackson Atlanta International Airport,Michael Williams,1,Domestic,13,WN242,Southwest Airlines,01:30 AM,03:00 AM,Atlanta,Tallahassee
+Dallas/Fort Worth International Airport,Ashley Davis,4,International,1,AA310,American Airlines,03:30 AM,05:00 AM,Dallas,Edinburgh
+Denver International Airport,David Miller,2,Domestic,1,UA537,United Airlines,07:30 AM,09:00 AM,Denver,Gunnison
+San Francisco International Airport,Nicole Garcia,3,Domestic,6,DL351,Delta Airlines,09:30 AM,11:00 AM,San Francisco,Sacramento
+Seattle-Tacoma International Airport,Christopher Perez,1,Domestic,1,WN473,Southwest Airlines,11:30 AM,13:00 PM,Seattle,Portland
+Orlando International Airport,Angela Wilson,2,International,8,AA122,American Airlines,13:30 PM,15:00 PM,Orlando,Antigua
+Miami International Airport,Ryan Brown,4,Domestic,1,UA644,United Airlines,15:30 PM,17:00 PM,Miami,Pensacola
+Los Angeles International Airport,Michelle Smith,1,Domestic,1,AA337,American Airlines,19:00 PM,20:30 PM,Los Angeles,San Jose
+O'Hare International Airport,Jason Johnson,2,International,4,UA424,United Airlines,21:30 PM,23:00 PM,Chicago,Toronto
+John F. Kennedy International Airport,Jessica Brown,3,Domestic,1,DL169,Delta Airlines,23:30 PM,01:00 AM,New York,Providence
+Hartsfield-Jackson Atlanta International Airport,Eric Williams,1,Domestic,12,WN243,Southwest Airlines,02:00 AM,03:30 AM,Atlanta,Jacksonville
+Dallas/Fort Worth International Airport,Stephanie Davis,4,International,1,AA311,American Airlines,04:00 AM,05:30 AM,Dallas,London
+Denver International Airport,Matthew Miller,2,Domestic,1,UA538,United Airlines,08:00 AM,09:30 AM,Denver,Montrose
+San Francisco International Airport,Jennifer Garcia,3,Domestic,5,DL352,Delta Airlines,10:00 AM,11:30 AM,San Francisco,Oakland
+Seattle-Tacoma International Airport,David Perez,1,Domestic,1,WN474,Southwest Airlines,12:00 PM,13:30 PM,Seattle,Boise
+Orlando International Airport,Linda Wilson,2,International,7,AA123,American Airlines,14:00 PM,15:30 PM,Orlando,Freeport
+Miami International Airport,Kevin Brown,4,Domestic,1,UA645,United Airlines,16:00 PM,17:30 PM,Miami,Fort Lauderdale
+Los Angeles International Airport,Brian Smith,1,Domestic,1,AA338,American Airlines,19:30 PM,21:00 PM,Los Angeles,Reno
+O'Hare International Airport,Sarah Johnson,2,International,3,UA425,United Airlines,22:00 PM,23:30 PM,Chicago,Montreal
+John F. Kennedy International Airport,Michael Brown,3,Domestic,1,DL170,Delta Airlines,00:00 AM,01:30 AM,New York,Hartford
+Hartsfield-Jackson Atlanta International Airport,Ashley Williams,1,Domestic,11,WN244,Southwest Airlines,02:30 AM,04:00 AM,Atlanta,Memphis
+Dallas/Fort Worth International Airport,David Davis,4,International,1,AA312,American Airlines,04:30 AM,06:00 AM,Dallas,Glasgow
+Denver International Airport,Nicole Miller,2,Domestic,1,UA539,United Airlines,08:30 AM,10:00 AM,Denver,Durango
+San Francisco International Airport,Christopher Garcia,3,Domestic,4,DL353,Delta Airlines,10:30 AM,12:00 PM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Angela Perez,1,Domestic,1,WN475,Southwest Airlines,12:30 PM,14:00 PM,Seattle,Ketchikan
+Orlando International Airport,Ryan Wilson,2,International,6,AA124,American Airlines,14:30 PM,16:00 PM,Orlando,St. Thomas
+Miami International Airport,Michelle Brown,4,Domestic,1,UA646,United Airlines,16:30 PM,18:00 PM,Miami,Key West
+Los Angeles International Airport,Jason Smith,1,Domestic,1,AA339,American Airlines,20:00 PM,21:30 PM,Los Angeles,Santa Ana
+O'Hare International Airport,Jessica Johnson,2,International,2,UA426,United Airlines,22:30 PM,00:00 AM,Chicago,Quebec City
+John F. Kennedy International Airport,Eric Brown,3,Domestic,1,DL171,Delta Airlines,00:30 AM,02:00 AM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Stephanie Williams,1,Domestic,10,WN245,Southwest Airlines,03:00 AM,04:30 AM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,Matthew Davis,4,International,1,AA313,American Airlines,05:00 AM,06:30 AM,Dallas,Belfast
+Denver International Airport,Jennifer Miller,2,Domestic,1,UA540,United Airlines,09:00 AM,10:30 AM,Denver,Aspen
+San Francisco International Airport,David Garcia,3,Domestic,3,DL354,Delta Airlines,11:00 AM,12:30 PM,San Francisco,Fresno
+Seattle-Tacoma International Airport,Linda Perez,1,Domestic,1,WN476,Southwest Airlines,13:00 PM,14:30 PM,Seattle,Yakima
+Orlando International Airport,Kevin Wilson,2,International,5,AA125,American Airlines,15:00 PM,16:30 PM,Orlando,St. Croix
+Miami International Airport,Brian Brown,4,Domestic,1,UA647,United Airlines,17:00 PM,18:30 PM,Miami,Gainesville
+Los Angeles International Airport,Sarah Smith,1,Domestic,1,AA340,American Airlines,20:30 PM,22:00 PM,Los Angeles,Palm Springs
+O'Hare International Airport,Michael Johnson,2,International,1,UA427,United Airlines,23:00 PM,00:30 AM,Chicago,Ottawa
+John F. Kennedy International Airport,Ashley Brown,3,Domestic,1,DL172,Delta Airlines,01:00 AM,02:30 AM,New York,Albany
+Hartsfield-Jackson Atlanta International Airport,David Williams,1,Domestic,9,WN246,Southwest Airlines,03:30 AM,05:00 AM,Atlanta,Tallahassee
+Dallas/Fort Worth International Airport,Nicole Davis,4,International,1,AA314,American Airlines,05:30 AM,07:00 AM,Dallas,Edinburgh
+Denver International Airport,Christopher Miller,2,Domestic,1,UA541,United Airlines,09:30 AM,11:00 AM,Denver,Gunnison
+San Francisco International Airport,Angela Garcia,3,Domestic,2,DL355,Delta Airlines,11:30 AM,13:00 PM,San Francisco,Sacramento
+Seattle-Tacoma International Airport,Ryan Perez,1,Domestic,1,WN477,Southwest Airlines,13:30 PM,15:00 PM,Seattle,Portland
+Orlando International Airport,Michelle Wilson,2,International,4,AA126,American Airlines,15:30 PM,17:00 PM,Orlando,Antigua
+Miami International Airport,Jason Brown,4,Domestic,1,UA648,United Airlines,17:30 PM,19:00 PM,Miami,Pensacola
+Los Angeles International Airport,Jessica Smith,1,Domestic,1,AA341,American Airlines,21:00 PM,22:30 PM,Los Angeles,San Jose
+O'Hare International Airport,Eric Johnson,2,International,1,UA428,United Airlines,23:30 PM,01:00 AM,Chicago,Toronto
+John F. Kennedy International Airport,Stephanie Brown,3,Domestic,1,DL173,Delta Airlines,01:30 AM,03:00 AM,New York,Providence
+Hartsfield-Jackson Atlanta International Airport,Matthew Williams,1,Domestic,8,WN247,Southwest Airlines,04:00 AM,05:30 AM,Atlanta,Jacksonville
+Dallas/Fort Worth International Airport,Jennifer Davis,4,International,1,AA315,American Airlines,06:00 AM,07:30 AM,Dallas,London
+Denver International Airport,David Miller,2,Domestic,1,UA542,United Airlines,10:00 AM,11:30 AM,Denver,Montrose
+San Francisco International Airport,Linda Garcia,3,Domestic,1,DL356,Delta Airlines,12:00 PM,13:30 PM,San Francisco,Oakland
+Seattle-Tacoma International Airport,Kevin Perez,1,Domestic,1,WN478,Southwest Airlines,14:00 PM,15:30 PM,Seattle,Boise
+Orlando International Airport,Brian Wilson,2,International,3,AA127,American Airlines,16:00 PM,17:30 PM,Orlando,Freeport
+Miami International Airport,Sarah Brown,4,Domestic,1,UA649,United Airlines,18:00 PM,19:30 PM,Miami,Fort Lauderdale
+Los Angeles International Airport,Michael Smith,1,Domestic,1,AA342,American Airlines,21:30 PM,23:00 PM,Los Angeles,Reno
+O'Hare International Airport,Ashley Johnson,2,International,1,UA429,United Airlines,23:30 PM,01:00 AM,Chicago,Montreal
+John F. Kennedy International Airport,David Brown,3,Domestic,1,DL174,Delta Airlines,02:00 AM,03:30 AM,New York,Hartford
+Hartsfield-Jackson Atlanta International Airport,Nicole Williams,1,Domestic,7,WN248,Southwest Airlines,04:30 AM,06:00 AM,Atlanta,Memphis
+Dallas/Fort Worth International Airport,Christopher Davis,4,International,1,AA316,American Airlines,06:30 AM,08:00 AM,Dallas,Glasgow
+Denver International Airport,Angela Miller,2,Domestic,1,UA543,United Airlines,10:30 AM,12:00 PM,Denver,Durango
+San Francisco International Airport,Ryan Garcia,3,Domestic,2,DL357,Delta Airlines,12:30 PM,14:00 PM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Michelle Perez,1,Domestic,1,WN479,Southwest Airlines,14:30 PM,16:00 PM,Seattle,Ketchikan
+Orlando International Airport,Jason Wilson,2,International,5,AA128,American Airlines,16:30 PM,18:00 PM,Orlando,St. Thomas
+Miami International Airport,Jessica Brown,4,Domestic,1,UA650,United Airlines,18:30 PM,20:00 PM,Miami,Key West
+Los Angeles International Airport,Eric Smith,1,Domestic,1,AA343,American Airlines,22:00 PM,23:30 PM,Los Angeles,Santa Ana
+O'Hare International Airport,Stephanie Johnson,2,International,1,UA430,United Airlines,00:00 AM,01:30 AM,Chicago,Quebec City
+John F. Kennedy International Airport,Matthew Brown,3,Domestic,1,DL175,Delta Airlines,02:30 AM,04:00 AM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Jennifer Williams,1,Domestic,6,WN249,Southwest Airlines,05:00 AM,06:30 AM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,David Davis,4,International,1,AA317,American Airlines,07:00 AM,08:30 AM,Dallas,Belfast
+Denver International Airport,Linda Miller,2,Domestic,1,UA544,United Airlines,11:00 AM,12:30 PM,Denver,Aspen
+San Francisco International Airport,Kevin Garcia,3,Domestic,1,DL358,Delta Airlines,13:00 PM,14:30 PM,San Francisco,Fresno
+Seattle-Tacoma International Airport,Brian Perez,1,Domestic,1,WN480,Southwest Airlines,15:00 PM,16:30 PM,Seattle,Yakima
+Orlando International Airport,Sarah Wilson,2,International,2,AA129,American Airlines,17:00 PM,18:30 PM,Orlando,St. Croix
+Miami International Airport,Michael Brown,4,Domestic,1,UA651,United Airlines,19:00 PM,20:30 PM,Miami,Gainesville
+Los Angeles International Airport,Ashley Smith,1,Domestic,1,AA344,American Airlines,22:30 PM,00:00 AM,Los Angeles,Palm Springs
+O'Hare International Airport,David Johnson,2,International,1,UA431,United Airlines,00:30 AM,02:00 AM,Chicago,Ottawa
+John F. Kennedy International Airport,Nicole Brown,3,Domestic,1,DL176,Delta Airlines,03:00 AM,04:30 AM,New York,Albany
+Hartsfield-Jackson Atlanta International Airport,Christopher Williams,1,Domestic,5,WN250,Southwest Airlines,05:30 AM,07:00 AM,Atlanta,Tallahassee
+Dallas/Fort Worth International Airport,Angela Davis,4,International,1,AA318,American Airlines,07:30 AM,09:00 AM,Dallas,Edinburgh
+Denver International Airport,Ryan Miller,2,Domestic,1,UA545,United Airlines,11:30 AM,13:00 PM,Denver,Gunnison
+San Francisco International Airport,Michelle Garcia,3,Domestic,1,DL359,Delta Airlines,13:30 PM,15:00 PM,San Francisco,Sacramento
+Seattle-Tacoma International Airport,Jason Perez,1,Domestic,1,WN481,Southwest Airlines,15:30 PM,17:00 PM,Seattle,Portland
+Orlando International Airport,Jessica Wilson,2,International,1,AA130,American Airlines,17:30 PM,19:00 PM,Orlando,Antigua
+Miami International Airport,Eric Brown,4,Domestic,1,UA652,United Airlines,19:30 PM,21:00 PM,Miami,Pensacola
+Los Angeles International Airport,Stephanie Smith,1,Domestic,1,AA345,American Airlines,23:00 PM,00:30 AM,Los Angeles,San Jose
+O'Hare International Airport,Matthew Johnson,2,International,1,UA432,United Airlines,01:00 AM,02:30 AM,Chicago,Toronto
+John F. Kennedy International Airport,Jennifer Brown,3,Domestic,1,DL177,Delta Airlines,03:30 AM,05:00 AM,New York,Providence
+Hartsfield-Jackson Atlanta International Airport,David Williams,1,Domestic,4,WN251,Southwest Airlines,06:00 AM,07:30 AM,Atlanta,Jacksonville
+Dallas/Fort Worth International Airport,Linda Davis,4,International,1,AA319,American Airlines,08:00 AM,09:30 AM,Dallas,London
+Denver International Airport,Kevin Miller,2,Domestic,1,UA546,United Airlines,12:00 PM,13:30 PM,Denver,Montrose
+San Francisco International Airport,Brian Garcia,3,Domestic,1,DL360,Delta Airlines,14:00 PM,15:30 PM,San Francisco,Oakland
+Seattle-Tacoma International Airport,Sarah Perez,1,Domestic,1,WN482,Southwest Airlines,16:00 PM,17:30 PM,Seattle,Boise
+Orlando International Airport,Michael Wilson,2,International,1,AA131,American Airlines,18:00 PM,19:30 PM,Orlando,Freeport
+Miami International Airport,Ashley Brown,4,Domestic,1,UA653,United Airlines,20:00 PM,21:30 PM,Miami,Fort Lauderdale
+Los Angeles International Airport,David Smith,1,Domestic,1,AA346,American Airlines,23:30 PM,01:00 AM,Los Angeles,Reno
+O'Hare International Airport,Nicole Johnson,2,International,1,UA433,United Airlines,01:30 AM,03:00 AM,Chicago,Montreal
+John F. Kennedy International Airport,Christopher Brown,3,Domestic,1,DL178,Delta Airlines,04:00 AM,05:30 AM,New York,Hartford
+Hartsfield-Jackson Atlanta International Airport,Angela Williams,1,Domestic,3,WN252,Southwest Airlines,06:30 AM,08:00 AM,Atlanta,Memphis
+Dallas/Fort Worth International Airport,Ryan Davis,4,International,1,AA320,American Airlines,08:30 AM,10:00 AM,Dallas,Glasgow
+Denver International Airport,Michelle Miller,2,Domestic,1,UA547,United Airlines,12:30 PM,14:00 PM,Denver,Durango
+San Francisco International Airport,Jason Garcia,3,Domestic,1,DL361,Delta Airlines,14:30 PM,16:00 PM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Jessica Perez,1,Domestic,1,WN483,Southwest Airlines,16:30 PM,18:00 PM,Seattle,Ketchikan
+Orlando International Airport,Eric Wilson,2,International,1,AA132,American Airlines,18:30 PM,20:00 PM,Orlando,St. Thomas
+Miami International Airport,Stephanie Brown,4,Domestic,1,UA654,United Airlines,20:30 PM,22:00 PM,Miami,Key West
+Los Angeles International Airport,Matthew Smith,1,Domestic,1,AA347,American Airlines,00:00 AM,01:30 AM,Los Angeles,Santa Ana
+O'Hare International Airport,Jennifer Johnson,2,International,1,UA434,United Airlines,02:00 AM,03:30 AM,Chicago,Quebec City
+John F. Kennedy International Airport,David Brown,3,Domestic,1,DL179,Delta Airlines,04:30 AM,06:00 AM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Linda Williams,1,Domestic,2,WN253,Southwest Airlines,07:00 AM,08:30 AM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,Kevin Davis,4,International,1,AA321,American Airlines,09:00 AM,10:30 AM,Dallas,Belfast
+Denver International Airport,Brian Miller,2,Domestic,1,UA548,United Airlines,13:00 PM,14:30 PM,Denver,Aspen
+San Francisco International Airport,Sarah Garcia,3,Domestic,1,DL362,Delta Airlines,15:00 PM,16:30 PM,San Francisco,Fresno
+Seattle-Tacoma International Airport,Michael Perez,1,Domestic,1,WN484,Southwest Airlines,17:00 PM,18:30 PM,Seattle,Yakima
+Orlando International Airport,Ashley Wilson,2,International,1,AA133,American Airlines,19:00 PM,20:30 PM,Orlando,St. Croix
+Miami International Airport,David Brown,4,Domestic,1,UA655,United Airlines,21:00 PM,22:30 PM,Miami,Gainesville
+Los Angeles International Airport,Nicole Smith,1,Domestic,1,AA348,American Airlines,01:00 AM,02:30 AM,Los Angeles,Palm Springs
+O'Hare International Airport,Christopher Johnson,2,International,1,UA435,United Airlines,03:30 AM,05:00 AM,Chicago,Ottawa
+John F. Kennedy International Airport,Angela Brown,3,Domestic,1,DL180,Delta Airlines,05:30 AM,07:00 AM,New York,Albany
+Hartsfield-Jackson Atlanta International Airport,Ryan Williams,1,Domestic,1,WN254,Southwest Airlines,09:30 AM,11:00 AM,Atlanta,Tallahassee
+Dallas/Fort Worth International Airport,Michelle Davis,4,International,1,AA322,American Airlines,11:30 AM,13:00 PM,Dallas,Edinburgh
+Denver International Airport,Jason Miller,2,Domestic,1,UA549,United Airlines,15:30 PM,17:00 PM,Denver,Gunnison
+San Francisco International Airport,Jessica Garcia,3,Domestic,1,DL363,Delta Airlines,17:30 PM,19:00 PM,San Francisco,Sacramento
+Seattle-Tacoma International Airport,Eric Perez,1,Domestic,1,WN485,Southwest Airlines,19:30 PM,21:00 PM,Seattle,Portland
+Orlando International Airport,Stephanie Wilson,2,International,1,AA134,American Airlines,23:00 PM,00:30 AM,Orlando,Antigua
+Miami International Airport,Matthew Brown,4,Domestic,1,UA656,United Airlines,01:00 AM,02:30 AM,Miami,Pensacola
+Los Angeles International Airport,Jennifer Smith,1,Domestic,1,AA349,American Airlines,02:30 AM,04:00 AM,Los Angeles,San Jose
+O'Hare International Airport,David Johnson,2,International,1,UA436,United Airlines,06:00 AM,07:30 AM,Chicago,Toronto
+John F. Kennedy International Airport,Linda Brown,3,Domestic,1,DL181,Delta Airlines,08:00 AM,09:30 AM,New York,Providence
+Hartsfield-Jackson Atlanta International Airport,Kevin Williams,1,Domestic,1,WN255,Southwest Airlines,12:00 PM,13:30 PM,Atlanta,Jacksonville
+Dallas/Fort Worth International Airport,Brian Davis,4,International,1,AA323,American Airlines,14:00 PM,15:30 PM,Dallas,London
+Denver International Airport,Sarah Miller,2,Domestic,1,UA550,United Airlines,18:00 PM,19:30 PM,Denver,Montrose
+San Francisco International Airport,Michael Garcia,3,Domestic,1,DL364,Delta Airlines,20:00 PM,21:30 PM,San Francisco,Oakland
+Seattle-Tacoma International Airport,Ashley Perez,1,Domestic,1,WN486,Southwest Airlines,22:00 PM,23:30 PM,Seattle,Boise
+Orlando International Airport,David Wilson,2,International,1,AA135,American Airlines,01:00 AM,02:30 AM,Orlando,Freeport
+Miami International Airport,Nicole Brown,4,Domestic,1,UA657,United Airlines,03:00 AM,04:30 AM,Miami,Fort Lauderdale
+Los Angeles International Airport,Christopher Smith,1,Domestic,1,AA350,American Airlines,05:30 AM,07:00 AM,Los Angeles,Reno
+O'Hare International Airport,Angela Johnson,2,International,1,UA437,United Airlines,09:30 AM,11:00 AM,Chicago,Montreal
+John F. Kennedy International Airport,Ryan Brown,3,Domestic,1,DL182,Delta Airlines,11:30 AM,13:00 PM,New York,Hartford
+Hartsfield-Jackson Atlanta International Airport,Michelle Williams,1,Domestic,1,WN256,Southwest Airlines,15:30 PM,17:00 PM,Atlanta,Memphis
+Dallas/Fort Worth International Airport,Jason Davis,4,International,1,AA324,American Airlines,17:30 PM,19:00 PM,Dallas,Glasgow
+Denver International Airport,Jessica Miller,2,Domestic,1,UA551,United Airlines,21:00 PM,22:30 PM,Denver,Durango
+San Francisco International Airport,Eric Garcia,3,Domestic,1,DL365,Delta Airlines,23:00 PM,00:30 AM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Stephanie Perez,1,Domestic,1,WN487,Southwest Airlines,01:00 AM,02:30 AM,Seattle,Ketchikan
+Orlando International Airport,Matthew Wilson,2,International,1,AA136,American Airlines,04:00 AM,05:30 AM,Orlando,St. Thomas
+Miami International Airport,Jennifer Brown,4,Domestic,1,UA658,United Airlines,06:00 AM,07:30 AM,Miami,Key West
+Los Angeles International Airport,David Smith,1,Domestic,1,AA351,American Airlines,07:30 AM,09:00 AM,Los Angeles,Santa Ana
+O'Hare International Airport,Linda Johnson,2,International,1,UA438,United Airlines,11:00 AM,12:30 PM,Chicago,Quebec City
+John F. Kennedy International Airport,Kevin Brown,3,Domestic,1,DL183,Delta Airlines,13:00 PM,14:30 PM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Brian Williams,1,Domestic,1,WN257,Southwest Airlines,17:00 PM,18:30 PM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,Sarah Davis,4,International,1,AA325,American Airlines,19:00 PM,20:30 PM,Dallas,Belfast
+Denver International Airport,Michael Miller,2,Domestic,1,UA552,United Airlines,23:00 PM,00:30 AM,Denver,Aspen
+San Francisco International Airport,Ashley Garcia,3,Domestic,1,DL366,Delta Airlines,01:00 AM,02:30 AM,San Francisco,Fresno
+Seattle-Tacoma International Airport,David Perez,1,Domestic,1,WN488,Southwest Airlines,03:00 AM,04:30 AM,Seattle,Yakima
+Orlando International Airport,Nicole Wilson,2,International,1,AA137,American Airlines,05:00 AM,06:30 AM,Orlando,St. Croix
+Miami International Airport,Christopher Brown,4,Domestic,1,UA659,United Airlines,07:00 AM,08:30 AM,Miami,Gainesville
+Los Angeles International Airport,Angela Smith,1,Domestic,1,AA352,American Airlines,10:30 AM,12:00 PM,Los Angeles,Palm Springs
+O'Hare International Airport,Ryan Johnson,2,International,1,UA439,United Airlines,12:30 PM,14:00 PM,Chicago,Ottawa
+John F. Kennedy International Airport,Michelle Brown,3,Domestic,1,DL184,Delta Airlines,14:30 PM,16:00 PM,New York,Albany
+Hartsfield-Jackson Atlanta International Airport,Jason Williams,1,Domestic,1,WN258,Southwest Airlines,18:00 PM,19:30 PM,Atlanta,Tallahassee
+Dallas/Fort Worth International Airport,Jessica Davis,4,International,1,AA326,American Airlines,20:00 PM,21:30 PM,Dallas,Edinburgh
+Denver International Airport,Eric Miller,2,Domestic,1,UA553,United Airlines,01:30 AM,03:00 AM,Denver,Gunnison
+San Francisco International Airport,Stephanie Garcia,3,Domestic,1,DL367,Delta Airlines,03:30 AM,05:00 AM,San Francisco,Sacramento
+Seattle-Tacoma International Airport,Matthew Perez,1,Domestic,1,WN489,Southwest Airlines,05:30 AM,07:00 AM,Seattle,Portland
+Orlando International Airport,Jennifer Wilson,2,International,1,AA138,American Airlines,07:30 AM,09:00 AM,Orlando,Antigua
+Miami International Airport,David Brown,4,Domestic,1,UA660,United Airlines,09:30 AM,11:00 AM,Miami,Pensacola
+Los Angeles International Airport,Linda Smith,1,Domestic,1,AA353,American Airlines,13:00 PM,14:30 PM,Los Angeles,San Jose
+O'Hare International Airport,Kevin Johnson,2,International,1,UA440,United Airlines,15:30 PM,17:00 PM,Chicago,Toronto
+John F. Kennedy International Airport,Brian Brown,3,Domestic,1,DL185,Delta Airlines,17:30 PM,19:00 PM,New York,Providence
+Hartsfield-Jackson Atlanta International Airport,Sarah Williams,1,Domestic,1,WN259,Southwest Airlines,21:00 PM,22:30 PM,Atlanta,Jacksonville
+Dallas/Fort Worth International Airport,Michael Davis,4,International,1,AA327,American Airlines,23:00 PM,00:30 AM,Dallas,London
+Denver International Airport,Ashley Miller,2,Domestic,1,UA554,United Airlines,02:00 AM,03:30 AM,Denver,Montrose
+San Francisco International Airport,David Garcia,3,Domestic,1,DL368,Delta Airlines,04:00 AM,05:30 AM,San Francisco,Oakland
+Seattle-Tacoma International Airport,Nicole Perez,1,Domestic,1,WN490,Southwest Airlines,06:00 AM,07:30 AM,Seattle,Boise
+Orlando International Airport,Christopher Wilson,2,International,1,AA139,American Airlines,08:00 AM,09:30 AM,Orlando,Freeport
+Miami International Airport,Angela Brown,4,Domestic,1,UA661,United Airlines,10:00 AM,11:30 AM,Miami,Fort Lauderdale
+Los Angeles International Airport,Ryan Smith,1,Domestic,1,AA354,American Airlines,13:30 PM,15:00 PM,Los Angeles,Reno
+O'Hare International Airport,Michelle Johnson,2,International,1,UA441,United Airlines,16:00 PM,17:30 PM,Chicago,Montreal
+John F. Kennedy International Airport,Jason Brown,3,Domestic,1,DL186,Delta Airlines,18:30 PM,20:00 PM,New York,Hartford
+Hartsfield-Jackson Atlanta International Airport,Jessica Williams,1,Domestic,1,WN260,Southwest Airlines,22:00 PM,23:30 PM,Atlanta,Memphis
+Dallas/Fort Worth International Airport,Eric Davis,4,International,1,AA328,American Airlines,00:00 AM,01:30 AM,Dallas,Glasgow
+Denver International Airport,Stephanie Miller,2,Domestic,1,UA555,United Airlines,03:00 AM,04:30 AM,Denver,Durango
+San Francisco International Airport,Matthew Garcia,3,Domestic,1,DL369,Delta Airlines,05:00 AM,06:30 AM,San Francisco,Monterey
+Seattle-Tacoma International Airport,Jennifer Perez,1,Domestic,1,WN491,Southwest Airlines,07:00 AM,08:30 AM,Seattle,Ketchikan
+Orlando International Airport,David Wilson,2,International,1,AA140,American Airlines,09:00 AM,10:30 AM,Orlando,St. Thomas
+Miami International Airport,Linda Brown,4,Domestic,1,UA662,United Airlines,11:00 AM,12:30 PM,Miami,Key West
+Los Angeles International Airport,Kevin Smith,1,Domestic,1,AA355,American Airlines,14:30 PM,16:00 PM,Los Angeles,Santa Ana
+O'Hare International Airport,Brian Johnson,2,International,1,UA442,United Airlines,17:00 PM,18:30 PM,Chicago,Quebec City
+John F. Kennedy International Airport,Sarah Brown,3,Domestic,1,DL187,Delta Airlines,19:00 PM,20:30 PM,New York,Syracuse
+Hartsfield-Jackson Atlanta International Airport,Michael Williams,1,Domestic,1,WN261,Southwest Airlines,23:00 PM,00:30 AM,Atlanta,Montgomery
+Dallas/Fort Worth International Airport,Ashley Davis,4,International,1,AA329,American Airlines,01:00 AM,02:30 AM,Dallas,Belfast
+Denver International Airport,David Miller,2,Domestic,1,UA556,United Airlines,04:00 AM,05:30 AM,Denver,Aspen
+San Francisco International Airport,Nicole Garcia,3,Domestic,1,DL370,Delta Airlines,06:00 AM,07:30 AM,San Francisco,Fresno
+Seattle-Tacoma International Airport,Christopher Perez,1,Domestic,1,WN492,Southwest Airlines,08:00 AM,09:30 AM,Seattle,Yakima
+Orlando International Airport,Angela Wilson,2,International,1,AA141,American Airlines,10:00 AM,11:30 AM,Orlando,St. Croix
+Miami International Airport,Ryan Brown,4,Domestic,1,UA663,United Airlines,12:00 PM,13:30 PM,Miami,Gainesville
+Los Angeles International Airport,Michelle Smith,1,Domestic,1,AA356,American Airlines,15:30 PM,17:00 PM,Los Angeles,Palm Springs
+O'Hare International Airport,Jason Johnson,2,International,1,UA443,United Airlines,17:30 PM,19:00 PM,Chicago,Ottawa
+John F. Kennedy International Airport,Jessica Brown,
