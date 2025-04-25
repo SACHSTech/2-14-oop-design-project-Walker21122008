@@ -6,13 +6,15 @@ public class Airport{
     private List<Terminal> terminals;
     private List<Flight> flights;
     private String location;
+    private String amenities;
 
 
-    public Airport(String name, String location) {
+    public Airport(String name, String location, String amenities) {
         this.name = name;
         this.terminals = new ArrayList<>();
         this.flights = new ArrayList<>();
         this.location = location;
+        this.amenities = amenities;
 
     }
 
@@ -43,4 +45,10 @@ public class Airport{
             System.out.println("Still to add");
         }
     }
+
+    public String listAmenities() {
+        return amenities;
+
+    }
+
 }
