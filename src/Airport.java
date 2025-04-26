@@ -1,54 +1,50 @@
 import java.util.ArrayList;
-import java.util.List;
 
-public class Airport{
+public class Airport {
     private String name;
-    private List<Terminal> terminals;
-    private List<Flight> flights;
     private String location;
-    private String amenities;
+    private String code;
+    private ArrayList<Terminal> terminals;
+    private ArrayList<Flight> flights;
 
-
-    public Airport(String name, String location, String amenities) {
+    public Airport(String name, String location, String code) {
         this.name = name;
-        this.terminals = new ArrayList<>();
-        this.flights = new ArrayList<>();
         this.location = location;
-        this.amenities = amenities;
-
+        this.code = code;
     }
 
-    public String getName() {
+    public Flight searchFlight(String flightNumber) {
+        for (Flight flight : flights) {
+            if (flight.getFlightNumber().equals(flightNumber)) {
+                return flight;
+            }
+        }
+        return null; 
+    }
+
+    public ArrayList<Flight> listAllFlights() {
+        return flights;
+    }
+
+    public String getAirportName(){
         return name;
     }
 
-    public String getLocation() {
+    public String getAirportLocation(){
         return location;
     }
 
-    public List<Terminal> getTerminals() {
-        return terminals;
+    public String getAirportInfo() {
+        return "Airport: " + name + ", Location: " + location + ", Code: " + code;
     }
 
-    public void addTerminal(Terminal terminal) {
-        this.terminals.add(terminal);
-    }
-
-    public void listTerminals(){
+    public Terminal findTerminalForFlight(Flight flight) {
         for (Terminal terminal : terminals) {
-            System.out.println("Still to add");
+            if (listAllFlights().contains(flight)) {
+                return terminal;
+            }
         }
+        return null;
     }
-
-    public void listFlights(){
-        for (Flight flight : flights) {
-            System.out.println("Still to add");
-        }
-    }
-
-    public String listAmenities() {
-        return amenities;
-
-    }
-
 }
+
