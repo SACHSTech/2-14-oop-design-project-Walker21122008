@@ -3,10 +3,11 @@ public class Child extends Passenger {
     private int age;
     private boolean requiresMealAssistance;
 
-    public Child(String passportNumber, String ticketNumber, String guardianName, boolean requiresMealAssistance) {
+    public Child(String passportNumber, String ticketNumber, String guardianName, boolean requiresMealAssistance, int age) {
         super(passportNumber, ticketNumber);
         this.guardianName = guardianName;
         this.requiresMealAssistance = requiresMealAssistance;
+        this.age = age;
     }
 
     public String getGuardianName() {

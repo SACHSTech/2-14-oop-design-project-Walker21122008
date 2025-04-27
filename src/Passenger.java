@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Passenger {
     private String passportNumber;
     private String ticketNumber;
@@ -31,9 +33,21 @@ public class Passenger {
         }
     }
 
-    public String howLongDoesCheckInTake(){
-        return "Check in takes atlest a minimum of 30 hours up to 2 hours. Make sure you come as early as possible!";
+    public void bookFlight(ArrayList<Flight> flights, String flightNumber) {
+        boolean flightFound = false;
+        for (Flight flight : flights) {
+            if (flight.getFlightNumber().equals(flightNumber)) {
+                    this.assignedFlight = flight;
+                    System.out.println("Flight " + flightNumber + " booked successfully!");
+                    flightFound = true;
+                    break;
+            }
+        }
+        if (!flightFound) {
+            System.out.println("Flight " + flightNumber + " does not exist.");
+        }
     }
+
     
 
     public void requestSpecialAssistance(String serviceType) {

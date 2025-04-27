@@ -1,0 +1,263 @@
+FlightNumber - airlineName - origin - destination - departureTime - arrivalTime - status - terminalNumber
+AC101 - Air Canada - Toronto - Vancouver - 08:00 - 10:30 - On Time - 1
+WS205 - WestJet - Toronto - Calgary - 09:15 - 11:45 - Delayed - 1
+PD302 - Porter Airlines - Toronto - Montreal - 10:00 - 11:00 - On Time - 1
+AC115 - Air Canada - Toronto - Halifax - 11:30 - 14:30 - On Time - 1
+AC120 - Air Canada - Toronto - New York - 12:00 - 13:30 - On Time - 1
+AC105 - Air Canada - Toronto - Edmonton - 12:00 - 14:45 - On Time - 2
+WS210 - WestJet - Toronto - Winnipeg - 13:15 - 15:45 - On Time - 2
+PD308 - Porter Airlines - Toronto - Ottawa - 14:00 - 15:00 - On Time - 2
+WS220 - WestJet - Toronto - Regina - 15:30 - 18:00 - On Time - 2
+AC130 - Air Canada - Toronto - Chicago - 16:00 - 17:30 - On Time - 2
+AC801 - Air Canada - Toronto - New York - 16:00 - 17:30 - On Time - 3
+UA310 - United Airlines - Toronto - Chicago - 17:15 - 18:45 - On Time - 3
+LH401 - Lufthansa - Toronto - Frankfurt - 18:00 - 07:00+1 - On Time - 4
+BA093 - British Airways - Toronto - London - 19:30 - 07:00+1 - On Time - 4
+TS501 - Air Transat - Toronto - Cancun - 20:00 - 23:30 - On Time - 5
+WG715 - Sunwing Airlines - Toronto - Punta Cana - 21:15 - 01:45 - On Time - 5
+AC111 - Air Canada - Vancouver - Calgary - 07:30 - 09:00 - On Time - 1
+WS250 - WestJet - Vancouver - Edmonton - 08:45 - 10:15 - On Time - 1
+AC805 - Air Canada - Vancouver - Los Angeles - 09:30 - 12:30 - On Time - 3
+CX888 - Cathay Pacific - Vancouver - Hong Kong - 11:00 - 17:00+1 - On Time - 3
+UA280 - United Airlines - Vancouver - San Francisco - 12:15 - 14:00 - On Time - 4
+CA991 - Air China - Vancouver - Beijing - 14:00 - 16:00+1 - On Time - 4
+AC112 - Air Canada - Vancouver - Toronto - 15:00 - 22:00 - On Time - 1
+AC113 - Air Canada - Vancouver - Seattle - 16:00 - 17:00 - On Time - 1
+AC401 - Air Canada - Montreal - Toronto - 08:30 - 09:30 - On Time - 1
+WS310 - WestJet - Montreal - Halifax - 09:45 - 12:15 - On Time - 1
+AC810 - Air Canada - Montreal - Paris - 10:30 - 22:00 - On Time - 3
+AF342 - Air France - Montreal - Lyon - 12:00 - 23:00 - On Time - 3
+KL672 - KLM - Montreal - Amsterdam - 13:15 - 01:30+1 - On Time - 4
+TK036 - Turkish Airlines - Montreal - Istanbul - 15:00 - 07:00+1 - On Time - 4
+AC402 - Air Canada - Montreal - New York - 16:00 - 17:30 - On Time - 1
+AC403 - Air Canada - Montreal - Chicago - 17:00 - 18:30 - On Time - 1
+AC201 - Air Canada - Calgary - Vancouver - 09:30 - 10:00 - On Time - 1
+WS415 - WestJet - Calgary - Toronto - 11:00 - 15:30 - On Time - 1
+AC815 - Air Canada - Calgary - Denver - 12:30 - 14:30 - On Time - 3
+DL305 - Delta Air Lines - Calgary - Minneapolis - 14:00 - 16:30 - On Time - 3
+WS260 - WestJet - Calgary - London - 15:15 - 07:15+1 - On Time - 4
+BA097 - British Airways - Calgary - London - 16:30 - 08:30+1 - On Time - 4
+AC202 - Air Canada - Calgary - Edmonton - 17:00 - 17:30 - On Time - 1
+AC203 - Air Canada - Calgary - Seattle - 18:00 - 19:00 - On Time - 1
+AC210 - Air Canada - Edmonton - Calgary - 10:00 - 10:30 - On Time - 1
+WS350 - WestJet - Edmonton - Vancouver - 11:15 - 12:45 - On Time - 1
+AC820 - Air Canada - Edmonton - Seattle - 13:00 - 14:30 - On Time - 3
+UA420 - United Airlines - Edmonton - Chicago - 14:30 - 17:30 - On Time - 3
+AC211 - Air Canada - Edmonton - Toronto - 15:00 - 17:45 - On Time - 1
+AC212 - Air Canada - Edmonton - Winnipeg - 16:00 - 17:30 - On Time - 1
+AC410 - Air Canada - Ottawa - Toronto - 11:00 - 12:00 - On Time - 1
+PD350 - Porter Airlines - Ottawa - Montreal - 12:15 - 13:15 - On Time - 2
+AC825 - Air Canada - Ottawa - Washington - 13:30 - 15:00 - On Time - 3
+UA510 - United Airlines - Ottawa - New York - 14:45 - 16:15 - On Time - 3
+AC411 - Air Canada - Ottawa - Halifax - 15:00 - 17:00 - On Time - 1
+AC412 - Air Canada - Ottawa - Chicago - 16:00 - 17:30 - On Time - 1
+AC450 - Air Canada - Halifax - Montreal - 13:00 - 15:30 - On Time - 1
+WS380 - WestJet - Halifax - Toronto - 14:15 - 17:15 - On Time - 2
+AC830 - Air Canada - Halifax - Boston - 15:30 - 17:00 - On Time - 3
+FI602 - Icelandair - Halifax - Reykjavik - 17:00 - 05:00+1 - On Time - 3
+AC451 - Air Canada - Halifax - New York - 18:00 - 20:00 - On Time - 1
+AC452 - Air Canada - Halifax - St. John's - 19:00 - 20:30 - On Time - 1
+AC250 - Air Canada - Winnipeg - Calgary - 14:00 - 15:30 - On Time - 1
+WS450 - WestJet - Winnipeg - Edmonton - 15:15 - 16:45 - On Time - 2
+AC835 - Air Canada - Winnipeg - Minneapolis - 16:30 - 18:00 - On Time - 3
+DL320 - Delta Air Lines - Winnipeg - Detroit - 17:45 - 20:15 - On Time - 3
+AC251 - Air Canada - Winnipeg - Toronto - 18:00 - 20:30 - On Time - 1
+AC252 - Air Canada - Winnipeg - Regina - 19:00 - 20:00 - On Time - 1
+AC280 - Air Canada - Saskatoon - Calgary - 12:00 - 13:30 - On Time - 1
+WS480 - WestJet - Saskatoon - Edmonton - 13:15 - 14:45 - On Time - 2
+AC840 - Air Canada - Saskatoon - Denver - 14:30 - 16:30 - On Time - 3
+UA630 - United Airlines - Saskatoon - Chicago - 15:45 - 18:45 - On Time - 3
+AC281 - Air Canada - Saskatoon - Winnipeg - 16:00 - 17:00 - On Time - 1
+AC282 - Air Canada - Saskatoon - Toronto - 17:00 - 19:30 - On Time - 1
+AC300 - Air Canada - Regina - Calgary - 13:00 - 14:30 - On Time - 1
+WS510 - WestJet - Regina - Winnipeg - 14:15 - 15:45 - On Time - 2
+AC845 - Air Canada - Regina - Minneapolis - 15:30 - 17:00 - On Time - 3
+AC301 - Air Canada - Regina - Toronto - 16:00 - 18:30 - On Time - 1
+AC302 - Air Canada - Regina - Saskatoon - 17:00 - 18:00 - On Time - 1
+AC501 - Air Canada - St. John's - Halifax - 10:00 - 12:00 - On Time - 1
+PB110 - PAL Airlines - St. John's - Gander - 11:15 - 11:45 - On Time - 2
+AC850 - Air Canada - St. John's - Boston - 12:30 - 15:00 - On Time - 3
+AC502 - Air Canada - St. John's - Toronto - 13:00 - 16:00 - On Time - 1
+AC503 - Air Canada - St. John's - Montreal - 14:00 - 16:30 - On Time - 1
+AC510 - Air Canada - Quebec City - Montreal - 11:00 - 11:45 - On Time - 1
+PB220 - PAL Airlines - Quebec City - Sept-Îles - 12:15 - 13:45 - On Time - 2
+AC855 - Air Canada - Quebec City - New York - 13:30 - 15:00 - On Time - 3
+AC511 - Air Canada - Quebec City - Toronto - 14:00 - 15:45 - On Time - 1
+AC512 - Air Canada - Quebec City - Halifax - 15:00 - 16:30 - On Time - 1
+AC550 - Air Canada - London - Toronto - 14:00 - 14:45 - On Time - 1
+WS555 - WestJet - London - Ottawa - 15:15 - 16:30 - On Time - 2
+AC860 - Air Canada - London - Chicago - 16:30 - 18:30 - On Time - 3
+AC551 - Air Canada - London - Montreal - 17:00 - 18:00 - On Time - 1
+AC552 - Air Canada - London - Winnipeg - 18:00 - 20:30 - On Time - 1
+WO701 - Swoop - Hamilton - Edmonton - 09:00 - 11:45 - On Time - 1
+WS605 - WestJet - Hamilton - Orlando - 11:00 - 14:30 - On Time - 2
+AC702 - Air Canada - Hamilton - Calgary - 12:00 - 14:30 - On Time - 1
+AC703 - Air Canada - Hamilton - Halifax - 13:00 - 15:30 - On Time - 1
+AC601 - Air Canada - Kelowna - Vancouver - 12:00 - 12:45 - On Time - 1
+WS650 - WestJet - Kelowna - Calgary - 13:15 - 14:45 - On Time - 2
+AC865 - Air Canada - Kelowna - Seattle - 14:30 - 15:30 - On Time - 3
+AC602 - Air Canada - Kelowna - Toronto - 15:00 - 18:00 - On Time - 1
+AC603 - Air Canada - Kelowna - Edmonton - 16:00 - 17:30 - On Time - 1
+AC650 - Air Canada - Victoria - Vancouver - 15:00 - 15:30 - On Time - 1
+WS700 - WestJet - Victoria - Calgary - 16:15 - 18:00 - On Time - 2
+AC870 - Air Canada - Victoria - Seattle - 17:30 - 18:30 - On Time - 3
+AC651 - Air Canada - Victoria - Toronto - 18:00 - 21:00 - On Time - 1
+AC652 - Air Canada - Victoria - Edmonton - 19:00 - 20:30 - On Time - 1
+AC701 - Air Canada - Thunder Bay - Toronto - 10:00 - 12:15 - On Time - 1
+PD402 - Porter Airlines - Thunder Bay - Sudbury - 11:15 - 12:15 - On Time - 2
+BP301 - Bearskin Airlines - Thunder Bay - Sioux Lookout - 12:30 - 13:30 - On Time - 3
+AC702 - Air Canada - Thunder Bay - Winnipeg - 13:00 - 14:00 - On Time - 1
+AC703 - Air Canada - Thunder Bay - Ottawa - 14:00 - 16:00 - On Time - 1
+AC750 - Air Canada - Moncton - Montreal - 13:00 - 15:00 - On Time - 1
+WS755 - WestJet - Moncton - Toronto - 14:15 - 16:45 - On Time - 2
+AC875 - Air Canada - Moncton - Boston - 15:30 - 17:30 - On Time - 3
+AC751 - Air Canada - Moncton - Halifax - 16:00 - 17:00 - On Time - 1
+AC752 - Air Canada - Moncton - St. John's - 17:00 - 18:30 - On Time - 1
+AC780 - Air Canada - Windsor - Toronto - 11:00 - 11:45 - On Time - 1
+PD450 - Porter Airlines - Windsor - Ottawa - 12:15 - 13:30 - On Time - 2
+AC880 - Air Canada - Windsor - Chicago - 13:45 - 15:45 - On Time - 3
+AC781 - Air Canada - Windsor - Montreal - 14:00 - 15:00 - On Time - 1
+AC782 - Air Canada - Windsor - Halifax - 15:00 - 17:30 - On Time - 1
+WS801 - WestJet - Abbotsford - Calgary - 14:00 - 15:30 - On Time - 1
+FL510 - Flair Airlines - Abbotsford - Edmonton - 15:15 - 16:45 - On Time - 2
+AC802 - Air Canada - Abbotsford - Vancouver - 16:00 - 16:45 - On Time - 1
+AC803 - Air Canada - Abbotsford - Victoria - 17:00 - 17:45 - On Time - 1
+AC901 - Air Canada - Charlottetown - Halifax - 12:00 - 12:45 - On Time - 1
+PB520 - PAL Airlines - Charlottetown - Moncton - 13:15 - 13:45 - On Time - 2
+AC910 - Air Canada - Charlottetown - Boston - 14:30 - 16:30 - On Time - 3
+AC902 - Air Canada - Charlottetown - Toronto - 15:00 - 17:30 - On Time - 1
+AC903 - Air Canada - Charlottetown - Montreal - 16:00 - 17:30 - On Time - 1
+AC950 - Air Canada - Kamloops - Vancouver - 10:00 - 10:45 - On Time - 1
+BG205 - Central Mountain Air - Kamloops - Prince George - 11:15 - 12:15 - On Time - 2
+AC960 - Air Canada - Kamloops - Seattle - 12:30 - 13:30 - On Time - 3
+AC951 - Air Canada - Kamloops - Calgary - 13:00 - 14:30 - On Time - 1
+AC952 - Air Canada - Kamloops - Edmonton - 14:00 - 15:30 - On Time - 1
+AC970 - Air Canada - Fredericton - Montreal - 13:00 - 14:30 - On Time - 1
+PB630 - PAL Airlines - Fredericton - Halifax - 14:15 - 15:15 - On Time - 2
+AC980 - Air Canada - Fredericton - Boston - 15:30 - 17:00 - On Time - 3
+AC971 - Air Canada - Fredericton - Toronto - 16:00 - 18:00 - On Time - 1
+AC972 - Air Canada - Fredericton - Ottawa - 17:00 - 18:30 - On Time - 1
+YK101 - Air North - Whitehorse - Vancouver - 09:00 - 11:30 - On Time - 1
+YK110 - Air North - Whitehorse - Juneau - 12:00 - 13:00 - On Time - 2
+YK120 - Air North - Whitehorse - Edmonton - 13:00 - 15:00 - On Time - 1
+YK130 - Air North - Whitehorse - Calgary - 14:00 - 16:30 - On Time - 1
+5T201 - Canadian North - Yellowknife - Edmonton - 10:00 - 11:30 - On Time - 1
+5T210 - Canadian North - Yellowknife - Iqaluit - 12:00 - 15:00 - On Time - 2
+5T220 - Canadian North - Yellowknife - Ottawa - 14:00 - 17:30 - On Time - 1
+5T230 - Canadian North - Yellowknife - Winnipeg - 15:00 - 16:30 - On Time - 1
+5T301 - Canadian North - Iqaluit - Ottawa - 11:00 - 14:30 - On Time - 1
+5T310 - Canadian North - Iqaluit - Montreal - 15:00 - 18:00 - On Time - 2
+5T320 - Canadian North - Iqaluit - Yellowknife - 16:00 - 19:00 - On Time - 1
+5T330 - Canadian North - Iqaluit - Goose Bay - 17:00 - 18:30 - On Time - 1
+PB701 - PAL Airlines - Goose Bay - St. John's - 12:00 - 13:30 - On Time - 1
+PB710 - PAL Airlines - Goose Bay - Halifax - 14:00 - 16:30 - On Time - 2
+PB720 - PAL Airlines - Goose Bay - Gander - 15:00 - 16:00 - On Time - 1
+PB730 - PAL Airlines - Goose Bay - Moncton - 16:00 - 18:00 - On Time - 1
+PB801 - PAL Airlines - Gander - St. John's - 13:00 - 13:30 - On Time - 1
+PB810 - PAL Airlines - Gander - Halifax - 15:00 - 17:30 - On Time - 2
+PB820 - PAL Airlines - Gander - Goose Bay - 16:00 - 17:00 - On Time - 1
+PB830 - PAL Airlines - Gander - Deer Lake - 17:00 - 17:30 - On Time - 1
+AC720 - Air Canada - Sudbury - Toronto - 11:00 - 11:45 - On Time - 1
+PD420 - Porter Airlines - Sudbury - North Bay - 12:15 - 12:45 - On Time - 2
+AC730 - Air Canada - Sudbury - Montreal - 13:30 - 14:45 - On Time - 3
+AC721 - Air Canada - Sudbury - Ottawa - 14:00 - 15:00 - On Time - 1
+AC722 - Air Canada - Sudbury - Winnipeg - 15:00 - 16:30 - On Time - 1
+AC760 - Air Canada - Kingston - Toronto - 12:00 - 12:30 - On Time - 1
+FG101 - FlyGTA Airlines - Kingston - Toronto/Billy Bishop - 13:15 - 13:45 - On Time - 2
+AC770 - Air Canada - Kingston - Ottawa - 14:30 - 15:00 - On Time - 3
+AC761 - Air Canada - Kingston - Montreal - 15:00 - 16:00 - On Time - 1
+AC762 - Air Canada - Kingston - Halifax - 16:00 - 18:30 - On Time - 1
+AC790 - Air Canada - Sault Ste. Marie - Toronto - 13:00 - 14:00 - On Time - 1
+BP401 - Bearskin Airlines - Sault Ste. Marie - Sudbury - 14:15 - 15:00 - On Time - 2
+AC800 - Air Canada - Sault Ste. Marie - Thunder Bay - 15:30 - 16:30 - On Time - 3
+AC791 - Air Canada - Sault Ste. Marie - North Bay - 16:00 - 16:45 - On Time - 1
+AC792 - Air Canada - Sault Ste. Marie - Winnipeg - 17:00 - 18:30 - On Time - 1
+AC810 - Air Canada - Timmins - Toronto - 14:00 - 15:15 - On Time - 1
+PD480 - Porter Airlines - Timmins - North Bay - 15:15 - 15:45 - On Time - 2
+AC820 - Air Canada - Timmins - Montreal - 16:30 - 18:00 - On Time - 3
+AC811 - Air Canada - Timmins - Sudbury - 17:00 - 17:30 - On Time - 1
+AC812 - Air Canada - Timmins - Ottawa - 18:00 - 19:30 - On Time - 1
+AC830 - Air Canada - North Bay - Toronto - 15:00 - 15:30 - On Time - 1
+NB101 - North Bay Skyport - North Bay - Sudbury - 16:15 - 16:45 - On Time - 2
+AC840 - Air Canada - North Bay - Ottawa - 17:30 - 18:15 - On Time - 3
+AC831 - Air Canada - North Bay - Sault Ste. Marie - 18:00 - 18:45- On Time - 1
+AC832 - Air Canada - North Bay - Winnipeg - 19:00 - 20:30 - On Time - 1
+AC850 - Air Canada - Sydney - Halifax - 13:00 - 13:45 - On Time - 1
+WS855 - WestJet - Sydney - Toronto - 14:15 - 17:15 - On Time - 2
+AC860 - Air Canada - Sydney - Montreal - 15:30 - 17:30 - On Time - 3
+AC851 - Air Canada - Sydney - St. John's - 16:00 - 17:00 - On Time - 1
+AC852 - Air Canada - Sydney - Boston - 17:00 - 19:00 - On Time - 1
+PB901 - PAL Airlines - Deer Lake - St. John's - 14:00 - 14:45 - On Time - 1
+PB910 - PAL Airlines - Deer Lake - Goose Bay - 15:15 - 16:15 - On Time - 2
+PB920 - PAL Airlines - Deer Lake - Halifax - 16:30 - 18:00 - On Time - 3
+PB902 - PAL Airlines - Deer Lake - Gander - 17:00 - 17:30 - On Time - 1
+AC900 - Air Canada - Fort McMurray - Calgary - 10:00 - 11:30 - On Time - 1
+WS905 - WestJet - Fort McMurray - Edmonton - 11:15 - 12:45 - On Time - 2
+AC915 - Air Canada - Fort McMurray - Vancouver - 13:00 - 15:30 - On Time - 3
+AC901 - Air Canada - Fort McMurray - Toronto - 14:00 - 17:00 - On Time - 1
+AC902 - Air Canada - Fort McMurray - Winnipeg - 15:00 - 16:30 - On Time - 1
+AC920 - Air Canada - Grande Prairie - Calgary - 11:00 - 12:30 - On Time - 1
+WS925 - WestJet - Grande Prairie - Edmonton - 12:15 - 13:45 - On Time - 2
+AC930 - Air Canada - Grande Prairie - Vancouver - 14:00 - 16:30 - On Time - 3
+AC921 - Air Canada - Grande Prairie - Toronto - 15:00 - 18:00 - On Time - 1
+AC922 - Air Canada - Grande Prairie - Winnipeg - 16:00 - 17:30 - On Time - 1
+AC940 - Air Canada - Lethbridge - Calgary - 12:00 - 13:00 - On Time - 1
+WS945 - WestJet - Lethbridge - Edmonton - 13:15 - 14:15 - On Time - 2
+AC955 - Air Canada - Lethbridge - Vancouver - 15:00 - 17:30 - On Time - 3
+AC941 - Air Canada - Lethbridge - Toronto - 16:00 - 18:30 - On Time - 1
+AC942 - Air Canada - Lethbridge - Winnipeg - 17:00 - 18:30 - On Time - 1
+AC960 - Air Canada - Medicine Hat - Calgary - 13:00 - 14:00 - On Time - 1
+WS965 - WestJet - Medicine Hat - Edmonton - 14:15 - 15:15 - On Time - 2
+AC970 - Air Canada - Medicine Hat - Vancouver - 16:00 - 18:30 - On Time - 3
+AC961 - Air Canada - Medicine Hat - Toronto - 17:00 - 19:30 - On Time - 1
+AC962 - Air Canada - Medicine Hat - Winnipeg - 18:00 - 19:30 - On Time - 1
+AC980 - Air Canada - Prince George - Vancouver - 10:00 - 11:30 - On Time - 1
+WS985 - WestJet - Prince George - Calgary - 11:15 - 13:00 - On Time - 2
+AC990 - Air Canada - Prince George - Edmonton - 13:00 - 14:30 - On Time - 3
+AC981 - Air Canada - Prince George - Seattle - 14:00 - 15:00 - On Time - 1
+AC982 - Air Canada - Prince George - Toronto - 15:00 - 18:30 - On Time - 1
+AC821 - Air Canada - Nanaimo - Vancouver - 11:00 - 11:30 - On Time - 1
+WS825 - WestJet - Nanaimo - Calgary - 12:15 - 14:00 - On Time - 2
+AC830 - Air Canada - Nanaimo - Seattle - 13:30 - 14:30 - On Time - 3
+AC822 - Air Canada - Nanaimo - Victoria - 14:00 - 14:30 - On Time - 1
+AC823 - Air Canada - Nanaimo - Edmonton - 15:00 - 16:30 - On Time - 1
+AC840 - Air Canada - Comox - Vancouver - 12:00 - 12:45 - On Time - 1
+WS845 - WestJet - Comox - Calgary - 13:15 - 15:00 - On Time - 2
+AC850 - Air Canada - Comox - Edmonton - 15:00 - 16:30 - On Time - 3
+AC841 - Air Canada - Comox - Victoria - 16:00 - 16:30 - On Time - 1
+AC842 - Air Canada - Comox - Seattle - 17:00 - 18:00 - On Time - 1
+AC860 - Air Canada - Penticton - Vancouver - 13:00 - 13:45 - On Time - 1
+PCL105 - Pacific Coastal Airlines - Penticton - Calgary - 14:15 - 15:45 - On Time - 2
+AC870 - Air Canada - Penticton - Seattle - 16:00 - 17:00 - On Time - 3
+AC861 - Air Canada - Penticton - Kelowna - 17:00 - 17:30 - On Time - 1
+AC862 - Air Canada - Penticton - Edmonton - 18:00 - 19:30 - On Time - 1
+AC880 - Air Canada - Castlegar - Vancouver - 14:00 - 14:45 - On Time - 1
+PCL210 - Pacific Coastal Airlines - Castlegar - Calgary - 15:15 - 16:45 - On Time - 2
+AC890 - Air Canada - Castlegar - Seattle - 17:00 - 18:00 - On Time - 3
+AC881 - Air Canada - Castlegar - Kelowna - 18:00 - 18:30 - On Time - 1
+AC882 - Air Canada - Castlegar - Cranbrook - 19:00 - 19:30 - On Time - 1
+AC900 - Air Canada - Terrace - Vancouver - 11:00 - 12:30 - On Time - 1
+WS905 - WestJet - Terrace - Calgary - 12:45 - 14:30 - On Time - 2
+AC910 - Air Canada - Terrace - Edmonton - 14:30 - 16:00 - On Time - 3
+AC901 - Air Canada - Terrace - Prince George - 15:00 - 15:45 - On Time - 1
+AC902 - Air Canada - Terrace - Smithers - 16:00 - 16:30 - On Time - 1
+AC920 - Air Canada - Smithers - Vancouver - 12:00 - 13:30 - On Time - 1
+CA305 - Central Mountain Air - Smithers - Prince George - 13:45 - 14:30 - On Time - 2
+AC930 - Air Canada - Smithers - Edmonton - 15:00 - 16:30 - On Time - 3
+AC921 - Air Canada - Smithers - Terrace - 16:00 - 16:30 - On Time - 1
+AC922 - Air Canada - Smithers - Calgary - 17:00 - 19:00 - On Time - 1
+AC940 - Air Canada - Prince Rupert - Vancouver - 13:00 - 15:00 - On Time - 1
+HA410 - Harbour Air - Prince Rupert - Victoria - 15:15 - 17:45 - On Time - 2
+AC950 - Air Canada - Prince Rupert - Edmonton - 17:00 - 19:30 - On Time - 3
+AC941 - Air Canada - Prince Rupert - Terrace - 18:00 - 18:30 - On Time - 1
+AC942 - Air Canada - Prince Rupert - Smithers - 19:00 - 19:30 - On Time - 1
+AC960 - Air Canada - Cranbrook - Vancouver - 14:00 - 15:00 - On Time - 1
+WS965 - WestJet - Cranbrook - Calgary - 15:15 - 16:00 - On Time - 2
+AC970 - Air Canada - Cranbrook - Edmonton - 17:00 - 18:30 - On Time - 3
+AC961 - Air Canada - Cranbrook - Kelowna - 18:00 - 18:30 - On Time - 1
+AC962 - Air Canada - Cranbrook - Castlegar - 19:00 - 19:30 - On Time - 1
+AC980 - Air Canada - Campbell River - Vancouver - 15:00 - 15:45 - On Time - 1
+PCL505 - Pacific Coastal Airlines - Campbell River - Victoria - 16:15 - 17:00 - On Time - 2
+AC990 - Air Canada - Campbell River - Calgary - 17:30 - 20:00 - On Time - 3
+AC981 - Air Canada - Campbell River - Comox - 18:00 - 18:30 - On Time - 1
+AC982 - Air Canada - Campbell River - Nanaimo - 19:00 - 19:30 - On Time - 1

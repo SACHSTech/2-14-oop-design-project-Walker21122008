@@ -2,10 +2,11 @@ public class Adult extends Passenger {
     private boolean hasPriorityBoarding;
     private String frequentFlyerNumber;
 
-    public Adult(String passportNumber, String ticketNumber, boolean hasPriorityBoarding, String frequentFlyerNumber) {
+    public Adult(String passportNumber, String ticketNumber, boolean hasPriorityBoarding, String frequentFlyerNumber, int age) {
         super(passportNumber, ticketNumber);
         this.hasPriorityBoarding = hasPriorityBoarding;
         this.frequentFlyerNumber = frequentFlyerNumber;
+        this.age = age;
     }
 
     public boolean isPriorityBoarding() {
