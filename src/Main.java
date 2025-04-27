@@ -1,59 +1,52 @@
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     private static List<Airport> airports = new ArrayList<>();
-    private static List<Passenger> passengers = new ArrayList<>();
-    private static List<Terminal> terminals = new ArrayList<>();
-    
-    public static void main(String[] args) throws IOException{
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        setUpTheAirports();
-        System.out.println("Hello Passenger! Welcome to AirTravel Buddy! Please choose the airport name.");
-        for(Airport airport:airports){
-        }
-    
 
+    public static void main(String[] args) throws IOException {
+        setUpTheAirports();
+        System.out.println("Hello Passenger! Welcome to AirTravel Buddy! Please choose the airport name:");
+        //for (Airport airport : airports) {
+        //    System.out.println(airport.getAirportInfo());
+        //}
     }
 
-    private static void setUpTheAirports() throws IOException{
-
-        loadAirportsFromCSV("Passengers.csv");
-        loadGatesFromCSV("Gates.csv");
-        loadPassengersFromCSV("Passengers.csv");
-
+    private static void setUpTheAirports() throws IOException {
+        loadAirportsFromCSV("src/Airport.csv");
     }
 
     private static void loadAirportsFromCSV(String csvFile) throws IOException {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            String line = "";
-            boolean firstLine = true;
-            while ((line = reader.readLine()) != null) {
-                if (firstLine) {
-                    firstLine = false;
-                    continue;
-                }
-                String[] data = line.split(",");
-                String airportName = data[0];
-                String location = data[13];
-                String amenities = data[14];
+        BufferedReader reader = new BufferedReader(new FileReader(csvFile));
+        String line;
+        boolean firstLine = true;
 
-                if (!airports.contains(airportName)) {
-                    Airport airport = new Airport(airportName, location, amenities);
-                    airports.add(airport);
+        while ((line = reader.readLine()) != null) {
+            if (firstLine) {
+                firstLine = false;
+                continue; 
+            }
+            String[] data = line.split(",");
+            String airportName = data[0];
+            String location = data[1];
+            String code = data[2];
+
+            boolean exists = false;
+            for (Airport airport : airports) {
+                if (airport.getAirportName().equals(airportName)) {
+                    exists = true;
+                    break;
                 }
             }
-    }
 
-    private static void loadGatesFromCSV(String csvFile) throws IOException {
-        
+            if (!exists) {
+                Airport airport = new Airport(airportName, location, code);
+                airports.add(airport);
+            }
+        }
+        reader.close();
     }
-
-    private static void loadPassengersFromCSV(String csvFile) throws IOException {
-    
-    }
-
 }
