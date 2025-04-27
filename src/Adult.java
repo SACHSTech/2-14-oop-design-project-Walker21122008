@@ -1,31 +1,32 @@
 public class Adult extends Passenger {
     private boolean hasPriorityBoarding;
     private String frequentFlyerNumber;
-    private int age;
 
-    public Adult(String passportNumber, String ticketNumber, boolean hasPriorityBoarding, String frequentFlyerNumber, int age) {
-        super(passportNumber, ticketNumber);
+    public Adult(String name, String passportNumber, String ticketNumber, int age, boolean hasPriorityBoarding, String frequentFlyerNumber) {
+        super(name, passportNumber, ticketNumber, age);
         this.hasPriorityBoarding = hasPriorityBoarding;
         this.frequentFlyerNumber = frequentFlyerNumber;
-        this.age = age;
     }
 
     public boolean isPriorityBoarding() {
         return hasPriorityBoarding;
     }
 
+
     public String getFrequentFlyerNumber() {
         return frequentFlyerNumber;
     }
 
-    public void requestMeal() {
-        System.out.println("Meal access requested.");
+    public String getElderlySeat(){
+        if (getAge() >= 60){
+            return "Yes, you will be getting the elderly seat";
+        } else{
+            return "No, you will not be getting the elderly seat";
+        }
     }
 
-    public void informHoursUntilLanding(Flight flight) {
-        int hours = flight.hoursUntilLanding();
-        System.out.println("Flight " + flight.getFlightNumber() + " will land in " + hours + " hours.");
-    }
+
+    
 
 
 }

@@ -3,15 +3,26 @@ import java.util.ArrayList;
 public class Terminal {
     private String terminalNumber;
     private int capacity;
+    private String type;
+    private String airportCode;
     private ArrayList<Flight> flights;
 
-    public Terminal(String terminalNumber, int capacity) {
+    public Terminal(String terminalNumber, int capacity, String airportCode, String type) {
         this.terminalNumber = terminalNumber;
         this.capacity = capacity;
+        this.flights = new ArrayList<>();
     }
 
     public int getCapacity(){
         return capacity;
+    }
+
+    public String getType(){
+        return type;
+    }
+
+    public String getTerminalNumber(){
+        return terminalNumber;
     }
 
     public String getTerminalInfo() {

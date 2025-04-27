@@ -1,21 +1,39 @@
-import java.util.ArrayList;
 
 public class Passenger {
     private String passportNumber;
     private String ticketNumber;
     private Flight assignedFlight;
+    private int age;
+    private String name;
+    private boolean checkInStatus;
 
-    public Passenger(String passportNumber, String ticketNumber) {
+    public Passenger(String name, String passportNumber, String ticketNumber, int age) {
+        this.name = name;
         this.passportNumber = passportNumber;
         this.ticketNumber = ticketNumber;
+        checkInStatus = false;
+        this.age = age;
     }
 
     public String getTicketNumber(){
         return ticketNumber;
     }
+    
+    public int getAge(){
+        return age;
+    }
 
     public String getPassportNumber(){
         return passportNumber;
+    }
+
+    public Flight getAssignedFlight() {
+        return assignedFlight;
+    }
+
+
+    public String getName(){
+        return name;
     }
 
     public void cancelBooking() {
@@ -27,27 +45,12 @@ public class Passenger {
     public String checkIn() {
         if (assignedFlight != null) {
             String flightNumber = assignedFlight.getFlightNumber();
+            checkInStatus = true;
             return "Checked in for flight " + flightNumber;
         } else {
-            return "No flight to check in.";
+            return "No flight to check in. Please book a flight first.";
         }
     }
-
-    public void bookFlight(ArrayList<Flight> flights, String flightNumber) {
-        boolean flightFound = false;
-        for (Flight flight : flights) {
-            if (flight.getFlightNumber().equals(flightNumber)) {
-                    this.assignedFlight = flight;
-                    System.out.println("Flight " + flightNumber + " booked successfully!");
-                    flightFound = true;
-                    break;
-            }
-        }
-        if (!flightFound) {
-            System.out.println("Flight " + flightNumber + " does not exist.");
-        }
-    }
-
     
 
     public void requestSpecialAssistance(String serviceType) {

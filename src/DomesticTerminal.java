@@ -1,8 +1,8 @@
 public class DomesticTerminal extends Terminal {
     private String domesticCarrier;
 
-    public DomesticTerminal(String terminalNumber, int capacity, String domesticCarrier) {
-        super(terminalNumber, capacity);
+    public DomesticTerminal(String terminalNumber, int capacity, String airportCode, String type, String domesticCarrier) {
+        super(terminalNumber, capacity, airportCode, type);
         this.domesticCarrier = domesticCarrier;
     }
 

@@ -30,6 +30,10 @@ public class Airport {
         return name;
     }
 
+    public String getAirportCode(){
+        return code;
+    }
+
     public String getAirportLocation(){
         return location;
     }
@@ -37,6 +41,11 @@ public class Airport {
     public String getAirportInfo() {
         return "Airport: " + name + ", Location: " + location + ", Code: " + code;
     }
+
+    public int getFlightCount() {
+        return flights.size();
+    }
+
 
     public Terminal findTerminalForFlight(Flight flight) {
         for (Terminal terminal : terminals) {
@@ -46,5 +55,28 @@ public class Airport {
         }
         return null;
     }
+
+    public ArrayList<Terminal> filterTerminalsByType(String type) {
+        ArrayList<Terminal> filteredTerminals = new ArrayList<>();
+        for (Terminal terminal : terminals) {
+            if (terminal.getType().equalsIgnoreCase(type)) {
+                filteredTerminals.add(terminal);
+            }
+        }
+        return filteredTerminals;
+    }
+
+
+    public String displayFilteredTerminalsByType(String type) {
+        StringBuilder output = new StringBuilder("Filtered Terminals of type " + type + ":\n");
+        ArrayList<Terminal> filteredTerminals = filterTerminalsByType(type);
+
+        for (Terminal terminal : filteredTerminals) {
+            output.append(terminal.getTerminalInfo()).append("\n");
+        }
+
+        return output.toString();
+    }
+
 }
 

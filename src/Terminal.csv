@@ -1,145 +1,146 @@
-1 - 500 - YYZ - Domestic - None - Air Canada
-2 - 650 - YYZ - Domestic - None - WestJet
-3 - 400 - YYZ - Domestic - None - Porter Airlines
-4 - 800 - YYZ - International - Yes - Air Canada, United Airlines
-5 - 700 - YYZ - International - Yes - Lufthansa, British Airways
-6 - 550 - YYZ - International - Yes - Air Transat, Sunwing Airlines
-1 - 450 - YVR - Domestic - None - Air Canada
-2 - 580 - YVR - Domestic - None - WestJet
-3 - 720 - YVR - International - Yes - Air Canada, Cathay Pacific
-4 - 600 - YVR - International - Yes - United Airlines, Air China
-1 - 380 - YUL - Domestic - None - Air Canada
-2 - 520 - YUL - Domestic - None - WestJet
-3 - 680 - YUL - International - Yes - Air Canada, Air France
-4 - 550 - YUL - International - Yes - KLM, Turkish Airlines
-1 - 600 - YYC - Domestic - None - Air Canada
-2 - 750 - YYC - Domestic - None - WestJet
-3 - 500 - YYC - International - Yes - Air Canada, Delta Air Lines
-4 - 620 - YYC - International - Yes - WestJet, British Airways
-1 - 350 - YEG - Domestic - None - Air Canada
-2 - 480 - YEG - Domestic - None - WestJet
-3 - 580 - YEG - International - Yes - Air Canada, United Airlines
-1 - 420 - YOW - Domestic - None - Air Canada
-2 - 390 - YOW - Domestic - None - Porter Airlines
-3 - 510 - YOW - International - Yes - Air Canada, United Airlines
-1 - 300 - YHZ - Domestic - None - Air Canada
-2 - 360 - YHZ - Domestic - None - WestJet
-3 - 450 - YHZ - International - Yes - Air Canada, Icelandair
-1 - 550 - YWG - Domestic - None - Air Canada
-2 - 480 - YWG - Domestic - None - WestJet
-3 - 520 - YWG - International - Yes - Air Canada, Delta Air Lines
-1 - 280 - YXE - Domestic - None - Air Canada
-2 - 310 - YXE - Domestic - None - WestJet
-3 - 350 - YXE - International - Yes - Air Canada, United Airlines
-1 - 250 - YQR - Domestic - None - Air Canada
-2 - 290 - YQR - Domestic - None - WestJet
-3 - 320 - YQR - International - Yes - Air Canada
-1 - 320 - YYT - Domestic - None - Air Canada
-2 - 280 - YYT - Domestic - None - PAL Airlines
-3 - 360 - YYT - International - Yes - Air Canada
-1 - 400 - YQB - Domestic - None - Air Canada
-2 - 350 - YQB - Domestic - None - PAL Airlines
-3 - 450 - YQB - International - Yes - Air Canada, United Airlines
-1 - 220 - YXU - Domestic - None - Air Canada
-2 - 250 - YXU - Domestic - None - WestJet
-3 - 280 - YXU - International - Yes - Air Canada
-1 - 380 - YHM - Domestic - None - Swoop
-2 - 320 - YHM - International - Yes - WestJet
-1 - 300 - YLW - Domestic - None - Air Canada
-2 - 270 - YLW - Domestic - None - WestJet
-3 - 330 - YLW - International - Yes - Air Canada
-1 - 350 - YYJ - Domestic - None - Air Canada
-2 - 310 - YYJ - Domestic - None - WestJet
-3 - 380 - YYJ - International - Yes - Air Canada
-1 - 180 - YQT - Domestic - None - Air Canada
-2 - 200 - YQT - Domestic - None - Porter Airlines
-3 - 230 - YQT - International - Yes - Bearskin Airlines
-1 - 250 - YQM - Domestic - None - Air Canada
-2 - 220 - YQM - Domestic - None - WestJet
-3 - 280 - YQM - International - Yes - Air Canada
-1 - 200 - YQG - Domestic - None - Air Canada
-2 - 180 - YQG - Domestic - None - Porter Airlines
-3 - 220 - YQG - International - Yes - Air Canada
-1 - 280 - YXX - Domestic - None - WestJet
-2 - 250 - YXX - International - Yes - Flair Airlines
-1 - 150 - YYG - Domestic - None - Air Canada
-2 - 130 - YYG - Domestic - None - PAL Airlines
-3 - 170 - YYG - International - Yes - Air Canada
-1 - 120 - YKA - Domestic - None - Air Canada
-2 - 100 - YKA - Domestic - None - Central Mountain Air
-3 - 140 - YKA - International - Yes - Air Canada
-1 - 160 - YFC - Domestic - None - Air Canada
-2 - 140 - YFC - Domestic - None - PAL Airlines
-3 - 180 - YFC - International - Yes - Air Canada
-1 - 100 - YXY - Domestic - None - Air North
-2 - 120 - YXY - International - Yes - Air North
-1 - 90 - YZF - Domestic - None - Canadian North
-2 - 110 - YZF - International - Yes - Canadian North
-1 - 80 - YFB - Domestic - None - Canadian North
-2 - 100 - YFB - International - Yes - Canadian North
-1 - 110 - YGX - Domestic - None - PAL Airlines
-2 - 130 - YGX - International - Yes - PAL Airlines
-1 - 150 - YQX - Domestic - None - PAL Airlines
-2 - 170 - YQX - International - Yes - PAL Airlines
-1 - 130 - YSB - Domestic - None - Air Canada
-2 - 110 - YSB - Domestic - None - Porter Airlines
-3 - 150 - YSB - International - Yes - Air Canada
-1 - 100 - YGK - Domestic - None - Air Canada
-2 - 90 - YGK - Domestic - None - FlyGTA Airlines
-3 - 120 - YGK - International - Yes - Air Canada
-1 - 120 - YAM - Domestic - None - Air Canada
-2 - 100 - YAM - Domestic - None - Bearskin Airlines
-3 - 140 - YAM - International - Yes - Air Canada
-1 - 140 - YTS - Domestic - None - Air Canada
-2 - 120 - YTS - Domestic - None - Porter Airlines
-3 - 160 - YTS - International - Yes - Air Canada
-1 - 110 - YYB - Domestic - None - Air Canada
-2 - 90 - YYB - Domestic - None - North Bay Skyport
-3 - 130 - YYB - International - Yes - Air Canada
-1 - 130 - YQY - Domestic - None - Air Canada
-2 - 110 - YQY - Domestic - None - WestJet
-3 - 150 - YQY - International - Yes - Air Canada
-1 - 90 - YDF - Domestic - None - PAL Airlines
-2 - 110 - YDF - International - Yes - PAL Airlines
-1 - 250 - YMM - Domestic - None - Air Canada
-2 - 220 - YMM - Domestic - None - WestJet
-3 - 280 - YMM - International - Yes - Air Canada
-1 - 180 - YQU - Domestic - None - Air Canada
-2 - 160 - YQU - Domestic - None - WestJet
-3 - 200 - YQU - International - Yes - Air Canada
-1 - 150 - YQL - Domestic - None - Air Canada
-2 - 130 - YQL - Domestic - None - WestJet
-3 - 170 - YQL - International - Yes - Air Canada
-1 - 120 - YXH - Domestic - None - Air Canada
-2 - 100 - YXH - Domestic - None - WestJet
-3 - 140 - YXH - International - Yes - Air Canada
-1 - 200 - YXS - Domestic - None - Air Canada
-2 - 180 - YXS - Domestic - None - WestJet
-3 - 220 - YXS - International - Yes - Air Canada
-1 - 160 - YCD - Domestic - None - Air Canada
-2 - 140 - YCD - Domestic - None - WestJet
-3 - 180 - YCD - International - Yes - Air Canada
-1 - 170 - YQQ - Domestic - None - Air Canada
-2 - 150 - YQQ - Domestic - None - WestJet
-3 - 190 - YQQ - International - Yes - Air Canada
-1 - 130 - YYF - Domestic - None - Air Canada
-2 - 110 - YYF - Domestic - None - Pacific Coastal Airlines
-3 - 150 - YYF - International - Yes - Air Canada
-1 - 100 - YCG - Domestic - None - Air Canada
-2 - 90 - YCG - Domestic - None - Pacific Coastal Airlines
-3 - 120 - YCG - International - Yes - Air Canada
-1 - 140 - YXT - Domestic - None - Air Canada
-2 - 120 - YXT - Domestic - None - WestJet
-3 - 160 - YXT - International - Yes - Air Canada
-1 - 110 - YYD - Domestic - None - Air Canada
-2 - 90 - YYD - Domestic - None - Central Mountain Air
-3 - 130 - YYD - International - Yes - Air Canada
-1 - 90 - YPR - Domestic - None - Air Canada
-2 - 70 - YPR - Domestic - None - Harbour Air
-3 - 100 - YPR - International - Yes - Air Canada
-1 - 150 - YXC - Domestic - None - Air Canada
-2 - 130 - YXC - Domestic - None - WestJet
-3 - 170 - YXC - International - Yes - Air Canada
-1 - 120 - YBL - Domestic - None - Air Canada
-2 - 100 - YBL - Domestic - None - Pacific Coastal Airlines
-3 - 140 - YBL - International - Yes - Air Canada
+terminalNumber,capacity,airportCode,type,customsAvailable,domesticCarrier
+1,500,YYZ,Domestic,False,Air Canada
+2,650,YYZ,Domestic,False,WestJet
+3,400,YYZ,Domestic,False,Porter Airlines
+4,800,YYZ,International,True,False
+5,700,YYZ,International,True,False
+6,550,YYZ,International,True,False
+1,450,YVR,Domestic,False,Air Canada
+2,580,YVR,Domestic,False,WestJet
+3,720,YVR,International,True,False
+4,600,YVR,International,True,False
+1,380,YUL,Domestic,False,Air Canada
+2,520,YUL,Domestic,False,WestJet
+3,680,YUL,International,True,False
+4,550,YUL,International,True,False
+1,600,YYC,Domestic,False,Air Canada
+2,750,YYC,Domestic,False,WestJet
+3,500,YYC,International,True,False
+4,620,YYC,International,True,False
+1,350,YEG,Domestic,False,Air Canada
+2,480,YEG,Domestic,False,WestJet
+3,580,YEG,International,True,False
+1,420,YOW,Domestic,False,Air Canada
+2,390,YOW,Domestic,False,Porter Airlines
+3,510,YOW,International,True,False
+1,300,YHZ,Domestic,False,Air Canada
+2,360,YHZ,Domestic,False,WestJet
+3,450,YHZ,International,True,False
+1,550,YWG,Domestic,False,Air Canada
+2,480,YWG,Domestic,False,WestJet
+3,520,YWG,International,True,False
+1,280,YXE,Domestic,False,Air Canada
+2,310,YXE,Domestic,False,WestJet
+3,350,YXE,International,True,False
+1,250,YQR,Domestic,False,Air Canada
+2,290,YQR,Domestic,False,WestJet
+3,320,YQR,International,True,False
+1,320,YYT,Domestic,False,Air Canada
+2,280,YYT,Domestic,False,PAL Airlines
+3,360,YYT,International,True,False
+1,400,YQB,Domestic,False,Air Canada
+2,350,YQB,Domestic,False,PAL Airlines
+3,450,YQB,International,True,False
+1,220,YXU,Domestic,False,Air Canada
+2,250,YXU,Domestic,False,WestJet
+3,280,YXU,International,True,False
+1,380,YHM,Domestic,False,Swoop
+2,320,YHM,International,True,False
+1,300,YLW,Domestic,False,Air Canada
+2,270,YLW,Domestic,False,WestJet
+3,330,YLW,International,True,False
+1,350,YYJ,Domestic,False,Air Canada
+2,310,YYJ,Domestic,False,WestJet
+3,380,YYJ,International,True,False
+1,180,YQT,Domestic,False,Air Canada
+2,200,YQT,Domestic,False,Porter Airlines
+3,230,YQT,International,True,False
+1,250,YQM,Domestic,False,Air Canada
+2,220,YQM,Domestic,False,WestJet
+3,280,YQM,International,True,False
+1,200,YQG,Domestic,False,Air Canada
+2,180,YQG,Domestic,False,Porter Airlines
+3,220,YQG,International,True,False
+1,280,YXX,Domestic,False,WestJet
+2,250,YXX,International,True,False
+1,150,YYG,Domestic,False,Air Canada
+2,130,YYG,Domestic,False,PAL Airlines
+3,170,YYG,International,True,False
+1,120,YKA,Domestic,False,Air Canada
+2,100,YKA,Domestic,False,Central Mountain Air
+3,140,YKA,International,True,False
+1,160,YFC,Domestic,False,Air Canada
+2,140,YFC,Domestic,False,PAL Airlines
+3,180,YFC,International,True,False
+1,100,YXY,Domestic,False,Air North
+2,120,YXY,International,True,False
+1,90,YZF,Domestic,False,Canadian North
+2,110,YZF,International,True,False
+1,80,YFB,Domestic,False,Canadian North
+2,100,YFB,International,True,False
+1,110,YGX,Domestic,False,PAL Airlines
+2,130,YGX,International,True,False
+1,150,YQX,Domestic,False,PAL Airlines
+2,170,YQX,International,True,False
+1,130,YSB,Domestic,False,Air Canada
+2,110,YSB,Domestic,False,Porter Airlines
+3,150,YSB,International,True,False
+1,100,YGK,Domestic,False,Air Canada
+2,90,YGK,Domestic,False,FlyGTA Airlines
+3,120,YGK,International,True,False
+1,120,YAM,Domestic,False,Air Canada
+2,100,YAM,Domestic,False,Bearskin Airlines
+3,140,YAM,International,True,False
+1,140,YTS,Domestic,False,Air Canada
+2,120,YTS,Domestic,False,Porter Airlines
+3,160,YTS,International,True,False
+1,110,YYB,Domestic,False,Air Canada
+2,90,YYB,Domestic,False,North Bay Skyport
+3,130,YYB,International,True,False
+1,130,YQY,Domestic,False,Air Canada
+2,110,YQY,Domestic,False,WestJet
+3,150,YQY,International,True,False
+1,90,YDF,Domestic,False,PAL Airlines
+2,110,YDF,International,True,False
+1,250,YMM,Domestic,False,Air Canada
+2,220,YMM,Domestic,False,WestJet
+3,280,YMM,International,True,False
+1,180,YQU,Domestic,False,Air Canada
+2,160,YQU,Domestic,False,WestJet
+3,200,YQU,International,True,False
+1,150,YQL,Domestic,False,Air Canada
+2,130,YQL,Domestic,False,WestJet
+3,170,YQL,International,True,False
+1,120,YXH,Domestic,False,Air Canada
+2,100,YXH,Domestic,False,WestJet
+3,140,YXH,International,True,False
+1,200,YXS,Domestic,False,Air Canada
+2,180,YXS,Domestic,False,WestJet
+3,220,YXS,International,True,False
+1,160,YCD,Domestic,False,Air Canada
+2,140,YCD,Domestic,False,WestJet
+3,180,YCD,International,True,False
+1,170,YQQ,Domestic,False,Air Canada
+2,150,YQQ,Domestic,False,WestJet
+3,190,YQQ,International,True,False
+1,130,YYF,Domestic,False,Air Canada
+2,110,YYF,Domestic,False,Pacific Coastal Airlines
+3,150,YYF,International,True,False
+1,100,YCG,Domestic,False,Air Canada
+2,90,YCG,Domestic,False,Pacific Coastal Airlines
+3,120,YCG,International,True,False
+1,140,YXT,Domestic,False,Air Canada
+2,120,YXT,Domestic,False,WestJet
+3,160,YXT,International,True,False
+1,110,YYD,Domestic,False,Air Canada
+2,90,YYD,Domestic,False,Central Mountain Air
+3,130,YYD,International,True,False
+1,90,YPR,Domestic,False,Air Canada
+2,70,YPR,Domestic,False,Harbour Air
+3,100,YPR,International,True,False
+1,150,YXC,Domestic,False,Air Canada
+2,130,YXC,Domestic,False,WestJet
+3,170,YXC,International,True,False
+1,120,YBL,Domestic,False,Air Canada
+2,100,YBL,Domestic,False,Pacific Coastal Airlines
+3,140,YBL,International,True,False

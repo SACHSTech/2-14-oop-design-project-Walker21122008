@@ -1,8 +1,8 @@
 public class InternationalTerminal extends Terminal {
     private boolean customsAvailable;
 
-    public InternationalTerminal(String terminalNumber, int capacity, boolean customsAvailable) {
-        super(terminalNumber, capacity);
+    public InternationalTerminal(String terminalNumber, int capacity, String airportCode, String type, boolean customsAvailable) {
+        super(terminalNumber, capacity, airportCode, type);
         this.customsAvailable = customsAvailable;
     }
 

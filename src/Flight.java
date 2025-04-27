@@ -7,8 +7,10 @@ public class Flight {
     private String departureTime;
     private String arrivalTime; 
     private String status;
+    private String terminalNumber;
+    private String airportCode;
 
-    public Flight(String flightNumber, String airline, String origin, String destination, String departureTime, String arrivalTime, String status) {
+    public Flight(String flightNumber, String airline, String origin, String destination, String departureTime, String arrivalTime, String status, String terminalNumber, String airportCode) {
         this.flightNumber = flightNumber;
         this.airline = airline;
         this.origin = origin;
@@ -16,6 +18,8 @@ public class Flight {
         this.departureTime = departureTime;
         this.arrivalTime = arrivalTime;
         this.status = status;
+        this.terminalNumber = terminalNumber;
+        this.airportCode = airportCode;
     }
 
     
@@ -62,7 +66,7 @@ public class Flight {
         return flightNumber;
     }
 
-    public int hoursUntilLanding() {
+    public double flightDurationInHours() {
         String[] depParts = departureTime.split(":");
         String[] arrParts = arrivalTime.split(":");
         
@@ -75,7 +79,7 @@ public class Flight {
         int arrTotalMinutes = arrHour * 60 + arrMinute;
 
         int differenceMinutes = arrTotalMinutes - depTotalMinutes;
-        return differenceMinutes / 60;
+        return differenceMinutes / 60.0;
     }
 
 
