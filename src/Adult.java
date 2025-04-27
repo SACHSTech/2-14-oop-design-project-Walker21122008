@@ -20,4 +20,10 @@ public class Adult extends Passenger {
         System.out.println("Meal access requested.");
     }
 
+    public void informHoursUntilLanding(Flight flight) {
+        int hours = flight.hoursUntilLanding();
+        System.out.println("Flight " + flight.getFlightNumber() + " will land in " + hours + " hours.");
+    }
+
+
 }
