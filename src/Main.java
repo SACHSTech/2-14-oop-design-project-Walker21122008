@@ -41,16 +41,16 @@ public class Main {
 
             switch (choice) {
                 case "1":
-                    displayAirports();
+
                     break;
                 case "2":
-                    handleViewTerminals(reader);
+
                     break;
                 case "3":
-                    handleSearchFlights(reader);
+
                     break;
                 case "4":
-                    handleViewFlightDetails(passenger);
+
                     break;
                 case "5":
                     System.out.println("Thank you for using AirTravel Buddy!");
@@ -184,56 +184,5 @@ public class Main {
         return null;
     }
 
-    private static void displayAirports() {
-        System.out.println("Available Airports:");
-        for (Airport airport : airports) {
-            System.out.println(airport.getAirportInfo());
-        }
-    }
-
-    private static Airport findAirportByCode(String code) {
-        for (Airport airport : airports) {
-            if (airport.getAirportCode().equalsIgnoreCase(code)) {
-                return airport;
-            }
-        }
-        return null;
-    }
-
-    private static void handleViewTerminals(BufferedReader reader) throws IOException {
-        System.out.println("Enter the airport code:");
-        String airportCode = reader.readLine();
-        Airport airport = findAirportByCode(airportCode);
-
-        if (airport != null) {
-            System.out.println("Enter terminal type to filter (International/Domestic):");
-            String type = reader.readLine();
-            System.out.println(airport.displayFilteredTerminalsByType(type));
-        } else {
-            System.out.println("Airport not found.");
-        }
-    }
-
-    private static void handleSearchFlights(BufferedReader reader) throws IOException {
-        System.out.println("Enter the flight number:");
-        String flightNumber = reader.readLine();
-
-        for (Flight flight : flights) {
-            if (flight.getFlightNumber().equalsIgnoreCase(flightNumber)) {
-                System.out.println("Flight found: " + flight.getFlightDetails());
-                return;
-            }
-        }
-        System.out.println("Flight not found.");
-    }
-
-    private static void handleViewFlightDetails(Passenger passenger) {
-        if (passenger.getAssignedFlight() != null) {
-            Flight flight = passenger.getAssignedFlight();
-            System.out.println("Your flight details:");
-            System.out.println(flight.getFlightDetails());
-        } else {
-            System.out.println("You have no assigned flight.");
-        }
-    }
+    
 }
