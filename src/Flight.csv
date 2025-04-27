@@ -110,8 +110,6 @@ AC703 - Air Canada - Thunder Bay - Ottawa - 14:00 - 16:00 - On Time - 2 - YQT
 AC750 - Air Canada - Moncton - Montreal - 13:00 - 15:00 - On Time - 1 - YQM
 WS755 - WestJet - Moncton - Toronto - 14:15 - 16:45 - On Time - 2 - YQM
 AC875 - Air Canada - Moncton - Boston - 15:30 - 17:30 - On Time - 3 - YQM
-You got it! Let's finish adding the airportCode to all the remaining flights, making sure the terminalNumber doesn't repeat for each airport.
-
 AC752 - Air Canada - Moncton - St. John's - 17:00 - 18:30 - On Time - 1 - YQM
 AC780 - Air Canada - Windsor - Toronto - 11:00 - 11:45 - On Time - 1 - YQG
 PD450 - Porter Airlines - Windsor - Ottawa - 12:15 - 13:30 - On Time - 2 - YQG
@@ -180,7 +178,7 @@ AC812 - Air Canada - Timmins - Ottawa - 18:00 - 19:30 - On Time - 2 - YTS
 AC830 - Air Canada - North Bay - Toronto - 15:00 - 15:30 - On Time - 1 - YYB
 NB101 - North Bay Skyport - North Bay - Sudbury - 16:15 - 16:45 - On Time - 2 - YYB
 AC840 - Air Canada - North Bay - Ottawa - 17:30 - 18:15 - On Time - 3 - YYB
-AC831 - Air Canada - North Bay - Sault Ste. Marie - 18:00 - 18:45- On Time - 1 - YYB
+AC831 - Air Canada - North Bay - Sault Ste. Marie - 18:00 - 18:45 - On Time - 1 - YYB
 AC832 - Air Canada - North Bay - Winnipeg - 19:00 - 20:30 - On Time - 2 - YYB
 AC850 - Air Canada - Sydney - Halifax - 13:00 - 13:45 - On Time - 1 - YQY
 WS855 - WestJet - Sydney - Toronto - 14:15 - 17:15 - On Time - 2 - YQY
@@ -222,8 +220,6 @@ AC830 - Air Canada - Nanaimo - Seattle - 13:30 - 14:30 - On Time - 3 - YCD
 AC822 - Air Canada - Nanaimo - Victoria - 14:00 - 14:30 - On Time - 1 - YCD
 AC823 - Air Canada - Nanaimo - Edmonton - 15:00 - 16:30 - On Time - 2 - YCD
 AC840 - Air Canada - Comox - Vancouver - 12:00 - 12:45 - On Time - 1 - YQQ
-Okay, let's keep going and finish this list!
-
 WS845 - WestJet - Comox - Calgary - 13:15 - 15:00 - On Time - 2 - YQQ
 AC850 - Air Canada - Comox - Edmonton - 15:00 - 16:30 - On Time - 3 - YQQ
 AC841 - Air Canada - Comox - Victoria - 16:00 - 16:30 - On Time - 1 - YQQ

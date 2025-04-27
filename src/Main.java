@@ -155,7 +155,7 @@ public class Main {
                 firstLine = false;
                 continue;
             }
-            String[] data = line.split(" - ");
+            String[] data = line.split(",");
             String name = data[0];
             String passportNumber = data[1];
             String ticketNumber = data[2];
