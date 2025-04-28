@@ -1,8 +1,8 @@
 public class Child extends Passenger {
     private String guardianName;
 
-    public Child(String name, String passportNumber, String ticketNumber, int age, String guardianName) {
-        super(name, passportNumber, ticketNumber, age);
+    public Child(String name, String passportNumber, String ticketNumber, String assignedFlight, int age, String guardianName) {
+        super(name, passportNumber, assignedFlight, ticketNumber, age);
         this.guardianName = guardianName;
     }
 

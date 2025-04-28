@@ -1,18 +1,22 @@
+import java.util.ArrayList;
 
 public class Passenger {
     private String passportNumber;
     private String ticketNumber;
-    private Flight assignedFlight;
+    private String assignedFlight;
     private int age;
     private String name;
     private boolean checkInStatus;
+    private ArrayList<Flight> flights;
 
-    public Passenger(String name, String passportNumber, String ticketNumber, int age) {
+    public Passenger(String name, String passportNumber, String assignedFlight, String ticketNumber, int age) {
         this.name = name;
         this.passportNumber = passportNumber;
         this.ticketNumber = ticketNumber;
+        this.assignedFlight = assignedFlight;
         checkInStatus = false;
         this.age = age;
+        this.flights = new ArrayList<>();
     }
 
     public String getTicketNumber(){
@@ -27,9 +31,10 @@ public class Passenger {
         return passportNumber;
     }
 
-    public Flight getAssignedFlight() {
+    public String getAssignedFlight() {
         return assignedFlight;
     }
+    
 
 
     public String getName(){
@@ -44,7 +49,7 @@ public class Passenger {
 
     public String checkIn() {
         if (assignedFlight != null) {
-            String flightNumber = assignedFlight.getFlightNumber();
+            String flightNumber = assignedFlight;
             checkInStatus = true;
             return "Checked in for flight " + flightNumber;
         } else {

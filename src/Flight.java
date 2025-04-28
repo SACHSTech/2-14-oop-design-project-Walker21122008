@@ -56,12 +56,6 @@ public class Flight {
         status = newStatus;
     }
 
-    public String getFlightDetails() {
-        return "Flight Number: " + flightNumber + ", Airline: " + airline +
-               ", Destination: " + destination + ", Departure Time: " + departureTime +
-               ", Status: " + status;
-    }
-
     public String getFlightNumber() {
         return flightNumber;
     }
@@ -89,6 +83,15 @@ public class Flight {
 
     public String timeToReachTerminal(){
         return "Make sure to return atleast 2 hours before your flight's departure time: " + departureTime;
+    }
+
+    public void getFlightInfo(){
+                System.out.println("Your flight details:");
+                System.out.println("Flight Number: " + getFlightNumber());
+                System.out.println("Origin: " + getOrigin());
+                System.out.println("Destination: " + getDestination());
+                System.out.println("Departure Time: " + getDepartureTime());
+                System.out.println("Arrival Time: " + getArrivalTime());
     }
 }
 
