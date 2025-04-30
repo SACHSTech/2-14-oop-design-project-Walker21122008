@@ -15,7 +15,7 @@ public class Main {
         setUpTheAirportsTerminalsFlightsPassengers();
 
         reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Hello! Welcome to AirTravel Buddy! Your personal travel helpy!");
+        System.out.println("Hello! Welcome to AirTravel Buddy! I'm helpy! Your personal travel buddy!");
         System.out.println("          __|__");
         System.out.println("   --@--@--(_)--@--@--");
         System.out.println("                  ");
@@ -31,10 +31,11 @@ public class Main {
     private static void mainMenu() throws IOException{
 
         System.out.println("Please choose your airport or choose to view all:");
-        System.out.println("1. By Code");
-        System.out.println("2. By Name");
-        System.out.println("3. View all airports!");
-        System.out.println("4. Exit");
+        System.out.println("1| By Code");
+        System.out.println("2| By Name");
+        System.out.println("3| View all airports!");
+        System.out.println("4| Exit");
+        System.out.print("Enter your choice: ");
 
         String input = reader.readLine();
 
@@ -42,11 +43,11 @@ public class Main {
 
         switch (input) {
             case "1":
-                System.out.print("Enter airport code: ");
+                System.out.print("\nEnter airport code: ");
                 String code = reader.readLine();
                 airport = findAirportByDetail("Code", code);
                 if (airport == null) {
-                    System.out.println("Airport not found. Please try again.");
+                    System.out.println("Helpy says that the airport you entered was not found. Please try again!");
                 } else {
                     airportHelpMenu(airport);
                 }
@@ -54,29 +55,32 @@ public class Main {
                 break;
 
             case "2":
-                System.out.print("Enter airport name: ");
+                System.out.print("\nEnter airport name: ");
                 String name = reader.readLine();
                 airport = findAirportByDetail("Name", name);
                 if (airport == null) {
-                    System.out.println("Airport not found. Please try again.");
+                    System.out.println("Helpy says that Airport not found. Please try again.");
                 } else {
                     airportHelpMenu(airport);
                 }
                 break;
 
             case "3":
-                System.out.println("List of Airports:");
+                System.out.println(" _____________________________________");
+                System.out.println("\n List of Airports taken by Helpy:  ");
+                System.out.println(" _____________________________________");
                 for (Airport a : airports) {
                     System.out.println(a.getAirportInfo());
+                    System.out.println("--------------------------------------");
                 }
                 break;
 
             case "4":
-                System.out.println("Thank you for using AirTravel Buddy!");
+                System.out.println("Thank you for using AirTravel Buddy! - Helpy");
                 return;
 
             default:
-                System.out.println("Invalid option. Please try again.");
+                System.out.println("Uhh That was an invalid option. Helpy asks you to try again!");
                 break;
         }
         mainMenu();
@@ -85,16 +89,29 @@ public class Main {
     private static void airportHelpMenu(Airport airport) throws IOException {
         System.out.println("Hello Passenger! Your airport details are the follows: ");
         System.out.println(airport.getAirportInfo());
-            System.out.println("\nAirport Menu:");
+            System.out.println("\nHelpy is here to help you! Here is the Airport Menu:");
             System.out.println("1. Find Flight by Passenger Name");
             System.out.println("2. Find Flight by Flight Number");
             System.out.println("3. List all terminals");
             System.out.println("4. List all flights");
             System.out.println("5. Go Back to Previous Menu");
+            System.out.println("  (()__(()\r\n" + 
+                                "  /       \\\r\n" + 
+                                " ( /    \\  \\\r\n" +
+                                "  \\ o o    /\r\n" + 
+                                "  (_()_)__/ \\\r\n" + 
+                                " / _,==.____ \\\r\n" + 
+                                "(   |--|      )\r\n" + 
+                                "/\\_.|__|'-.__/\\\r\n" + 
+                                "\\    .--'--,  /\r\n" + 
+                                "  .  .--'--'/");
 
-            System.out.print("Please choose an option: ");
+
+
+            System.out.print("Hey! Helpy here again! Please choose an option: ");
             String choice = reader.readLine();
             Flight flight;
+            
             
             switch (choice) {
                 case "1":
@@ -107,30 +124,39 @@ public class Main {
                     if (flight!= null) flightHelpMenu(flight);
                     break;
                 case "3":
+                    System.out.println(" _____________________________________");
+                    System.out.println("\n List of Terminals taken by Helpy:  ");
+                    System.out.println(" _____________________________________");
                     for (Terminal terminal : airport.getTerminals()) {
                         System.out.println(terminal.getTerminalInfo() + ", " + terminal.checkTerminalCapacity());
                     }                 
                     break;
                 case "4":
+                    int count = 1;
+                    System.out.println(" ______________________________________________________");
+                    System.out.println("\n List of flights from all terminals taken by Helpy:  ");
+                    System.out.println(" ______________________________________________________");
                     for (Terminal terminal : airport.getTerminals()) {
-                        System.out.println("Flights in Terminal :" + terminal.getTerminalNumber());
+                        System.out.println("Hey Passenger! Here are the flights in Terminal :" + terminal.getTerminalNumber());
                         for (Flight f: terminal.getAllFlights()) {
+                            System.out.println("\nFlight number " + count);
                             System.out.println(f.getFlightInfo());
+                            count ++;
                         }
                         System.out.println("\n\n");
                     }
                     break;
                 case "5":
-                    System.out.println("Returning to previous menu");
+                    System.out.println("Okay, Helpy will return you to previous menu");
                     return;
                 default:
-                    System.out.println("Invalid option. Please try again.");
+                    System.out.println("Unfortunately, Helpy says that's an invalid option!");
             }
             airportHelpMenu(airport);
     }
 
     private static Flight findFlightByPassengerName(Airport airport) throws IOException {
-        System.out.println("Dear Passenger, Please enter your name:");
+        System.out.println("Dear Passenger, Helpy asks you to enter your name:");
         String name = reader.readLine();
 
         for (Terminal terminal : airport.getTerminals()) {
@@ -214,7 +240,7 @@ public class Main {
                 return;
 
             case "2":
-                passenger.checkIn();
+                System.out.println(passenger.checkIn());
                 break;
 
             case "3":
@@ -222,7 +248,7 @@ public class Main {
                 break;
             
             case "4":
-                System.out.println("Dear Passenger, Please enter your new contact number:");
+                System.out.println("Dear Passenger, Helpy asks you to enter your new contact number:");
                 String contactNumber = reader.readLine();
                 passenger.updateContactNumber(contactNumber);
                 break;

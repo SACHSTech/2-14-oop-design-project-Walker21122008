@@ -1,13 +1,25 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents a Terminal in an airport, which can manage flights and has specific details
+ * such as terminal number, capacity, type, and associated airport code.
+ * @author Hasini Vijay Inbasri
+ */
 public class Terminal {
-    private String terminalNumber;
-    private int capacity;
-    private String type;
-    private String airportCode;
-    private ArrayList<Flight> flights;
+    private String terminalNumber; // Terminal number identifier
+    private int capacity; // Maximum capacity of the terminal
+    private String type; // Type of the terminal
+    private String airportCode; // Airport code associated with the terminal
+    private ArrayList<Flight> flights; // List of flights assigned to this terminal
 
+    /**
+     * Creates a new Terminal instance.
+     * @param terminalNumber The terminal number.
+     * @param capacity The maximum capacity of the terminal.
+     * @param airportCode The airport code associated with the terminal.
+     * @param type The type of terminal 
+     */
     public Terminal(String terminalNumber, int capacity, String airportCode, String type) {
         this.terminalNumber = terminalNumber;
         this.capacity = capacity;
@@ -16,38 +28,66 @@ public class Terminal {
         this.flights = new ArrayList<>();
     }
 
-    public int getCapacity(){
+    
+
+    /**
+     * Gets the capacity of the terminal.
+     * @return Terminal capacity.
+     */
+    public int getCapacity() {
         return capacity;
     }
 
-    public String getType(){
+    /**
+     * Gets the type of the terminal.
+     * @return Terminal type 
+     */
+    public String getType() {
         return type;
     }
 
-    public String getTerminalNumber(){
+    /**
+     * Gets the terminal number.
+     * @return Terminal number.
+     */
+    public String getTerminalNumber() {
         return terminalNumber;
     }
 
-    public String getAirportCode(){
+    /**
+     * Gets the airport code associated with the terminal.
+     * @return Airport code.
+     */
+    public String getAirportCode() {
         return airportCode;
     }
 
+    /**
+     * Retrieves basic information about the terminal.
+     * @return A string containing terminal information.
+     */
     public String getTerminalInfo() {
         return "Terminal " + terminalNumber + ", Capacity: " + capacity + ", type: " + type + "  ";
     }
 
-
+    /**
+     * Finds a flight by its flight number.
+     * @param flightNumber The flight number to search for.
+     * @return The Flight object if found, otherwise null.
+     */
     public Flight findFlight(String flightNumber) {
         for (Flight flight : flights) {
             if (flight.getFlightNumber().equals(flightNumber)) {
                 return flight;
             }
         }
-        return null; 
+        return null;
     }
 
-
-
+    /**
+     * Adds a flight to the terminal if it matches the terminal's number and airport code.
+     * @param flight The flight to be added.
+     */
     public void addFlight(Flight flight) {
         if (flight != null 
             && terminalNumber.equals(flight.getTerminalNumber()) 
@@ -55,11 +95,19 @@ public class Terminal {
             flights.add(flight);
         }
     }
-    
+
+    /**
+     * Retrieves a list of all flights assigned to the terminal.
+     * @return A list of Flight objects.
+     */
     public List<Flight> getAllFlights() {
         return flights;
     }
 
+    /**
+     * Displays information about all flights in the terminal.
+     * @return A string containing details of all flights.
+     */
     public String displayAllFlights() {
         StringBuilder flightDetails = new StringBuilder();
         for (Flight flight : flights) {
@@ -73,6 +121,10 @@ public class Terminal {
         return flightDetails.toString();
     }
 
+    /**
+     * Checks if the terminal has reached its capacity for flights.
+     * @return A string indicating whether the terminal has available capacity or is full.
+     */
     public String checkTerminalCapacity() {
         if (flights.size() < capacity) {
             return "Terminal has available capacity.";
@@ -80,8 +132,4 @@ public class Terminal {
             return "Terminal is at full capacity.";
         }
     }
-
-
-
 }
-
