@@ -23,4 +23,12 @@ public class Child extends Passenger {
     public void requestActivityKit() {
         System.out.println("Activity kit requested for the child.");
     }
+
+    public String getPassengerInfo() {
+        String passengerInfo = "";
+        passengerInfo += super.getPassengerInfo();
+        passengerInfo += "\nGuardian Name: " + getGuardianName();
+        
+        return passengerInfo;
+    }
 }

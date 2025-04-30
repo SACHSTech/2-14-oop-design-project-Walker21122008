@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Flight {
     private String flightNumber;
@@ -9,6 +10,7 @@ public class Flight {
     private String status;
     private String terminalNumber;
     private String airportCode;
+    private ArrayList<Passenger> passengers;
 
     public Flight(String flightNumber, String airline, String origin, String destination, String departureTime, String arrivalTime, String status, String terminalNumber, String airportCode) {
         this.flightNumber = flightNumber;
@@ -20,11 +22,12 @@ public class Flight {
         this.status = status;
         this.terminalNumber = terminalNumber;
         this.airportCode = airportCode;
+        this.passengers = new ArrayList<>();
     }
 
     
     public String getFlightStatus() {
-        return "Flight " + flightNumber + " is " + status;
+        return "Flight " + flightNumber + " status is " + status;
     }
 
     public String getAirline(){
@@ -33,6 +36,14 @@ public class Flight {
 
     public String getDestination(){
         return destination;
+    }
+
+    public String getAirportCode(){
+        return airportCode;
+    }
+
+    public String getTerminalNumber(){
+        return terminalNumber;
     }
 
     public String getOrigin(){
@@ -60,7 +71,7 @@ public class Flight {
         return flightNumber;
     }
 
-    public double flightDurationInHours() {
+    public double getFlightDurationInHours() {
         String[] depParts = departureTime.split(":");
         String[] arrParts = arrivalTime.split(":");
         
@@ -77,21 +88,58 @@ public class Flight {
     }
 
 
-    public void setFlightNumber(String flightNumber) {
-        this.flightNumber = flightNumber;
-    }
-
     public String timeToReachTerminal(){
         return "Make sure to return atleast 2 hours before your flight's departure time: " + departureTime;
     }
 
-    public void getFlightInfo(){
-                System.out.println("Your flight details:");
-                System.out.println("Flight Number: " + getFlightNumber());
-                System.out.println("Origin: " + getOrigin());
-                System.out.println("Destination: " + getDestination());
-                System.out.println("Departure Time: " + getDepartureTime());
-                System.out.println("Arrival Time: " + getArrivalTime());
+    public String getFlightInfo(){
+        String flightInfo = "";
+        flightInfo += "Your flight details:  ";
+        flightInfo += "\nFlight Number - " + getFlightNumber();
+        flightInfo += "\nOrigin - " + getOrigin();
+        flightInfo += "\nDestination- " + getDestination();
+        flightInfo += "\nDeparture Time: " + getDepartureTime();
+        flightInfo += "\nArrival Time: " + getArrivalTime();
+        flightInfo += "\nFlight Duration in Hours: " + getFlightDurationInHours();
+        flightInfo += "\n"+ timeToReachTerminal();
+
+        return flightInfo;
     }
+
+    public Passenger findPassengerByName(String passengerName) {
+        for (Passenger passenger : passengers) { 
+            if (passenger.getName().equalsIgnoreCase(passengerName)) { 
+                return passenger; 
+            }
+        }
+        return null; 
+    }
+
+    public Passenger findPassengerByTicketNumber(String ticketNumber) {
+        for (Passenger passenger : passengers) { 
+            if (passenger.getTicketNumber().equalsIgnoreCase(ticketNumber)) { 
+                return passenger; 
+            }
+        }
+        return null; 
+    }
+
+    public boolean removePassenger(String ticketNumber) {
+        Passenger passenger = findPassengerByTicketNumber(ticketNumber);
+        
+        if (passenger != null && passenger.cancelBooking() == true) {
+            passengers.remove(passenger);
+            return true;
+        }
+
+        return false;
+     }
+
+    public void addPassenger(Passenger passenger) {
+        passengers.add(passenger);
+    }
+
+
+    
 }
 

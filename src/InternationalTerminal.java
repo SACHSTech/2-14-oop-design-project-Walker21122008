@@ -16,9 +16,13 @@ public class InternationalTerminal extends Terminal {
 
     public String displayCustomsInfo() {
         if (customsAvailable) {
-            return "International Terminal Customs Available: Yes";
+            return "Customs Available: Yes";
         } else {
-            return "International Terminal Customs Available: No";
+            return "Customs Available: No";
         }
+    }
+
+    public String getTerminalInfo() {
+        return super.getTerminalInfo() + ", " + displayCustomsInfo();
     }
 }

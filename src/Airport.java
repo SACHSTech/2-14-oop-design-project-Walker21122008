@@ -1,30 +1,35 @@
 import java.util.ArrayList;
+import java.util.List;
+
 
 public class Airport {
     private String name;
     private String location;
     private String code;
     private ArrayList<Terminal> terminals;
-    private ArrayList<Flight> flights;
 
     public Airport(String name, String location, String code) {
         this.name = name;
         this.location = location;
         this.code = code;
+        this.terminals = new ArrayList<>();
     }
 
     public Flight searchFlight(String flightNumber) {
-        for (Flight flight : flights) {
-            if (flight.getFlightNumber().equals(flightNumber)) {
-                return flight;
+        for (Terminal terminal : terminals) {
+            for (Flight flight : terminal.getAllFlights()) {
+                if (flight.getFlightNumber().equals(flightNumber)) {
+                    return flight;
+                }
             }
         }
         return null; 
     }
 
-    public ArrayList<Flight> listAllFlights() {
-        return flights;
+    public List<Terminal> getTerminals() {
+        return terminals;
     }
+
 
     public String getAirportName(){
         return name;
@@ -38,45 +43,23 @@ public class Airport {
         return location;
     }
 
-    public String getAirportInfo() {
-        return "Airport: " + name + ", Location: " + location + ", Code: " + code;
-    }
-
     public int getFlightCount() {
-        return flights.size();
-    }
-
-
-    public Terminal findTerminalForFlight(Flight flight) {
+        int count = 0;
         for (Terminal terminal : terminals) {
-            if (listAllFlights().contains(flight)) {
-                return terminal;
-            }
+            count += terminal.getAllFlights().size();
         }
-        return null;
+        return count;
+     }
+
+    public void addTerminal(Terminal terminal) {
+        terminals.add(terminal);
     }
 
-    public ArrayList<Terminal> filterTerminalsByType(String type) {
-        ArrayList<Terminal> filteredTerminals = new ArrayList<>();
-        for (Terminal terminal : terminals) {
-            if (terminal.getType().equalsIgnoreCase(type)) {
-                filteredTerminals.add(terminal);
-            }
-        }
-        return filteredTerminals;
+    public String getAirportInfo() {
+        String airportInfo = getAirportName() + " (" + getAirportCode() + ") - " + getAirportLocation();
+        return airportInfo;
     }
 
-
-    public String displayFilteredTerminalsByType(String type) {
-        StringBuilder output = new StringBuilder("Filtered Terminals of type " + type + ":\n");
-        ArrayList<Terminal> filteredTerminals = filterTerminalsByType(type);
-
-        for (Terminal terminal : filteredTerminals) {
-            output.append(terminal.getTerminalInfo()).append("\n");
-        }
-
-        return output.toString();
-    }
 
 }
-
+    

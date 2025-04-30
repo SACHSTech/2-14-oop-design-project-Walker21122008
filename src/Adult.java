@@ -25,6 +25,14 @@ public class Adult extends Passenger {
         }
     }
 
+    public String getPassengerInfo() {
+        String passengerInfo = "";
+        passengerInfo += super.getPassengerInfo();
+        passengerInfo += "\nFreq Flyer Number: " + getFrequentFlyerNumber();
+        
+        return passengerInfo;
+    }
+
 
     
 

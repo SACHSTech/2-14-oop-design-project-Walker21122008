@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Terminal {
     private String terminalNumber;
@@ -10,6 +11,8 @@ public class Terminal {
     public Terminal(String terminalNumber, int capacity, String airportCode, String type) {
         this.terminalNumber = terminalNumber;
         this.capacity = capacity;
+        this.type = type;
+        this.airportCode = airportCode;
         this.flights = new ArrayList<>();
     }
 
@@ -25,13 +28,14 @@ public class Terminal {
         return terminalNumber;
     }
 
-    public String getTerminalInfo() {
-        return "Terminal " + terminalNumber + ", Capacity: " + capacity;
+    public String getAirportCode(){
+        return airportCode;
     }
 
-    public ArrayList<Flight> listFlights() {
-        return flights;
+    public String getTerminalInfo() {
+        return "Terminal " + terminalNumber + ", Capacity: " + capacity + ", type: " + type + "  ";
     }
+
 
     public Flight findFlight(String flightNumber) {
         for (Flight flight : flights) {
@@ -40,6 +44,20 @@ public class Terminal {
             }
         }
         return null; 
+    }
+
+
+
+    public void addFlight(Flight flight) {
+        if (flight != null 
+            && terminalNumber.equals(flight.getTerminalNumber()) 
+            && airportCode.equals(flight.getAirportCode())) {
+            flights.add(flight);
+        }
+    }
+    
+    public List<Flight> getAllFlights() {
+        return flights;
     }
 
     public String displayAllFlights() {
@@ -55,7 +73,7 @@ public class Terminal {
         return flightDetails.toString();
     }
 
-    public String checkTerminalAvailability() {
+    public String checkTerminalCapacity() {
         if (flights.size() < capacity) {
             return "Terminal has available capacity.";
         } else {

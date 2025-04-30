@@ -15,6 +15,10 @@ public class DomesticTerminal extends Terminal {
     }
 
     public String displayDomesticCarrierInfo() {
-        return "Domestic Terminal operates carrier: " + domesticCarrier;
+        return "Terminal operates carrier: " + domesticCarrier;
+    }
+
+    public String getTerminalInfo() {
+        return super.getTerminalInfo() + ", " + displayDomesticCarrierInfo();
     }
 }

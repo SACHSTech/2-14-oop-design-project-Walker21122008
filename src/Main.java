@@ -3,18 +3,18 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
-    private static List<Airport> airports = new ArrayList<>();
-    private static List<Terminal> terminals = new ArrayList<>();
-    private static List<Flight> flights = new ArrayList<>();
-    private static List<Passenger> passengers = new ArrayList<>();
+    private static ArrayList<Airport> airports = new ArrayList<>();
+    private static ArrayList<Terminal> terminals = new ArrayList<>();
+    private static ArrayList<Flight> flights = new ArrayList<>();
+    private static ArrayList<Passenger> passengers = new ArrayList<>();
+    private static BufferedReader reader;
 
     public static void main(String[] args) throws IOException {
         setUpTheAirportsTerminalsFlightsPassengers();
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Hello! Welcome to AirTravel Buddy! Your personal travel helpy!");
         System.out.println("          __|__");
         System.out.println("   --@--@--(_)--@--@--");
@@ -24,149 +24,229 @@ public class Main {
         System.out.println(" \\       ----       /");
         System.out.println("  \\________________/");
 
+        mainMenu();
 
-        Airport airport = null;
-        while (airport == null) {
-            System.out.println("Please choose your airport or choose to view all:");
-            System.out.println("1. By Code");
-            System.out.println("2. By Location");
-            System.out.println("3. By Name");
-            System.out.println("4. View all airports!");
-            String input = reader.readLine();
-
-            switch (input) {
-                case "1":
-                    System.out.print("Enter airport code: ");
-                    String code = reader.readLine();
-                    airport = findAirportByDetail(code);
-                    break;
-
-                case "2":
-                    System.out.print("Enter airport location: ");
-                    String location = reader.readLine();
-                    airport = findAirportByDetail(location);
-                    break;
-
-                case "3":
-                    System.out.print("Enter airport name: ");
-                    String name = reader.readLine();
-                    airport = findAirportByDetail(name);
-                    break;
-
-                case "4":
-                    System.out.println("List of Airports:");
-                    for (Airport a : airports) {
-                        System.out.println(a.getAirportName() + " (" + a.getAirportCode() + ") - " + a.getAirportLocation());
-                    }
-                    System.out.println("Please select an airport by entering its code, name, or location:");
-                    String detail = reader.readLine();
-                    airport = findAirportByDetail(detail);
-                    break;
-
-                default:
-                    System.out.println("Invalid option. Please try again.");
-                    break;
-            }
-
-            if (airport == null && !"4".equals(input)) {
-                System.out.println("Airport not found. Please try again.");
-            } else if (airport != null) {
-                System.out.println("\nWelcome to " + airport.getAirportName() + " Airport, located in " + airport.getAirportLocation() + "!");
-            }
-        }
-
-        showMainMenu(reader);
     }
 
-    private static void showMainMenu(BufferedReader reader) throws IOException {
-        while (true) {
-            System.out.println("\nMain Menu:");
-            System.out.println("1. View My Flight Details");
-            System.out.println("2. Filter Options for Airport, Terminals, and Flights");
-            System.out.println("3. Exit");
+    private static void mainMenu() throws IOException{
+
+        System.out.println("Please choose your airport or choose to view all:");
+        System.out.println("1. By Code");
+        System.out.println("2. By Name");
+        System.out.println("3. View all airports!");
+        System.out.println("4. Exit");
+
+        String input = reader.readLine();
+
+        Airport airport;
+
+        switch (input) {
+            case "1":
+                System.out.print("Enter airport code: ");
+                String code = reader.readLine();
+                airport = findAirportByDetail("Code", code);
+                if (airport == null) {
+                    System.out.println("Airport not found. Please try again.");
+                } else {
+                    airportHelpMenu(airport);
+                }
+                
+                break;
+
+            case "2":
+                System.out.print("Enter airport name: ");
+                String name = reader.readLine();
+                airport = findAirportByDetail("Name", name);
+                if (airport == null) {
+                    System.out.println("Airport not found. Please try again.");
+                } else {
+                    airportHelpMenu(airport);
+                }
+                break;
+
+            case "3":
+                System.out.println("List of Airports:");
+                for (Airport a : airports) {
+                    System.out.println(a.getAirportInfo());
+                }
+                break;
+
+            case "4":
+                System.out.println("Thank you for using AirTravel Buddy!");
+                return;
+
+            default:
+                System.out.println("Invalid option. Please try again.");
+                break;
+        }
+        mainMenu();
+    }
+
+    private static void airportHelpMenu(Airport airport) throws IOException {
+        System.out.println("Hello Passenger! Your airport details are the follows: ");
+        System.out.println(airport.getAirportInfo());
+            System.out.println("\nAirport Menu:");
+            System.out.println("1. Find Flight by Passenger Name");
+            System.out.println("2. Find Flight by Flight Number");
+            System.out.println("3. List all terminals");
+            System.out.println("4. List all flights");
+            System.out.println("5. Go Back to Previous Menu");
 
             System.out.print("Please choose an option: ");
             String choice = reader.readLine();
-
+            Flight flight;
+            
             switch (choice) {
                 case "1":
-                    findPersonalFlightInfo(reader);
+                    flight = findFlightByPassengerName(airport);
+                    if (flight!= null) flightHelpMenu(flight);
                     break;
+
                 case "2":
-                    filterOptions();
+                    flight = findFlightByFlightNumber(airport);
+                    if (flight!= null) flightHelpMenu(flight);
                     break;
                 case "3":
-                    System.out.println("Thank you for using AirTravel Buddy! Goodbye!");
-                    return;
-                default:
-                    System.out.println("Invalid option. Please try again.");
-            }
-        }
-    }
-
-    private static void findPersonalFlightInfo(BufferedReader reader) throws IOException {
-        System.out.println("Please enter your name:");
-        String name = reader.readLine();
-
-        Passenger passenger = findPassengerByName(name);
-        if (passenger == null) {
-            System.out.println("Passenger not found. Please try again.");
-            return;
-        } else {
-            System.out.println("Hello, " + passenger.getName() + "!");
-            Flight flight = findFlightByNumber(passenger.getAssignedFlight());
-            if (flight != null) {
-                flight.getFlightInfo();
-            } else {
-                System.out.println("You do not have a flight assigned.");
-            }
-
-            showSubMenu(reader, passenger);
-        }
-    }
-
-    private static void showSubMenu(BufferedReader reader, Passenger passenger) throws IOException {
-        while (true) {
-            System.out.println("\nPersonal Options:");
-            System.out.println("1. Check In");
-            System.out.println("2. View Flight Hours");
-            System.out.println("3. Cancel Booking");
-            System.out.println("4. Request Special Assistance");
-            System.out.println("5. Go Back");
-
-            System.out.print("Please choose an option: ");
-            String choice = reader.readLine();
-
-            switch (choice) {
-                case "1":
-                    System.out.println(passenger.checkIn());
-                    break;
-                case "2":
-                    Flight flight = findFlightByNumber(passenger.getAssignedFlight());
-                    if (flight != null) {
-                        System.out.println("Flight hours: " + flight.flightDurationInHours());
-                    } else {
-                        System.out.println("No flight assigned to view flight hours.");
-                    }
-                    break;
-                case "3":
-                    passenger.cancelBooking();
+                    for (Terminal terminal : airport.getTerminals()) {
+                        System.out.println(terminal.getTerminalInfo() + ", " + terminal.checkTerminalCapacity());
+                    }                 
                     break;
                 case "4":
-                    System.out.println("Enter type of special assistance needed:");
-                    String serviceType = reader.readLine();
-                    passenger.requestSpecialAssistance(serviceType);
+                    for (Terminal terminal : airport.getTerminals()) {
+                        System.out.println("Flights in Terminal :" + terminal.getTerminalNumber());
+                        for (Flight f: terminal.getAllFlights()) {
+                            System.out.println(f.getFlightInfo());
+                        }
+                        System.out.println("\n\n");
+                    }
                     break;
                 case "5":
+                    System.out.println("Returning to previous menu");
                     return;
                 default:
                     System.out.println("Invalid option. Please try again.");
             }
-        }
+            airportHelpMenu(airport);
     }
 
-    private static void filterOptions() {//still to add
-        System.out.println("Filtering options for Airport, Terminals, and Flights...");
+    private static Flight findFlightByPassengerName(Airport airport) throws IOException {
+        System.out.println("Dear Passenger, Please enter your name:");
+        String name = reader.readLine();
+
+        for (Terminal terminal : airport.getTerminals()) {
+            for (Flight flight : terminal.getAllFlights()) {
+                if (flight.findPassengerByName(name) != null) {
+                    return flight;
+                }
+            }
+        }
+        System.out.println("Passenger not found assigned to any flights in this airport. Please try again.");
+        return null;
+    }
+
+    private static Flight findFlightByFlightNumber(Airport airport) throws IOException {
+        System.out.println("Please enter your flight code:");
+        String flightNumber = reader.readLine();
+
+        for (Terminal terminal : airport.getTerminals()) {
+            for (Flight flight : terminal.getAllFlights()) {
+                if (flight.getFlightNumber().equalsIgnoreCase(flightNumber)) {
+                    return flight;
+                }
+            }
+        }
+        System.out.println("Flight with provided flight number not found. Please try again.");
+        return null;
+    }
+
+    private static void flightHelpMenu(Flight flight) throws IOException {
+            System.out.println("\nFlight Help Options for flight number (" + flight.getFlightNumber() + "):");
+            System.out.println("1. Show Flight Details");
+            System.out.println("2. Find Passenger By Ticket Number");
+            System.out.println("3. Go Back");
+
+            System.out.print("Please choose an option: ");
+            String choice = reader.readLine();
+
+            switch (choice) {
+                case "1":
+                    System.out.println(flight.getFlightInfo());                  
+                    break;
+
+                case "2":
+                    System.out.println("Dear Passenger, Please enter your ticket number:");
+                    String ticketNumber = reader.readLine();
+                    Passenger passenger = flight.findPassengerByTicketNumber(ticketNumber);
+                    if (passenger != null) { 
+                        passengerHelpMenu(passenger, flight); 
+                    }
+                    else {
+                        System.out.println("Passenger not found; Please try again");
+                    }
+                    break;
+
+                case "3":
+                    System.out.println("Returning to previous menu");
+                    return;
+                default:
+                    System.out.println("Invalid option. Please try again.");
+            }
+            flightHelpMenu(flight);
+    }
+
+    public static void passengerHelpMenu(Passenger passenger, Flight flight) throws IOException{
+        System.out.println("\nPassenger Help Options for passenger name (" + passenger.getName() + "):");
+
+        System.out.println("1. Cancel Booking");
+        System.out.println("2. Check In");
+        System.out.println("3. Check Flight Status");
+        System.out.println("4. Update Passenger Contact Info");
+        System.out.println("5. Request special assistance");
+        System.out.println("6. Passenger Info");
+        System.out.println("7. Go Back");
+
+        System.out.print("Please choose an option: ");
+        String choice = reader.readLine();
+
+        switch (choice) {
+            case "1":
+                flight.removePassenger(passenger.getTicketNumber());
+                return;
+
+            case "2":
+                passenger.checkIn();
+                break;
+
+            case "3":
+                System.out.println(flight.getFlightStatus());
+                break;
+            
+            case "4":
+                System.out.println("Dear Passenger, Please enter your new contact number:");
+                String contactNumber = reader.readLine();
+                passenger.updateContactNumber(contactNumber);
+                break;
+
+            case "5":
+                System.out.println("Dear Passenger, Please provide your special request service type:");
+                String serviceType = reader.readLine();
+                passenger.requestSpecialAssistance(serviceType);
+                break;
+
+            case "6":
+                System.out.println(passenger.getPassengerInfo());
+                return;
+
+            case "7":
+                System.out.println("Returning to previous menu");
+                return;
+
+            default:
+                System.out.println("Invalid option. Please try again.");
+                flightHelpMenu(flight);
+        }
+        passengerHelpMenu(passenger, flight);
+
     }
 
     private static void setUpTheAirportsTerminalsFlightsPassengers() throws IOException {
@@ -175,21 +255,18 @@ public class Main {
         loadFlightsFromCSV("src/Flight.csv");
         loadPassengersFromCSV("src/Passengers.csv");
     }
+    
+    
 
     private static void loadAirportsFromCSV(String csvFile) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(csvFile));
         String line;
-        boolean firstLine = true;
 
         while ((line = reader.readLine()) != null) {
-            if (firstLine) {
-                firstLine = false;
-                continue;
-            }
             String[] data = line.split(" - ");
             String airportName = data[0];
-            String location = data[1];
-            String code = data[2];
+            String code = data[1];
+            String location = data[2];
 
             Airport airport = new Airport(airportName, location, code);
             airports.add(airport);
@@ -218,11 +295,13 @@ public class Main {
                     boolean customsAvailable = Boolean.parseBoolean(data[4]);
                     InternationalTerminal international = new InternationalTerminal(terminalNumber, capacity, airportCode, type, customsAvailable);
                     terminals.add(international);
+                    findAirportByCode(airportCode).addTerminal(international);
                     break;
                 case "Domestic":
                     String domesticCarrier = data[5];
                     DomesticTerminal domestic = new DomesticTerminal(terminalNumber, capacity, airportCode, type, domesticCarrier);
                     terminals.add(domestic);
+                    findAirportByCode(airportCode).addTerminal(domestic);
                     break;
             }
         }
@@ -246,7 +325,13 @@ public class Main {
             String airportCode = data[8];
 
             Flight flight = new Flight(flightNumber, airlinesName, origin, destination, departureTime, arrivalTime, status, terminalNumber, airportCode);
-            flights.add(flight);
+            
+            Terminal terminal = findTerminal(terminalNumber,airportCode);
+
+            if (terminal != null && terminal.getAirportCode().equalsIgnoreCase(airportCode)) {
+                terminal.addFlight(flight);
+                flights.add(flight);
+            }            
         }
         reader.close();
     }
@@ -269,37 +354,54 @@ public class Main {
             int age = Integer.parseInt(data[4]);
 
             Passenger passenger = new Passenger(name, passportNumber, assignedFlight, ticketNumber, age);
-            passengers.add(passenger);
+
+            Flight flight = findFlightByFlightNumber(assignedFlight);
+            if (flight != null) {
+                flight.addPassenger(passenger);
+                passengers.add(passenger);
+            } 
+            
         }
         reader.close();
     }
 
-    private static Airport findAirportByDetail(String detail) {
-        for (Airport airport : airports) {
-            if (airport.getAirportName().equalsIgnoreCase(detail) ||
-                airport.getAirportLocation().equalsIgnoreCase(detail) ||
-                airport.getAirportCode().equalsIgnoreCase(detail)) {
+    private static Airport findAirportByCode(String code){
+        for(Airport airport : airports){
+            if (airport.getAirportCode().equalsIgnoreCase(code)){
                 return airport;
             }
         }
         return null;
+
     }
 
-    private static Passenger findPassengerByName(String name) {
-        for (Passenger passenger : passengers) {
-            if (passenger.getName().equalsIgnoreCase(name)) {
-                return passenger;
+    private static Terminal findTerminal(String terminalNumber, String airportCode){
+        for(Terminal terminal : terminals){
+            if (terminal.getTerminalNumber().equalsIgnoreCase(terminalNumber) 
+                && terminal.getAirportCode().equalsIgnoreCase(airportCode)){
+                return terminal;
             }
         }
         return null;
+
     }
 
-    private static Flight findFlightByNumber(String flightNumber) {
-        for (Flight flight : flights) {
-            if (flight.getFlightNumber().equalsIgnoreCase(flightNumber)) {
+    private static Flight findFlightByFlightNumber(String flightNumber){
+        for(Flight flight : flights){
+            if (flight.getFlightNumber().equalsIgnoreCase(flightNumber)){
                 return flight;
             }
         }
         return null;
+
     }
+
+    private static Airport findAirportByDetail(String option, String detail) {
+        for (Airport airport : airports) {
+            if (option.equalsIgnoreCase("Name") && airport.getAirportName().equalsIgnoreCase(detail)) return airport;
+            if (option.equalsIgnoreCase("Code") && airport.getAirportCode().equalsIgnoreCase(detail)) return airport;
+        }
+        return null;
+    }
+
 }
