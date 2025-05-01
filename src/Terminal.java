@@ -33,6 +33,7 @@ public class Terminal {
     /**
      * Gets the capacity of the terminal.
      * @return Terminal capacity.
+     * @author Hasini Vijay Inbasri
      */
     public int getCapacity() {
         return capacity;
@@ -41,6 +42,7 @@ public class Terminal {
     /**
      * Gets the type of the terminal.
      * @return Terminal type 
+     * @author Hasini Vijay Inbasri
      */
     public String getType() {
         return type;
@@ -49,6 +51,7 @@ public class Terminal {
     /**
      * Gets the terminal number.
      * @return Terminal number.
+     * @author Hasini Vijay Inbasri
      */
     public String getTerminalNumber() {
         return terminalNumber;
@@ -57,6 +60,7 @@ public class Terminal {
     /**
      * Gets the airport code associated with the terminal.
      * @return Airport code.
+     * @author Hasini Vijay Inbasri
      */
     public String getAirportCode() {
         return airportCode;
@@ -65,6 +69,7 @@ public class Terminal {
     /**
      * Retrieves basic information about the terminal.
      * @return A string containing terminal information.
+     * @author Hasini Vijay Inbasri
      */
     public String getTerminalInfo() {
         return "Terminal " + terminalNumber + ", Capacity: " + capacity + ", type: " + type;
@@ -74,6 +79,7 @@ public class Terminal {
      * Finds a flight by its flight number.
      * @param flightNumber The flight number to search for.
      * @return The Flight object if found, otherwise null.
+     * @author Hasini Vijay Inbasri
      */
     public Flight findFlight(String flightNumber) {
         for (Flight flight : flights) {
@@ -87,6 +93,7 @@ public class Terminal {
     /**
      * Adds a flight to the terminal if it matches the terminal's number and airport code.
      * @param flight The flight to be added.
+     * @author Hasini Vijay Inbasri
      */
     public void addFlight(Flight flight) {
         if (flight != null 
@@ -99,6 +106,7 @@ public class Terminal {
     /**
      * Retrieves a list of all flights assigned to the terminal.
      * @return A list of Flight objects.
+     * @author Hasini Vijay Inbasri
      */
     public List<Flight> getAllFlights() {
         return flights;
@@ -107,6 +115,7 @@ public class Terminal {
     /**
      * Displays information about all flights in the terminal.
      * @return A string containing details of all flights.
+     * @author Hasini Vijay Inbasri
      */
     public String displayAllFlights() {
         StringBuilder flightDetails = new StringBuilder();
@@ -124,6 +133,7 @@ public class Terminal {
     /**
      * Checks if the terminal has reached its capacity for flights.
      * @return A string indicating whether the terminal has available capacity or is full.
+     * @author Hasini Vijay Inbasri
      */
     public String checkTerminalCapacity() {
         if (flights.size() < capacity) {

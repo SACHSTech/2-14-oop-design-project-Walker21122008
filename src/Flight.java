@@ -46,6 +46,7 @@ public class Flight {
     /**
      * Gets the flight's current status.
      * @return A string describing the flight's status.
+     * @author Hasini Vijay Inbasri
      */
     public String getFlightStatus() {
         return "Flight " + flightNumber + " status is " + status;
@@ -54,6 +55,7 @@ public class Flight {
     /**
      * Gets the airline operating the flight.
      * @return Airline name.
+     * @author Hasini Vijay Inbasri
      */
     public String getAirline() {
         return airline;
@@ -62,6 +64,7 @@ public class Flight {
     /**
      * Gets the destination of the flight.
      * @return Destination of the flight.
+     * @author Hasini Vijay Inbasri
      */
     public String getDestination() {
         return destination;
@@ -70,6 +73,7 @@ public class Flight {
     /**
      * Gets the airport code associated with the flight.
      * @return Airport code.
+     * @author Hasini Vijay Inbasri
      */
     public String getAirportCode() {
         return airportCode;
@@ -78,6 +82,7 @@ public class Flight {
     /**
      * Gets the terminal number of the flight.
      * @return Terminal number.
+     * @author Hasini Vijay Inbasri
      */
     public String getTerminalNumber() {
         return terminalNumber;
@@ -86,6 +91,7 @@ public class Flight {
     /**
      * Gets the origin of the flight.
      * @return Origin of the flight.
+     * @author Hasini Vijay Inbasri
      */
     public String getOrigin() {
         return origin;
@@ -94,6 +100,7 @@ public class Flight {
     /**
      * Gets the scheduled departure time.
      * @return Departure time.
+     * @author Hasini Vijay Inbasri
      */
     public String getDepartureTime() {
         return departureTime;
@@ -102,6 +109,7 @@ public class Flight {
     /**
      * Gets the scheduled arrival time.
      * @return Arrival time.
+     * @author Hasini Vijay Inbasri
      */
     public String getArrivalTime() {
         return arrivalTime;
@@ -110,6 +118,7 @@ public class Flight {
     /**
      * Delays the flight by updating its departure time and status.
      * @param newTime New departure time.
+     * @author Hasini Vijay Inbasri
      */
     public void delayFlight(String newTime) {
         departureTime = newTime;
@@ -119,6 +128,7 @@ public class Flight {
     /**
      * Updates the flight's status.
      * @param newStatus New status of the flight.
+     * @author Hasini Vijay Inbasri
      */
     public void updateStatus(String newStatus) {
         status = newStatus;
@@ -127,6 +137,7 @@ public class Flight {
     /**
      * Gets the flight number.
      * @return Flight number.
+     * @author Hasini Vijay Inbasri
      */
     public String getFlightNumber() {
         return flightNumber;
@@ -135,6 +146,7 @@ public class Flight {
     /**
      * Calculates the flight duration in hours based on departure and arrival times.
      * @return Flight duration in hours.
+     * @author Hasini Vijay Inbasri
      */
     public double getFlightDurationInHours() {
         String[] depParts = departureTime.split(":");
@@ -155,6 +167,7 @@ public class Flight {
     /**
      * Provides instructions for when passengers should arrive at the terminal before departure.
      * @return A string advising passengers when to arrive.
+     * @author Hasini Vijay Inbasri
      */
     public String timeToReachTerminal() {
         return "Make sure to return at least 2 hours before your flight's departure time: " + departureTime;
@@ -163,6 +176,7 @@ public class Flight {
     /**
      * Generates a detailed summary of the flight information.
      * @return A string containing the flight's details.
+     * @author Hasini Vijay Inbasri
      */
     public String getFlightInfo() {
         String flightInfo = "";
@@ -181,6 +195,11 @@ public class Flight {
         return flightInfo;
     }
 
+    /**
+     * Generates a short summary of the flight information
+     * @return A string containing the flight's details
+     * @author Hasini Vijay Inbasri
+     */
     public String getFlightInfoInOneLine(){
         String flightInfo = "";
         flightInfo += "Flight Number: " + getFlightNumber() + " ";
@@ -197,6 +216,7 @@ public class Flight {
      * Finds a passenger by their name.
      * @param passengerName Name of the passenger to search for.
      * @return The Passenger object if found, otherwise null.
+     * @author Hasini Vijay Inbasri
      */
     public Passenger findPassengerByName(String passengerName) {
         for (Passenger passenger : passengers) {
@@ -211,6 +231,7 @@ public class Flight {
      * Finds a passenger by their ticket number.
      * @param ticketNumber Ticket number of the passenger to search for.
      * @return The Passenger object if found, otherwise null.
+     * @author Hasini Vijay Inbasri
      */
     public Passenger findPassengerByTicketNumber(String ticketNumber) {
         for (Passenger passenger : passengers) {
@@ -225,6 +246,7 @@ public class Flight {
      * Removes a passenger from the flight using their ticket number.
      * @param ticketNumber Ticket number of the passenger to remove.
      * @return True if the passenger is successfully removed, otherwise false.
+     * @author Hasini Vijay Inbasri
      */
     public boolean removePassenger(String ticketNumber) {
         Passenger passenger = findPassengerByTicketNumber(ticketNumber);
@@ -240,6 +262,7 @@ public class Flight {
     /**
      * Adds a passenger to the flight.
      * @param passenger The Passenger object to add.
+     * @author Hasini Vijay Inbasri
      */
     public void addPassenger(Passenger passenger) {
         passengers.add(passenger);

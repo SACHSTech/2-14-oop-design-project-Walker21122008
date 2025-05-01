@@ -22,6 +22,7 @@ public class DomesticTerminal extends Terminal {
     /**
      * Gets the name of the domestic carrier operating in the terminal.
      * @return The name of the domestic carrier.
+     * @author Hasini Vijay Inbasri
      */
     public String getDomesticCarrier() {
         return domesticCarrier;
@@ -30,6 +31,7 @@ public class DomesticTerminal extends Terminal {
     /**
      * Sets the name of the domestic carrier operating in the terminal.
      * @param domesticCarrier The name of the domestic carrier to set.
+     * @author Hasini Vijay Inbasri
      */
     public void setDomesticCarrier(String domesticCarrier) {
         this.domesticCarrier = domesticCarrier;
@@ -38,6 +40,7 @@ public class DomesticTerminal extends Terminal {
     /**
      * Displays information about the domestic carrier operating in the terminal.
      * @return A string containing carrier information.
+     * @author Hasini Vijay Inbasri
      */
     public String displayDomesticCarrierInfo() {
         return "Terminal operates carrier: " + domesticCarrier;
@@ -46,6 +49,7 @@ public class DomesticTerminal extends Terminal {
     /**
      * Retrieves the terminal's information along with domestic carrier details.
      * @return A string containing the terminal's information and carrier details.
+     * @author Hasini Vijay Inbasri
      */
     public String getTerminalInfo() {
         return super.getTerminalInfo() + ", " + displayDomesticCarrierInfo();

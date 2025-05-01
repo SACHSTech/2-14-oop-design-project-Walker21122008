@@ -11,7 +11,7 @@ public class Passenger {
     private String ticketNumber; // Ticket number of the passenger
     private String assignedFlightNumber; // Flight number assigned to the passenger
     private boolean checkInStatus; // Check-in status of the passenger
-    private String contactNumber; // Contact number of the passenger
+    private long contactNumber; // Contact number of the passenger
 
     /**
      * Creates a new Passenger instance.
@@ -28,12 +28,13 @@ public class Passenger {
         this.assignedFlightNumber = assignedFlightNumber;
         this.age = age;
         this.checkInStatus = false;
-        this.contactNumber = null;
+        this.contactNumber = 0;
     }
 
     /**
      * Gets the passenger's ticket number.
      * @return Ticket number as a string.
+     * @author Hasini Vijay Inbasri
      */
     public String getTicketNumber() {
         return ticketNumber;
@@ -42,6 +43,7 @@ public class Passenger {
     /**
      * Gets the passenger's age.
      * @return Age as an integer.
+     * @author Hasini Vijay Inbasri
      */
     public int getAge() {
         return age;
@@ -50,6 +52,7 @@ public class Passenger {
     /**
      * Gets the passenger's passport number.
      * @return Passport number as a string.
+     * @author Hasini Vijay Inbasri
      */
     public String getPassportNumber() {
         return passportNumber;
@@ -58,6 +61,7 @@ public class Passenger {
     /**
      * Gets the flight number assigned to the passenger.
      * @return Assigned flight number as a string.
+     * @author Hasini Vijay Inbasri
      */
     public String getAssignedFlightNumber() {
         return assignedFlightNumber;
@@ -66,6 +70,7 @@ public class Passenger {
     /**
      * Gets the passenger's name.
      * @return Name as a string.
+     * @author Hasini Vijay Inbasri
      */
     public String getName() {
         return name;
@@ -74,22 +79,40 @@ public class Passenger {
     /**
      * Checks if the passenger has checked in.
      * @return True if the passenger has checked in, false otherwise.
+     * @author Hasini Vijay Inbasri
      */
     public boolean getCheckInStatus() {
         return checkInStatus;
     }
 
     /**
-     * Gets the contact number of the passenger.
-     * @return Contact number as a string.
+     * Updates the passenger's contact number if valid.
+     * @param contactNumber The new contact number.
+     * @param passenger The passenger whose contact info is being updated.
+     * @author Hasini Vijay Inbasri
      */
-    public String getContactNumber() {
+    public void updateContactNumber(long contactNumber, Passenger passenger) {
+        if (contactNumber >= 1000000000L && contactNumber <= 9999999999L) {
+            passenger.updateContactNumber(contactNumber);
+            System.out.println("Helpy has added your contact info! Yippee!");
+        } else {
+            System.out.println("Helpy says that it is an invalid contact number! Please enter an actual contact info!");
+        }
+    }
+
+    /**
+     * Gets the contact number of the passenger.
+     * @return Contact number as a long.
+     * @author Hasini Vijay Inbasri
+     */
+    public long getContactNumber() {
         return contactNumber;
     }
 
     /**
      * Cancels the booking if the passenger hasn't checked in and has an assigned flight.
      * @return True if the booking is successfully canceled, false otherwise.
+     * @author Hasini Vijay Inbasri
      */
     public boolean cancelBooking() {
         if (assignedFlightNumber != null) {
@@ -106,6 +129,7 @@ public class Passenger {
     /**
      * Checks in the passenger for the assigned flight.
      * @return A string indicating the check-in status.
+     * @author Hasini Vijay Inbasri
      */
     public String checkIn() {
         if (assignedFlightNumber != null && !assignedFlightNumber.isEmpty()) {
@@ -123,14 +147,16 @@ public class Passenger {
     /**
      * Updates the contact number of the passenger.
      * @param contactNumber New contact number.
+     * @author Hasini Vijay Inbasri
      */
-    public void updateContactNumber(String contactNumber) {
+    public void updateContactNumber(long contactNumber) {
         this.contactNumber = contactNumber;
     }
 
     /**
      * Requests special assistance for the passenger.
      * @param serviceType Type of assistance requested.
+     * @author Hasini Vijay Inbasri
      */
     public void requestSpecialAssistance(String serviceType) {
         System.out.println("Special assistance requested: " + serviceType);
@@ -140,6 +166,7 @@ public class Passenger {
     /**
      * Retrieves the passenger's information in a formatted string.
      * @return A string containing the passenger's details.
+     * @author Hasini Vijay Inbasri
      */
     public String getPassengerInfo() {
         String passengerInfo = "";

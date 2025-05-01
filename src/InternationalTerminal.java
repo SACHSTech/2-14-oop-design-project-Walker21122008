@@ -22,6 +22,7 @@ public class InternationalTerminal extends Terminal {
     /**
      * Checks if customs services are available in the terminal.
      * @return True if customs services are available, false otherwise.
+     * @author Hasini Vijay Inbasri
      */
     public boolean isCustomsAvailable() {
         return customsAvailable;
@@ -30,6 +31,7 @@ public class InternationalTerminal extends Terminal {
     /**
      * Sets the availability of customs services in the terminal.
      * @param customsAvailable True to enable customs services, false to disable them.
+     * @author Hasini Vijay Inbasri
      */
     public void setCustomsAvailable(boolean customsAvailable) {
         this.customsAvailable = customsAvailable;
@@ -38,6 +40,7 @@ public class InternationalTerminal extends Terminal {
     /**
      * Provides information about the availability of customs services in the terminal.
      * @return A string indicating whether customs services are available.
+     * @author Hasini Vijay Inbasri
      */
     public String displayCustomsInfo() {
         if (customsAvailable) {
@@ -50,6 +53,7 @@ public class InternationalTerminal extends Terminal {
     /**
      * Retrieves the terminal's information along with customs service details.
      * @return A string containing terminal information and customs service availability.
+     * @author Hasini Vijay Inbasri
      */
     public String getTerminalInfo() {
         return super.getTerminalInfo() + ", " + displayCustomsInfo();

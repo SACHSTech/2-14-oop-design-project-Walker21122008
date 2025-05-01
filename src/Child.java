@@ -23,6 +23,7 @@ public class Child extends Passenger {
     /**
      * Gets the name of the child's guardian.
      * @return Guardian's name.
+     * @author Hasini Vijay Inbasri
      */
     public String getGuardianName() {
         return guardianName;
@@ -31,6 +32,7 @@ public class Child extends Passenger {
     /**
      * Determines if the child requires special toys based on their age.
      * @return A string indicating if special toys are needed.
+     * @author Hasini Vijay Inbasri
      */
     public String requiresSpecialToys() {
         if (getAge() < 6) {
@@ -43,6 +45,7 @@ public class Child extends Passenger {
     /**
      * Requests an activity kit for the child.
      * Prints a confirmation to the console.
+     * @author Hasini Vijay Inbasri
      */
     public void requestActivityKit() {
         System.out.println("Activity kit requested for the child.");
@@ -51,6 +54,7 @@ public class Child extends Passenger {
     /**
      * Retrieves the passenger information along with guardian details.
      * @return A string containing the passenger's information.
+     * @author Hasini Vijay Inbasri
      */
     public String getPassengerInfo() {
         String passengerInfo = "";

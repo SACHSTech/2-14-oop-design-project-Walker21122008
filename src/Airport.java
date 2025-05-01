@@ -17,6 +17,7 @@ public class Airport {
      * @param name Name of the airport.
      * @param location Location of the airport.
      * @param code Airport code.
+     * @author Hasini Vijay Inbasri
      */
     public Airport(String name, String location, String code) {
         this.name = name;
@@ -29,6 +30,7 @@ public class Airport {
      * Searches for a flight by its flight number.
      * @param flightNumber The flight number to search for.
      * @return The Flight object if found, otherwise null.
+     * @author Hasini Vijay Inbasri
      */
     public Flight searchFlight(String flightNumber) {
         for (Terminal terminal : terminals) {
@@ -44,6 +46,7 @@ public class Airport {
     /**
      * Retrieves a list of all terminals in the airport.
      * @return A list of Terminal objects.
+     * @author Hasini Vijay Inbasri
      */
     public List<Terminal> getTerminals() {
         return terminals;
@@ -52,6 +55,7 @@ public class Airport {
     /**
      * Gets the name of the airport.
      * @return Airport name.
+     * @author Hasini Vijay Inbasri
      */
     public String getAirportName() {
         return name;
@@ -61,6 +65,7 @@ public class Airport {
     /**
      * Gets the code of the airport.
      * @return Airport code.
+     * @author Hasini Vijay Inbasri
      */
     public String getAirportCode() {
         return code;
@@ -69,6 +74,7 @@ public class Airport {
     /**
      * Gets the location of the airport.
      * @return Airport location.
+     * @author Hasini Vijay Inbasri
      */
     public String getAirportLocation() {
         return location;
@@ -77,6 +83,7 @@ public class Airport {
     /**
      * Counts the total number of flights across all terminals in the airport.
      * @return Total number of flights.
+     * @author Hasini Vijay Inbasri
      */
     public int getFlightCount() {
         int count = 0;
@@ -89,6 +96,7 @@ public class Airport {
     /**
      * Adds a terminal to the airport.
      * @param terminal The Terminal object to be added.
+     * @author Hasini Vijay Inbasri
      */
     public void addTerminal(Terminal terminal) {
         terminals.add(terminal);
@@ -97,6 +105,7 @@ public class Airport {
     /**
      * Generates a brief description of the airport.
      * @return A string containing airport information.
+     * @author Hasini Vijay Inbasri
      */
     public String getAirportInfo() {
         String airportInfo = getAirportName() + " (" + getAirportCode() + ") - " + getAirportLocation();
