@@ -67,7 +67,7 @@ public class Terminal {
      * @return A string containing terminal information.
      */
     public String getTerminalInfo() {
-        return "Terminal " + terminalNumber + ", Capacity: " + capacity + ", type: " + type + "  ";
+        return "Terminal " + terminalNumber + ", Capacity: " + capacity + ", type: " + type;
     }
 
     /**

@@ -57,6 +57,7 @@ public class Airport {
         return name;
     }
 
+
     /**
      * Gets the code of the airport.
      * @return Airport code.

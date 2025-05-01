@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -45,7 +44,7 @@ public class Main {
             case "1":
                 System.out.print("\nEnter airport code: ");
                 String code = reader.readLine();
-                airport = findAirportByDetail("Code", code);
+                airport = csvLoader.findAirportByDetail("Code", code);
                 if (airport == null) {
                     System.out.println("Helpy says that the airport you entered was not found. Please try again!");
                 } else {
@@ -57,7 +56,7 @@ public class Main {
             case "2":
                 System.out.print("\nEnter airport name: ");
                 String name = reader.readLine();
-                airport = findAirportByDetail("Name", name);
+                airport = csvLoader.findAirportByDetail("Name", name);
                 if (airport == null) {
                     System.out.println("Helpy says that Airport not found. Please try again.");
                 } else {
@@ -131,10 +130,10 @@ public class Main {
                     System.out.println("\n List of flights from all terminals taken by Helpy:  ");
                     System.out.println(" ______________________________________________________");
                     for (Terminal terminal : airport.getTerminals()) {
-                        System.out.println("Hey Passenger! Here are the flights in Terminal :" + terminal.getTerminalNumber());
-                        for (Flight f: terminal.getAllFlights()) {
-                            System.out.println("\nFlight number " + count);
-                            System.out.println(f.getFlightInfo());
+                        System.out.println("Hey Passenger! Here are the flights in Terminal: " + terminal.getTerminalNumber());
+                        for (Flight flightNumber: terminal.getAllFlights()) {
+                            System.out.println("Flight number " + count);
+                            System.out.println(flightNumber.getFlightInfoInOneLine());
                             count ++;
                         }
                         System.out.println("\n\n");
@@ -256,158 +255,11 @@ public class Main {
     }
 
     private static void setUpTheAirportsTerminalsFlightsPassengers() throws IOException {
-        loadAirportsFromCSV("src/Airport.csv");
-        loadTerminalsFromCSV("src/Terminal.csv");
-        loadFlightsFromCSV("src/Flight.csv");
-        loadPassengersFromCSV("src/Passengers.csv");
-    }
-    
-    
-
-    private static void loadAirportsFromCSV(String csvFile) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(csvFile));
-        String line;
-
-        while ((line = reader.readLine()) != null) {
-            String[] data = line.split(" - ");
-            String airportName = data[0];
-            String code = data[1];
-            String location = data[2];
-
-            Airport airport = new Airport(airportName, location, code);
-            airports.add(airport);
-        }
-        reader.close();
+        airports = csvLoader.loadAirportsFromCSV("src/Airport.csv");
+        terminals = csvLoader.loadTerminalsFromCSV("src/Terminal.csv");
+        flights = csvLoader.loadFlightsFromCSV("src/Flight.csv");
+        passengers = csvLoader.loadPassengersFromCSV("src/Passengers.csv");
     }
 
-    private static void loadTerminalsFromCSV(String csvFile) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(csvFile));
-        String line;
-        boolean firstLine = true;
-
-        while ((line = reader.readLine()) != null) {
-            if (firstLine) {
-                firstLine = false;
-                continue;
-            }
-            String[] data = line.split(",");
-            String terminalNumber = data[0];
-            int capacity = Integer.parseInt(data[1]);
-            String airportCode = data[2];
-            String type = data[3];
-
-            switch (type) {
-                case "International":
-                    boolean customsAvailable = Boolean.parseBoolean(data[4]);
-                    InternationalTerminal international = new InternationalTerminal(terminalNumber, capacity, airportCode, type, customsAvailable);
-                    terminals.add(international);
-                    findAirportByCode(airportCode).addTerminal(international);
-                    break;
-                case "Domestic":
-                    String domesticCarrier = data[5];
-                    DomesticTerminal domestic = new DomesticTerminal(terminalNumber, capacity, airportCode, type, domesticCarrier);
-                    terminals.add(domestic);
-                    findAirportByCode(airportCode).addTerminal(domestic);
-                    break;
-            }
-        }
-        reader.close();
-    }
-
-    private static void loadFlightsFromCSV(String csvFile) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(csvFile));
-        String line;
-
-        while ((line = reader.readLine()) != null) {
-            String[] data = line.split(" - ");
-            String flightNumber = data[0];
-            String airlinesName = data[1];
-            String origin = data[2];
-            String destination = data[3];
-            String departureTime = data[4];
-            String arrivalTime = data[5];
-            String status = data[6];
-            String terminalNumber = data[7];
-            String airportCode = data[8];
-
-            Flight flight = new Flight(flightNumber, airlinesName, origin, destination, departureTime, arrivalTime, status, terminalNumber, airportCode);
-            
-            Terminal terminal = findTerminal(terminalNumber,airportCode);
-
-            if (terminal != null && terminal.getAirportCode().equalsIgnoreCase(airportCode)) {
-                terminal.addFlight(flight);
-                flights.add(flight);
-            }            
-        }
-        reader.close();
-    }
-
-    private static void loadPassengersFromCSV(String csvFile) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(csvFile));
-        String line;
-        boolean firstLine = true;
-
-        while ((line = reader.readLine()) != null) {
-            if (firstLine) {
-                firstLine = false;
-                continue;
-            }
-            String[] data = line.split(",");
-            String name = data[0];
-            String passportNumber = data[1];
-            String ticketNumber = data[2];
-            String assignedFlight = data[3];
-            int age = Integer.parseInt(data[4]);
-
-            Passenger passenger = new Passenger(name, passportNumber, assignedFlight, ticketNumber, age);
-
-            Flight flight = findFlightByFlightNumber(assignedFlight);
-            if (flight != null) {
-                flight.addPassenger(passenger);
-                passengers.add(passenger);
-            } 
-            
-        }
-        reader.close();
-    }
-
-    private static Airport findAirportByCode(String code){
-        for(Airport airport : airports){
-            if (airport.getAirportCode().equalsIgnoreCase(code)){
-                return airport;
-            }
-        }
-        return null;
-
-    }
-
-    private static Terminal findTerminal(String terminalNumber, String airportCode){
-        for(Terminal terminal : terminals){
-            if (terminal.getTerminalNumber().equalsIgnoreCase(terminalNumber) 
-                && terminal.getAirportCode().equalsIgnoreCase(airportCode)){
-                return terminal;
-            }
-        }
-        return null;
-
-    }
-
-    private static Flight findFlightByFlightNumber(String flightNumber){
-        for(Flight flight : flights){
-            if (flight.getFlightNumber().equalsIgnoreCase(flightNumber)){
-                return flight;
-            }
-        }
-        return null;
-
-    }
-
-    private static Airport findAirportByDetail(String option, String detail) {
-        for (Airport airport : airports) {
-            if (option.equalsIgnoreCase("Name") && airport.getAirportName().equalsIgnoreCase(detail)) return airport;
-            if (option.equalsIgnoreCase("Code") && airport.getAirportCode().equalsIgnoreCase(detail)) return airport;
-        }
-        return null;
-    }
 
 }

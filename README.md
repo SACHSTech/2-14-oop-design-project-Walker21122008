@@ -14,3 +14,4 @@ AirportBuddy Helpy is an Object-Oriented Java program designed to help passenger
 - Java (Object-Oriented Programming principles)
 
 ## UML Diagram
+![UML Diagram](Airport.png)

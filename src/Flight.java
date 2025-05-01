@@ -170,21 +170,27 @@ public class Flight {
         flightInfo += "Your Flight Details\n";
         flightInfo += "========================\n";
         flightInfo += "Flight Number: " + getFlightNumber() + "\n";
-        flightInfo += "------------------------\n";
         flightInfo += "Origin: " + getOrigin() + "\n";
-        flightInfo += "------------------------\n";
         flightInfo += "Destination: " + getDestination() + "\n";
-        flightInfo += "------------------------\n";
         flightInfo += "Departure Time: " + getDepartureTime() + "\n";
-        flightInfo += "------------------------\n";
         flightInfo += "Arrival Time: " + getArrivalTime() + "\n";
-        flightInfo += "------------------------\n";
         flightInfo += "Flight Duration (Hours): " + getFlightDurationInHours() + "\n";
-        flightInfo += "------------------------\n";
         flightInfo += timeToReachTerminal();
         flightInfo += "\n========================";
 
         return flightInfo;
+    }
+
+    public String getFlightInfoInOneLine(){
+        String flightInfo = "";
+        flightInfo += "Flight Number: " + getFlightNumber() + " ";
+        flightInfo += "Origin: " + getOrigin() + " ";
+        flightInfo += "Destination: " + getDestination() + " ";
+        flightInfo += "Departure Time: " + getDepartureTime() + " ";
+        flightInfo += "Arrival Time: " + getArrivalTime() + " ";
+
+        return flightInfo;
+
     }
 
     /**
