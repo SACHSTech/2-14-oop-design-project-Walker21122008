@@ -1,7 +1,7 @@
 # Flight Information Assistant
 
 ## Overview
-AirportBuddy Helpy is an Object-Oriented Java program designed to help passengers both Adults and Children access their flight details and relevant travel information efficiently. The application provides a user-friendly interface to retrieve essential flight data.
+AirportBuddy Helpy is an Object-Oriented Java program designed to help passengers access their flight details and relevant travel information efficiently. The application provides a user-friendly interface to retrieve essential flight data.
 
 ![Helpy](bear.png)
 ## Features
@@ -31,10 +31,13 @@ Please choose your airport or choose to view all:
 3| View all airports!
 
 4| Exit
+
 Enter your choice: 1
 
 Enter airport code: YYZ
+
 Hello Passenger! Your airport details are the follows:
+
 Toronto Pearson International Airport (YYZ) - "6301 Silver Dart Dr, Mississauga, ON L5P 1B2"
 
 Helpy is here to help you! Here is the Airport Menu:
