@@ -90,11 +90,10 @@ public class Main {
         System.out.println("Hello Passenger! Your airport details are the follows: ");
         System.out.println(airport.getAirportInfo());
             System.out.println("\nHelpy is here to help you! Here is the Airport Menu:");
-            System.out.println("1. Find Flight by Passenger Name");
-            System.out.println("2. Find Flight by Flight Number");
-            System.out.println("3. List all terminals");
-            System.out.println("4. List all flights");
-            System.out.println("5. Go Back to Previous Menu");
+            System.out.println("1. Find Flight by Flight Number");
+            System.out.println("2. List all terminals");
+            System.out.println("3. List all flights");
+            System.out.println("4. Go Back to Previous Menu");
             System.out.println("  (()__(()\r\n" + 
                                 "  /       \\\r\n" + 
                                 " ( /    \\  \\\r\n" +
@@ -115,15 +114,10 @@ public class Main {
             
             switch (choice) {
                 case "1":
-                    flight = findFlightByPassengerName(airport);
-                    if (flight!= null) flightHelpMenu(flight);
-                    break;
-
-                case "2":
                     flight = findFlightByFlightNumber(airport);
                     if (flight!= null) flightHelpMenu(flight);
                     break;
-                case "3":
+                case "2":
                     System.out.println(" _____________________________________");
                     System.out.println("\n List of Terminals taken by Helpy:  ");
                     System.out.println(" _____________________________________");
@@ -131,7 +125,7 @@ public class Main {
                         System.out.println(terminal.getTerminalInfo() + ", " + terminal.checkTerminalCapacity());
                     }                 
                     break;
-                case "4":
+                case "3":
                     int count = 1;
                     System.out.println(" ______________________________________________________");
                     System.out.println("\n List of flights from all terminals taken by Helpy:  ");
@@ -146,7 +140,7 @@ public class Main {
                         System.out.println("\n\n");
                     }
                     break;
-                case "5":
+                case "4":
                     System.out.println("Okay, Helpy will return you to previous menu");
                     return;
                 default:
@@ -155,20 +149,6 @@ public class Main {
             airportHelpMenu(airport);
     }
 
-    private static Flight findFlightByPassengerName(Airport airport) throws IOException {
-        System.out.println("Dear Passenger, Helpy asks you to enter your name:");
-        String name = reader.readLine();
-
-        for (Terminal terminal : airport.getTerminals()) {
-            for (Flight flight : terminal.getAllFlights()) {
-                if (flight.findPassengerByName(name) != null) {
-                    return flight;
-                }
-            }
-        }
-        System.out.println("Passenger not found assigned to any flights in this airport. Please try again.");
-        return null;
-    }
 
     private static Flight findFlightByFlightNumber(Airport airport) throws IOException {
         System.out.println("Please enter your flight code:");

@@ -1,9 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/LXtbW2-T)
-# ICS4U OOP Design Project
+# Flight Information Assistant
 
-See instructions [here](INSTRUCTIONS.md) for details.
+## Overview
+AirportBuddy Helpy is an Object-Oriented Java program designed to help passengers both Adults and Children access their flight details and relevant travel information efficiently. The application provides a user-friendly interface to retrieve essential flight data.
 
-*INSERT UML CLASS DIAGRAM HERE*  
+![Helpy](bear.png)
+## Features
+- **Flight Lookup**: Search for flight details using flight number, airline, destination, location and even more!
+- **Passenger Information**: View and go through check-in status, flight cancellation process, flight assignment, and boarding time.
+- **Weather & Airport Info**: Get real-time flight status checks.
+- **Selective Filtering**: Allows you to filter through terminals and flights according to the airport that you are going to!
 
-## Summary
-*Write a brief summary that describes the real-world system you are modelling in your design.*
+## Technologies Used
+- Java (Object-Oriented Programming principles)
+
+## UML Diagram
