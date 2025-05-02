@@ -24,12 +24,12 @@ Hello! Welcome to AirTravel Buddy! I'm Helpy! Your personal travel buddy!
 
 Please choose your airport or choose to view all:
 
-1| By Code
-2| By Name
-3| View all airports!
-4| Exit
+1| By Code  
+2| By Name  
+3| View all airports!  
+4| Exit  
 
-Enter your choice: 1
+Enter your choice: 1  
 Enter airport code: YYZ
 
 Hello Passenger! Your airport details are the follows:
