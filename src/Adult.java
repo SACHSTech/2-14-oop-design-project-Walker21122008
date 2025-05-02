@@ -26,6 +26,7 @@ public class Adult extends Passenger {
     /**
      * Checks if the passenger has priority boarding privileges.
      * @return True if priority boarding is available, false otherwise.
+     * @author Hasini Vijay Inbasri
      */
     public boolean isPriorityBoarding() {
         return hasPriorityBoarding;
@@ -34,6 +35,7 @@ public class Adult extends Passenger {
     /**
      * Gets the frequent flyer number of the passenger.
      * @return Frequent flyer number as a string.
+     * @author Hasini Vijay Inbasri
      */
     public String getFrequentFlyerNumber() {
         return frequentFlyerNumber;
@@ -42,6 +44,7 @@ public class Adult extends Passenger {
     /**
      * Determines if the passenger qualifies for an elderly seat based on their age.
      * @return A string indicating eligibility for an elderly seat.
+     * @author Hasini Vijay Inbasri
      */
     public String getElderlySeat() {
         if (getAge() >= 60) {
@@ -54,6 +57,7 @@ public class Adult extends Passenger {
     /**
      * Retrieves the passenger's information including frequent flyer details.
      * @return A string containing the passenger's information.
+     * @author Hasini Vijay Inbasri
      */
     public String getPassengerInfo() {
         String passengerInfo = "";
