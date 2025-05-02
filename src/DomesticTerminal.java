@@ -29,29 +29,11 @@ public class DomesticTerminal extends Terminal {
     }
 
     /**
-     * Sets the name of the domestic carrier operating in the terminal.
-     * @param domesticCarrier The name of the domestic carrier to set.
-     * @author Hasini Vijay Inbasri
-     */
-    public void setDomesticCarrier(String domesticCarrier) {
-        this.domesticCarrier = domesticCarrier;
-    }
-
-    /**
-     * Displays information about the domestic carrier operating in the terminal.
-     * @return A string containing carrier information.
-     * @author Hasini Vijay Inbasri
-     */
-    public String displayDomesticCarrierInfo() {
-        return "Terminal operates carrier: " + domesticCarrier;
-    }
-
-    /**
      * Retrieves the terminal's information along with domestic carrier details.
      * @return A string containing the terminal's information and carrier details.
      * @author Hasini Vijay Inbasri
      */
     public String getTerminalInfo() {
-        return super.getTerminalInfo() + ", " + displayDomesticCarrierInfo();
+        return super.getTerminalInfo() + ", Terminal operates carrier: " + getDomesticCarrier();
     }
 }

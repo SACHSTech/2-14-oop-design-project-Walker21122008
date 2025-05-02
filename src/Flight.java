@@ -200,7 +200,7 @@ public class Flight {
      * @return A string containing the flight's details
      * @author Hasini Vijay Inbasri
      */
-    public String getFlightInfoInOneLine(){
+    public String getSummaryFlightInfo(){
         String flightInfo = "";
         flightInfo += "Flight Number: " + getFlightNumber() + " ";
         flightInfo += "Origin: " + getOrigin() + " ";

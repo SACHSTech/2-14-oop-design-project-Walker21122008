@@ -113,24 +113,6 @@ public class Terminal {
     }
 
     /**
-     * Displays information about all flights in the terminal.
-     * @return A string containing details of all flights.
-     * @author Hasini Vijay Inbasri
-     */
-    public String displayAllFlights() {
-        StringBuilder flightDetails = new StringBuilder();
-        for (Flight flight : flights) {
-            flightDetails.append(flight.getFlightNumber())
-                         .append(" - Destination: ")
-                         .append(flight.getDestination())
-                         .append(", Departure Time: ")
-                         .append(flight.getDepartureTime())
-                         .append("\n");
-        }
-        return flightDetails.toString();
-    }
-
-    /**
      * Checks if the terminal has reached its capacity for flights.
      * @return A string indicating whether the terminal has available capacity or is full.
      * @author Hasini Vijay Inbasri

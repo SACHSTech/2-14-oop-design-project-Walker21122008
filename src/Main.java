@@ -163,7 +163,7 @@ public class Main {
                     System.out.println("Hey Passenger! Here are the flights in Terminal: " + terminal.getTerminalNumber());
                     for (Flight flightNumber : terminal.getAllFlights()) {
                         System.out.println("Flight number " + FlightcountValueIncrementer);
-                        System.out.println(flightNumber.getFlightInfoInOneLine());
+                        System.out.println(flightNumber.getSummaryFlightInfo());
                         FlightcountValueIncrementer++;
                     }
                     System.out.println("\n\n");
