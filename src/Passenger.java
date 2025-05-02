@@ -91,9 +91,9 @@ public class Passenger {
      * @param passenger The passenger whose contact info is being updated.
      * @author Hasini Vijay Inbasri
      */
-    public void updateContactNumber(long contactNumber, Passenger passenger) {
+    public void updateContactNumber(long contactNumber) {
         if (contactNumber >= 1000000000L && contactNumber <= 9999999999L) {
-            passenger.updateContactNumber(contactNumber);
+            this.contactNumber = contactNumber;
             System.out.println("Helpy has added your contact info! Yippee!");
         } else {
             System.out.println("Helpy says that it is an invalid contact number! Please enter an actual contact info!");
@@ -144,14 +144,6 @@ public class Passenger {
         }
     }
 
-    /**
-     * Updates the contact number of the passenger.
-     * @param contactNumber New contact number.
-     * @author Hasini Vijay Inbasri
-     */
-    public void updateContactNumber(long contactNumber) {
-        this.contactNumber = contactNumber;
-    }
 
     /**
      * Requests special assistance for the passenger.

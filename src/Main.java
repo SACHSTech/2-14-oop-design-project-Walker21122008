@@ -265,7 +265,7 @@ public class Main {
                 System.out.println("Dear Passenger, Helpy asks you to enter your new contact number:");
                 long contactNumber = Long.parseLong(reader.readLine());
 
-                passenger.updateContactNumber(contactNumber, passenger);
+                passenger.updateContactNumber(contactNumber);
                 break;
 
             case "5":
