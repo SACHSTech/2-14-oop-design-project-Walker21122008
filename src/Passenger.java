@@ -4,7 +4,7 @@
  * Provides methods for managing passenger operations like booking cancellation, check-in, and assistance requests.
  * @author Hasini Vijay Inbasri
  */
-public class Passenger {
+public abstract class Passenger {
     private String name; // Name of the passenger
     private int age; // Age of the passenger
     private String passportNumber; // Passport number of the passenger

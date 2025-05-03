@@ -6,7 +6,7 @@ import java.util.List;
  * such as terminal number, capacity, type, and associated airport code.
  * @author Hasini Vijay Inbasri
  */
-public class Terminal {
+public abstract class Terminal {
     private String terminalNumber; // Terminal number identifier
     private int capacity; // Maximum capacity of the terminal
     private String type; // Type of the terminal

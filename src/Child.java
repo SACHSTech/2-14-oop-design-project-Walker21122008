@@ -16,7 +16,7 @@ public class Child extends Passenger {
      * @param guardianName Name of the guardian.
      */
     public Child(String name, String passportNumber, String ticketNumber, String assignedFlight, int age, String guardianName) {
-        super(name, passportNumber, assignedFlight, ticketNumber, age);
+        super(name, passportNumber, ticketNumber, assignedFlight, age);
         this.guardianName = guardianName;
     }
 

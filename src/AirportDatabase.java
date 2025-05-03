@@ -40,7 +40,7 @@ public class AirportDatabase {
     /**
      * Loads passenger data from a CSV file.
      * @param csvFile The path to the CSV file.
-     * @return A list of Airport objects.
+     * @return A list of Passenger objects.
      * @throws IOException If an I/O error occurs.
      * @author Hasini Vijay Inbasri
      */
@@ -60,14 +60,27 @@ public class AirportDatabase {
             String ticketNumber = data[2];
             String assignedFlight = data[3];
             int age = Integer.parseInt(data[4]);
-
-            Passenger passenger = new Passenger(name, passportNumber, assignedFlight, ticketNumber, age);
-
             Flight flight = findFlightByFlightNumber(assignedFlight);
-            if (flight != null) {
-                flight.addPassenger(passenger);
-                passengers.add(passenger);
+
+            if (age >= 18) {
+                Boolean customsAvailable = Boolean.parseBoolean(data[6]);
+                String frequentFlyerNumber = data[7];
+                Adult adult = new Adult(name, passportNumber, assignedFlight, ticketNumber, age, customsAvailable, frequentFlyerNumber);
+                if (flight != null) {
+                    flight.addPassenger(adult);
+                    passengers.add(adult);
+                }
+            } else {
+                
+                String guardianName = data[5];
+                Child child = new Child(name, passportNumber, assignedFlight, ticketNumber, age, guardianName);
+                
+                if (flight != null) {
+                    flight.addPassenger(child);
+                    passengers.add(child);
+                }
             }
+            
 
         }
         return passengers;
