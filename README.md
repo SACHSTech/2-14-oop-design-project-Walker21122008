@@ -1,14 +1,14 @@
 # Flight Information Assistant
 
 ## Overview
-AirportBuddy Helpy is an Object-Oriented Java program designed to help passengers access their flight details and relevant travel information efficiently. The application provides a user-friendly interface to retrieve essential flight data.
+AirportBuddy Helpy is an Object-Oriented Java program designed to help passengers access their flight details and relevant travel information efficiently. The application provides a user-friendly interface to retrieve essential flight data for passengers.
 
 ![Helpy](bear.png)
 ## Features
-- **Flight Lookup**: Search for flight details using flight number, airline, destination, location and even more!
-- **Passenger Information**: View and go through check-in status, flight cancellation process, flight assignment, and boarding time.
-- **Weather & Airport Info**: Get real-time flight status checks.
-- **Selective Filtering**: Allows you to filter through terminals and flights according to the airport that you are going to!
+- **Flight, terminals and Airport Lookup**
+- **Passenger Information**
+- **Status & Flight Info**
+- **Selective Filtering for flights**
 
 ## Technologies Used
 - Java (Object-Oriented Programming principles)
