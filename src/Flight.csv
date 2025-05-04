@@ -1,0 +1,75 @@
+AC101 - Air Canada - Toronto - Vancouver - 08:00 - 10:30 - On Time - 1 - YYZ
+WS205 - WestJet - Toronto - Calgary - 09:15 - 11:45 - Delayed - 2 - YYZ
+PD302 - Porter Airlines - Toronto - Montreal - 10:00 - 11:00 - On Time - 3 - YYZ
+AC115 - Air Canada - Toronto - Halifax - 11:30 - 14:30 - On Time - 4 - YYZ
+AC120 - Air Canada - Toronto - New York - 12:00 - 13:30 - On Time - 5 - YYZ
+AC105 - Air Canada - Toronto - Edmonton - 12:00 - 14:45 - On Time - 6 - YYZ
+WS210 - WestJet - Toronto - Winnipeg - 13:15 - 15:45 - On Time - 1 - YYZ
+PD308 - Porter Airlines - Toronto - Ottawa - 14:00 - 15:00 - On Time - 2 - YYZ
+WS220 - WestJet - Toronto - Regina - 15:30 - 18:00 - On Time - 3 - YYZ
+AC130 - Air Canada - Toronto - Chicago - 16:00 - 17:30 - On Time - 4 - YYZ
+AC801 - Air Canada - Toronto - New York - 16:00 - 17:30 - On Time - 5 - YYZ
+UA310 - United Airlines - Toronto - Chicago - 17:15 - 18:45 - On Time - 6 - YYZ
+LH401 - Lufthansa - Toronto - Frankfurt - 18:00 - 07:00+1 - On Time - 1 - YYZ
+BA093 - British Airways - Toronto - London - 19:30 - 07:00+1 - On Time - 2 - YYZ
+TS501 - Air Transat - Toronto - Cancun - 20:00 - 23:30 - On Time - 3 - YYZ
+WG715 - Sunwing Airlines - Toronto - Punta Cana - 21:15 - 01:45 - On Time - 4 - YYZ
+AC111 - Air Canada - Vancouver - Calgary - 07:30 - 09:00 - On Time - 1 - YVR
+WS250 - WestJet - Vancouver - Edmonton - 08:45 - 10:15 - On Time - 2 - YVR
+AC805 - Air Canada - Vancouver - Los Angeles - 09:30 - 12:30 - On Time - 3 - YVR
+CX888 - Cathay Pacific - Vancouver - Hong Kong - 11:00 - 17:00+1 - On Time - 4 - YVR
+UA280 - United Airlines - Vancouver - San Francisco - 12:15 - 14:00 - On Time - 1 - YVR
+CA991 - Air China - Vancouver - Beijing - 14:00 - 16:00+1 - On Time - 2 - YVR
+AC112 - Air Canada - Vancouver - Toronto - 15:00 - 22:00 - On Time - 3 - YVR
+AC113 - Air Canada - Vancouver - Seattle - 16:00 - 17:00 - On Time - 4 - YVR
+AC401 - Air Canada - Montreal - Toronto - 08:30 - 09:30 - On Time - 1 - YUL
+WS310 - WestJet - Montreal - Halifax - 09:45 - 12:15 - On Time - 2 - YUL
+AC810 - Air Canada - Montreal - Paris - 10:30 - 22:00 - On Time - 3 - YUL
+AF342 - Air France - Montreal - Lyon - 12:00 - 23:00 - On Time - 4 - YUL
+KL672 - KLM - Montreal - Amsterdam - 13:15 - 01:30+1 - On Time - 1 - YUL
+TK036 - Turkish Airlines - Montreal - Istanbul - 15:00 - 07:00+1 - On Time - 2 - YUL
+AC402 - Air Canada - Montreal - New York - 16:00 - 17:30 - On Time - 3 - YUL
+AC403 - Air Canada - Montreal - Chicago - 17:00 - 18:30 - On Time - 4 - YUL
+AC201 - Air Canada - Calgary - Vancouver - 09:30 - 10:00 - On Time - 1 - YYC
+WS415 - WestJet - Calgary - Toronto - 11:00 - 15:30 - On Time - 2 - YYC
+AC815 - Air Canada - Calgary - Denver - 12:30 - 14:30 - On Time - 3 - YYC
+DL305 - Delta Air Lines - Calgary - Minneapolis - 14:00 - 16:30 - On Time - 4 - YYC
+WS260 - WestJet - Calgary - London - 15:15 - 07:15+1 - On Time - 1 - YYC
+BA097 - British Airways - Calgary - London - 16:30 - 08:30+1 - On Time - 2 - YYC
+AC202 - Air Canada - Calgary - Edmonton - 17:00 - 17:30 - On Time - 3 - YYC
+AC203 - Air Canada - Calgary - Seattle - 18:00 - 19:00 - On Time - 4 - YYC
+AC210 - Air Canada - Edmonton - Calgary - 10:00 - 10:30 - On Time - 1 - YEG
+WS350 - WestJet - Edmonton - Vancouver - 11:15 - 12:45 - On Time - 2 - YEG
+AC820 - Air Canada - Edmonton - Seattle - 13:00 - 14:30 - On Time - 3 - YEG
+UA420 - United Airlines - Edmonton - Chicago - 14:30 - 17:30 - On Time - 1 - YEG
+AC211 - Air Canada - Edmonton - Toronto - 15:00 - 17:45 - On Time - 2 - YEG
+AC212 - Air Canada - Edmonton - Winnipeg - 16:00 - 17:30 - On Time - 3 - YEG
+AC410 - Air Canada - Ottawa - Toronto - 11:00 - 12:00 - On Time - 1 - YOW
+PD350 - Porter Airlines - Ottawa - Montreal - 12:15 - 13:15 - On Time - 2 - YOW
+AC825 - Air Canada - Ottawa - Washington - 13:30 - 15:00 - On Time - 3 - YOW
+UA510 - United Airlines - Ottawa - New York - 14:45 - 16:15 - On Time - 1 - YOW
+AC411 - Air Canada - Ottawa - Halifax - 15:00 - 17:00 - On Time - 2 - YOW
+AC412 - Air Canada - Ottawa - Chicago - 16:00 - 17:30 - On Time - 3 - YOW
+AC450 - Air Canada - Halifax - Montreal - 13:00 - 15:30 - On Time - 1 - YHZ
+WS380 - WestJet - Halifax - Toronto - 14:15 - 17:15 - On Time - 2 - YHZ
+AC830 - Air Canada - Halifax - Boston - 15:30 - 17:00 - On Time - 3 - YHZ
+FI602 - Icelandair - Halifax - Reykjavik - 17:00 - 05:00+1 - On Time - 1 - YHZ
+AC451 - Air Canada - Halifax - New York - 18:00 - 20:00 - On Time - 2 - YHZ
+AC452 - Air Canada - Halifax - St. John's - 19:00 - 20:30 - On Time - 3 - YHZ
+AC250 - Air Canada - Winnipeg - Calgary - 14:00 - 15:30 - On Time - 1 - YWG
+WS450 - WestJet - Winnipeg - Edmonton - 15:15 - 16:45 - On Time - 2 - YWG
+AC835 - Air Canada - Winnipeg - Minneapolis - 16:30 - 18:00 - On Time - 3 - YWG
+DL320 - Delta Air Lines - Winnipeg - Detroit - 17:45 - 20:15 - On Time - 1 - YWG
+AC251 - Air Canada - Winnipeg - Toronto - 18:00 - 20:30 - On Time - 2 - YWG
+AC252 - Air Canada - Winnipeg - Regina - 19:00 - 20:00 - On Time - 3 - YWG
+AC280 - Air Canada - Saskatoon - Calgary - 12:00 - 13:30 - On Time - 1 - YXE
+WS480 - WestJet - Saskatoon - Edmonton - 13:15 - 14:45 - On Time - 2 - YXE
+AC840 - Air Canada - Saskatoon - Denver - 14:30 - 16:30 - On Time - 3 - YXE
+UA630 - United Airlines - Saskatoon - Chicago - 15:45 - 18:45 - On Time - 1 - YXE
+AC281 - Air Canada - Saskatoon - Winnipeg - 16:00 - 17:00 - On Time - 2 - YXE
+AC282 - Air Canada - Saskatoon - Toronto - 17:00 - 19:30 - On Time - 3 - YXE
+AC300 - Air Canada - Regina - Calgary - 13:00 - 14:30 - On Time - 1 - YQR
+WS510 - WestJet - Regina - Winnipeg - 14:15 - 15:45 - On Time - 2 - YQR
+AC845 - Air Canada - Regina - Minneapolis - 15:30 - 17:00 - On Time - 3 - YQR
+AC301 - Air Canada - Regina - Toronto - 16:00 - 18:30 - On Time - 1 - YQR
+AC302 - Air Canada - Regina - Saskatoon - 17:00 - 18:00 - On Time - 2 - YQR

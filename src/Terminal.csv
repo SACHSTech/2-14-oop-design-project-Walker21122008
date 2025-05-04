@@ -1,0 +1,37 @@
+terminalNumber,capacity,airportCode,type,customsAvailable,domesticCarrier
+1,500,YYZ,Domestic,False,Air Canada
+2,650,YYZ,Domestic,False,WestJet
+3,400,YYZ,Domestic,False,Porter Airlines
+4,800,YYZ,International,True,False
+5,700,YYZ,International,True,False
+6,550,YYZ,International,True,False
+1,450,YVR,Domestic,False,Air Canada
+2,580,YVR,Domestic,False,WestJet
+3,720,YVR,International,True,False
+4,600,YVR,International,True,False
+1,380,YUL,Domestic,False,Air Canada
+2,520,YUL,Domestic,False,WestJet
+3,680,YUL,International,True,False
+4,550,YUL,International,True,False
+1,600,YYC,Domestic,False,Air Canada
+2,750,YYC,Domestic,False,WestJet
+3,500,YYC,International,True,False
+4,620,YYC,International,True,False
+1,350,YEG,Domestic,False,Air Canada
+2,480,YEG,Domestic,False,WestJet
+3,580,YEG,International,True,False
+1,420,YOW,Domestic,False,Air Canada
+2,390,YOW,Domestic,False,Porter Airlines
+3,510,YOW,International,True,False
+1,300,YHZ,Domestic,False,Air Canada
+2,360,YHZ,Domestic,False,WestJet
+3,450,YHZ,International,True,False
+1,550,YWG,Domestic,False,Air Canada
+2,480,YWG,Domestic,False,WestJet
+3,520,YWG,International,True,False
+1,280,YXE,Domestic,False,Air Canada
+2,310,YXE,Domestic,False,WestJet
+3,350,YXE,International,True,False
+1,250,YQR,Domestic,False,Air Canada
+2,290,YQR,Domestic,False,WestJet
+3,320,YQR,International,True,False
